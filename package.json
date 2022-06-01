@@ -1,0 +1,50 @@
+{
+  "name": "swapr-socket-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "yarn jest",
+    "lint": "yarn eslint 'src/**/*.ts'",
+    "typecheck": "yarn tsc --noEmit",
+    "createList": "BIDIRECTIONAL=1 ts-node index.ts",
+    "createList:debug": "BIDIRECTIONAL=1 DEBUG=1 ts-node index.ts",
+    "createList:unidirectional": "BIDIRECTIONAL=0 ts-node index.ts",
+    "createList:unidirectional:debug": "BIDIRECTIONAL=0 DEBUG=1 ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denciu/swapr-bridge-whitelist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denciu/swapr-bridge-whitelist/issues"
+  },
+  "homepage": "https://github.com/denciu/swapr-bridge-whitelist#readme",
+  "devDependencies": {
+    "@arbitrum/sdk": "^1.1.4",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.21",
+    "@types/node-fetch": "^2.6.1",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "ethers": "^5.6.6",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.0",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.1.0",
+    "node-fetch": "2.6.1"
+  }
+}
