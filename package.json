@@ -7,10 +7,8 @@
     "test": "yarn jest",
     "lint": "yarn eslint 'src/**/*.ts'",
     "typecheck": "yarn tsc --noEmit",
-    "createList": "BIDIRECTIONAL=1 ts-node index.ts",
-    "createList:debug": "BIDIRECTIONAL=1 DEBUG=1 ts-node index.ts",
-    "createList:unidirectional": "BIDIRECTIONAL=0 ts-node index.ts",
-    "createList:unidirectional:debug": "BIDIRECTIONAL=0 DEBUG=1 ts-node index.ts"
+    "createList": "ts-node index.ts",
+    "createList:debug": "DEBUG=1 ts-node index.ts"
   },
   "repository": {
     "type": "git",

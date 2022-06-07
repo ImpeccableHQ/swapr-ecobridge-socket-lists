@@ -1,6 +1,6 @@
 import path from 'path'
 import { v4 as uuidv4 } from 'uuid'
-import { Folders, Meta } from './types'
+import { Folders, Token } from './types'
 import { writeFile, mkdir, rm } from 'fs/promises'
 
 const meta = {
@@ -34,4 +34,17 @@ export const exportToJSON = async (name: string, data: object, folder: Folders =
     data
   }
   await writeFile(path.resolve(resolvedFolder, `${name}.json`), JSON.stringify(toExport, undefined, 2))
+}
+
+export const uniqueTokens = (listA: Token[], listB: Token[]) => {
+  const cache = new Map()
+
+  const uniqueTokens = [...listA, ...listB].reduce<Token[]>((total, token) => {
+    if (!cache.has(token.address)) {
+      total.push(token)
+    }
+    return total
+  }, [])
+
+  return uniqueTokens
 }

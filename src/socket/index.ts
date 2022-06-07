@@ -1,7 +1,8 @@
 import fetch from 'node-fetch'
-import { exportToJSON, parseResponse } from '../utils'
+import { exportToJSON, parseResponse, uniqueTokens } from '../utils'
 import { CrosschainMap } from '../crosschainMap'
 import { crosschainTokenListToTokenList } from '../crosschainMap/converter'
+import { getUnidirectionalNativeWrappers } from './nativeWrappers'
 import {
   CrosschainToken,
   SupportedChains,
@@ -56,8 +57,9 @@ const fetchSocketTokenLists = async ({
   const [fromTokenList, toTokenList] = await Promise.all([fromTokenListPromise, toTokenListPromise])
 
   if (debug) {
-    exportToJSON(`${fromChainId}-${toChainId}-from`, fromTokenList)
-    exportToJSON(`${toChainId}-${fromChainId}-to`, toTokenList)
+    const shortSuffix = shortList ? '-short' : ''
+    exportToJSON(`${fromChainId}-${toChainId}-from${shortSuffix}`, fromTokenList)
+    exportToJSON(`${fromChainId}-${toChainId}-to${shortSuffix}`, toTokenList)
   }
 
   return {
@@ -141,13 +143,29 @@ const createSocketList = async ({
   const ABList = crosschainTokenListToTokenList(chainA, chainB, ABCrosschainList)
   const BAList = crosschainTokenListToTokenList(chainA, chainB, BACrosschainList)
 
+  const ABnativeWrappers = getUnidirectionalNativeWrappers({
+    fromTokenList: fromChainA,
+    toTokenList: toChainB,
+    crosschainMap,
+    tokenList: ABList
+  })
+
+  const BAnativeWrappers = getUnidirectionalNativeWrappers({
+    fromTokenList: toChainB,
+    toTokenList: fromChainA,
+    crosschainMap,
+    tokenList: BAList
+  })
+
+  const nativeWrappers = [...ABnativeWrappers, ...BAnativeWrappers]
+
   if (bidirectional) {
     const bidirectionalCrosschainList = getBidirectionalList(ABCrosschainList, BACrosschainList)
     const bidirectionalList = crosschainTokenListToTokenList(chainA, chainB, bidirectionalCrosschainList)
-    return [bidirectionalList]
+    return [uniqueTokens(bidirectionalList, nativeWrappers)]
   }
 
-  return [ABList, BAList]
+  return [uniqueTokens(ABList, ABnativeWrappers), uniqueTokens(BAList, BAnativeWrappers)]
 }
 
 const createPairs = (arr: SupportedChains[]) => arr.map((v, i) => arr.slice(i + 1).map((w) => [v, w])).flat()
@@ -156,6 +174,8 @@ export const createEcoBridgeCompliantSocketList = async (
   crosschainMap: CrosschainMap,
   { debug, bidirectional, shortList }: { debug: boolean; bidirectional: boolean; shortList: boolean }
 ) => {
+  console.log('SOCKET: Creating Socket lists')
+
   const chainPairs = createPairs(PRODUCTION_CHAINS)
 
   const listToExport: { [k: string]: Token[] } = {}
@@ -175,7 +195,7 @@ export const createEcoBridgeCompliantSocketList = async (
 
       const key = `${Math.min(chainA, chainB)}-${Math.max(chainA, chainB)}`
 
-      if (debug) await exportToJSON(key, bidirectionalList)
+      if (debug) await exportToJSON(`${key}-bidirectional`, bidirectionalList)
 
       listToExport[key] = bidirectionalList
     } else {
@@ -200,6 +220,8 @@ export const createEcoBridgeCompliantSocketList = async (
       listToExport[keyBA] = BAList
     }
   }
+  const shortSuffix = shortList ? '-short' : ''
+  const bidirectionalSuffix = bidirectional ? '-bidirectional' : ''
 
-  exportToJSON(shortList ? FileNames.SOCKET_LIST_SHORT : FileNames.SOCKET_LIST, listToExport, Folders.LISTS)
+  exportToJSON(`${FileNames.SOCKET_LIST}${bidirectionalSuffix}${shortSuffix}`, listToExport, Folders.LISTS)
 }

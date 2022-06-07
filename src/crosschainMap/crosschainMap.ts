@@ -250,7 +250,7 @@ export class CrosschainMap {
     return stats
   }
 
-  public toJSON = async () => {
+  public toJSON = async (debug = false) => {
     const tokenMaps = Object.entries(this.tokenMapByChain).reduce<Promise<void>[]>((total, [chainId, map]) => {
       if (Object.keys(map).length > 0) {
         total.push(exportToJSON(`${FileNames.TOKEN_MAP}-${chainId}`, map, Folders.LISTS))
@@ -259,14 +259,20 @@ export class CrosschainMap {
       return total
     }, [])
 
-    const stats = this.createStats()
-
-    await Promise.all([
+    const exports = [
+      ...tokenMaps,
       exportToJSON(FileNames.CROSSCHAIN_MAP, this.crosschainMap, Folders.LISTS),
-      exportToJSON(FileNames.TOKEN_MAP, this.tokenMapByChain, Folders.LISTS),
-      exportToJSON(FileNames.LOG, this.log),
-      exportToJSON(FileNames.STATS, stats),
-      ...tokenMaps
-    ])
+      exportToJSON(FileNames.TOKEN_MAP, this.tokenMapByChain, Folders.LISTS)
+    ]
+
+    if (debug) {
+      const stats = this.createStats()
+
+      exports.push(exportToJSON(FileNames.LOG, this.log), exportToJSON(FileNames.STATS, stats))
+
+      console.log(stats)
+    }
+
+    await Promise.all(exports)
   }
 }

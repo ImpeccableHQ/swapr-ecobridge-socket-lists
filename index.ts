@@ -3,22 +3,19 @@ import { CrosschainMap, defaultLists } from './src/crosschainMap'
 import { createEcoBridgeCompliantSocketList } from './src/socket'
 
 const init = async () => {
-  const config = {
-    debug: !!process.env.DEBUG ?? false,
-    bidirectional: !!process.env.BIDIRECTIONAL ?? true
-  }
+  const debug = !!process.env.DEBUG ?? false
 
   await clearFolders()
 
   const crosschainMap = new CrosschainMap()
-  await crosschainMap.populateWith(defaultLists, config.debug)
+  await crosschainMap.populateWith(defaultLists, debug)
 
-  createEcoBridgeCompliantSocketList(crosschainMap, { ...config, shortList: true })
-  createEcoBridgeCompliantSocketList(crosschainMap, { ...config, shortList: false })
+  createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: false, shortList: true })
+  createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: false, shortList: false })
+  createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: true, shortList: true })
+  createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: true, shortList: false })
 
-  if (config.debug) {
-    crosschainMap.toJSON()
-  }
+  crosschainMap.toJSON(debug)
 }
 
 init()

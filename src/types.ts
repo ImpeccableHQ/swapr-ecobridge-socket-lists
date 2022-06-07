@@ -17,7 +17,6 @@ export enum Folders {
 export enum FileNames {
   CROSSCHAIN_MAP = 'crosschainMap',
   SOCKET_LIST = 'socketList',
-  SOCKET_LIST_SHORT = `socketList-short`,
   TOKEN_MAP = `tokenMap`,
   LOG = 'debugLog',
   STATS = 'stats'
@@ -39,6 +38,7 @@ export type CommonTokenProps = {
   name: string
   symbol: string
   decimals: number
+  logoURI?: string
 }
 
 export type Token = CommonTokenProps & {
