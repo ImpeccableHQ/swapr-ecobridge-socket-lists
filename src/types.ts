@@ -14,6 +14,27 @@ export enum Folders {
   LISTS = 'lists'
 }
 
+export enum FileNames {
+  CROSSCHAIN_MAP = 'crosschainMap',
+  SOCKET_LIST = 'socketList',
+  SOCKET_LIST_SHORT = `socketList-short`,
+  TOKEN_MAP = `tokenMap`,
+  LOG = 'debugLog',
+  STATS = 'stats'
+}
+
+export const PRODUCTION_CHAINS = [
+  SupportedChains.MAINNET,
+  SupportedChains.ARBITRUM,
+  SupportedChains.GNOSIS,
+  SupportedChains.POLYGON
+]
+
+export type Meta = {
+  id: string
+  creationDate: string
+}
+
 export type CommonTokenProps = {
   name: string
   symbol: string
@@ -94,7 +115,7 @@ export type TokenBaseParams = {
   address: string
 }
 
-export interface ErrorEntry {
+export interface LogEntry {
   id?: string
   tokenA?: Token
   tokenB?: Token

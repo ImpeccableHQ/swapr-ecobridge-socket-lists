@@ -1,6 +1,12 @@
-import { writeFile, mkdir, rm } from 'fs/promises'
 import path from 'path'
-import { Folders } from './types'
+import { v4 as uuidv4 } from 'uuid'
+import { Folders, Meta } from './types'
+import { writeFile, mkdir, rm } from 'fs/promises'
+
+const meta = {
+  id: uuidv4(),
+  creationTime: new Date().toISOString()
+}
 
 export const parseResponse = async <RetType = any, T extends Promise<Response> = Promise<any>>(
   responsePromise: T
@@ -23,5 +29,9 @@ export const exportToJSON = async (name: string, data: object, folder: Folders =
   const resolvedFolder = path.resolve((path.dirname(require.main!.filename), folder))
   await mkdir(resolvedFolder, { recursive: true })
 
-  await writeFile(path.resolve(resolvedFolder, `${name}.json`), JSON.stringify(data, undefined, 2))
+  const toExport = {
+    ...meta,
+    data
+  }
+  await writeFile(path.resolve(resolvedFolder, `${name}.json`), JSON.stringify(toExport, undefined, 2))
 }

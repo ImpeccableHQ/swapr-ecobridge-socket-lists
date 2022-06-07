@@ -4,10 +4,12 @@ import {
   CrosschainMapContainer,
   CrosschainMappingList,
   CrosschainToken,
-  ErrorEntry,
+  LogEntry,
   TokenBaseParams,
   Token,
-  TokenMapByChain
+  TokenMapByChain,
+  FileNames,
+  Folders
 } from '../types'
 
 export class CrosschainMap {
@@ -22,28 +24,24 @@ export class CrosschainMap {
   }
 
   public crosschainMap: CrosschainMapContainer = {}
-  public errorLog: ErrorEntry[] = []
+  public log: LogEntry[] = []
 
   public populateWith = async (lists: CrosschainMappingList[], debug = false) => {
     if (lists.length === 0) {
-      console.log('No middleware to run')
+      console.log('No lists to load')
       return
     }
 
     for (const list of lists) {
       await list(this, debug)
     }
-
-    if (debug) {
-      this.toJSON()
-    }
   }
 
-  private addError = (error: ErrorEntry) => {
+  private addLog = (error: LogEntry) => {
     if (error.type === 'error') {
       console.log(error)
     }
-    this.errorLog.push(error)
+    this.log.push(error)
   }
 
   public getTokenIDByAddress = ({ address, chainId }: TokenBaseParams) =>
@@ -59,7 +57,7 @@ export class CrosschainMap {
     const crosschainToken = this.crosschainMap[id]
 
     if (!crosschainToken) {
-      this.addError({
+      this.addLog({
         id,
         message: 'CrosschainToken not found',
         method: 'updateCrosschainToken',
@@ -77,7 +75,7 @@ export class CrosschainMap {
       crosschainToken.addresses[chainId] !== tokenToAdd.address.toLowerCase() &&
       crosschainToken.decimals !== tokenToAdd.decimals
     ) {
-      this.addError({
+      this.addLog({
         id,
         message: "Addresses/decimals doesn't match, something is wrong",
         method: 'updateCrosschainToken',
@@ -96,7 +94,7 @@ export class CrosschainMap {
     const mappedToken = this.tokenMapByChain[token.chainId][token.address.toLowerCase()]
 
     if (mappedToken && mappedToken.id === id) {
-      this.addError({
+      this.addLog({
         id,
         message: 'Token already added',
         method: 'updateTokenMap',
@@ -154,7 +152,7 @@ export class CrosschainMap {
     const tokenBId = this.getTokenIDByAddress(tokenB)
 
     if (tokenAId && tokenBId) {
-      this.addError({
+      this.addLog({
         message: 'Both addresses are already mapped',
         method: 'addPair',
         type: 'warn',
@@ -189,8 +187,8 @@ export class CrosschainMap {
 
   private createStats = () => {
     // Logs
-    const logCt = this.errorLog.length
-    const errorsCt = this.errorLog.filter(({ type }) => type === 'error').length
+    const logCt = this.log.length
+    const errorsCt = this.log.filter(({ type }) => type === 'error').length
 
     // EcoMap
     const tokens = Object.values(this.crosschainMap)
@@ -252,29 +250,23 @@ export class CrosschainMap {
     return stats
   }
 
-  // For debugging purposes
-  public toJSON = async (scope?: Array<'crosschainMap' | 'tokenMapByChain' | 'errorLog' | 'stats'>) => {
-    const meta = {
-      creationId: uuidv4(),
-      creationTime: new Date().toISOString()
-    }
+  public toJSON = async () => {
+    const tokenMaps = Object.entries(this.tokenMapByChain).reduce<Promise<void>[]>((total, [chainId, map]) => {
+      if (Object.keys(map).length > 0) {
+        total.push(exportToJSON(`${FileNames.TOKEN_MAP}-${chainId}`, map, Folders.LISTS))
+      }
 
-    if (!scope || scope.includes('crosschainMap')) {
-      exportToJSON('ecoMap', { ...meta, crosschainMap: this.crosschainMap })
-    }
+      return total
+    }, [])
 
-    if (!scope || scope.includes('tokenMapByChain')) {
-      exportToJSON('tokenMapByChain', { ...meta, tokenMapByChain: this.tokenMapByChain })
-    }
+    const stats = this.createStats()
 
-    if (!scope || scope.includes('errorLog')) {
-      exportToJSON('errorLog', { ...meta, errorLog: this.errorLog })
-    }
-
-    if (!scope || scope.includes('stats')) {
-      const stats = this.createStats()
-      console.log(stats)
-      exportToJSON('stats', { ...meta, stats })
-    }
+    await Promise.all([
+      exportToJSON(FileNames.CROSSCHAIN_MAP, this.crosschainMap, Folders.LISTS),
+      exportToJSON(FileNames.TOKEN_MAP, this.tokenMapByChain, Folders.LISTS),
+      exportToJSON(FileNames.LOG, this.log),
+      exportToJSON(FileNames.STATS, stats),
+      ...tokenMaps
+    ])
   }
 }

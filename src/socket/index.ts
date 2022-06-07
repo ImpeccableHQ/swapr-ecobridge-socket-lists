@@ -1,8 +1,17 @@
 import fetch from 'node-fetch'
-import { clearFolders, exportToJSON, parseResponse } from '../utils'
-import { CrosschainMap, defaultLists } from '../crosschainMap'
+import { exportToJSON, parseResponse } from '../utils'
+import { CrosschainMap } from '../crosschainMap'
 import { crosschainTokenListToTokenList } from '../crosschainMap/converter'
-import { CrosschainToken, SupportedChains, SocketBaseResponse, SocketToken, Folders, Token } from '../types'
+import {
+  CrosschainToken,
+  SupportedChains,
+  SocketBaseResponse,
+  SocketToken,
+  Folders,
+  Token,
+  FileNames,
+  PRODUCTION_CHAINS
+} from '../types'
 
 const SOCKET_BASE_URL = 'https://backend.movr.network/v2/'
 const SOCKET_PUBLIC_API_KEY = '645b2c8c-5825-4930-baf3-d9b997fcd88c'
@@ -144,24 +153,10 @@ const createSocketList = async ({
 const createPairs = (arr: SupportedChains[]) => arr.map((v, i) => arr.slice(i + 1).map((w) => [v, w])).flat()
 
 export const createEcoBridgeCompliantSocketList = async (
-  debug: boolean,
-  bidirectional: boolean,
-  shortList: boolean
+  crosschainMap: CrosschainMap,
+  { debug, bidirectional, shortList }: { debug: boolean; bidirectional: boolean; shortList: boolean }
 ) => {
-  // clear folders
-  await clearFolders()
-
-  const crosschainMap = new CrosschainMap()
-  await crosschainMap.populateWith(defaultLists)
-
-  const productionChains = [
-    SupportedChains.MAINNET,
-    SupportedChains.ARBITRUM,
-    SupportedChains.GNOSIS,
-    SupportedChains.POLYGON
-  ]
-
-  const chainPairs = createPairs(productionChains)
+  const chainPairs = createPairs(PRODUCTION_CHAINS)
 
   const listToExport: { [k: string]: Token[] } = {}
 
@@ -206,9 +201,5 @@ export const createEcoBridgeCompliantSocketList = async (
     }
   }
 
-  if (debug) {
-    crosschainMap.toJSON()
-  }
-
-  exportToJSON('SocketList', listToExport, Folders.LISTS)
+  exportToJSON(shortList ? FileNames.SOCKET_LIST_SHORT : FileNames.SOCKET_LIST, listToExport, Folders.LISTS)
 }

@@ -1,0 +1,3926 @@
+{
+  "id": "23e24246-6c62-4361-b18a-618b232e2884",
+  "creationTime": "2022-06-07T10:50:46.005Z",
+  "data": {
+    "0x003853802d4c44269f9015f9a7a20d1889c00294": {
+      "id": "59f2a527-65fa-4ab4-a170-4da7fa882a15",
+      "address": "0x003853802d4c44269f9015f9a7a20d1889c00294",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Split on xDai",
+      "symbol": "SPLT"
+    },
+    "0x0116e28b43a358162b96f70b4de14c98a4465f25": {
+      "id": "4c77fa64-5aab-4d12-9287-04f17468ad2d",
+      "address": "0x0116e28b43a358162b96f70b4de14c98a4465f25",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UniCrypt on xDai",
+      "symbol": "UNCX"
+    },
+    "0x012e2cafebc30a603c049159d946c9d344d979a8": {
+      "id": "6c070468-8fc1-4297-ade0-03091460a43b",
+      "address": "0x012e2cafebc30a603c049159d946c9d344d979a8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Ethereum Name Service from Mainnet",
+      "symbol": "ENS"
+    },
+    "0x01e92e3791f8c1d6599b2f80a4bff9b43949ac7c": {
+      "id": "6fe058bb-89d7-4dde-8d86-d17aa53042f6",
+      "address": "0x01e92e3791f8c1d6599b2f80a4bff9b43949ac7c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped NXM on xDai",
+      "symbol": "wNXM"
+    },
+    "0x01ffe9982cb900da7b6faa84ff06a2bf43a149cd": {
+      "id": "9ecfd049-9e08-4e9e-a885-d7cb4c80d7a4",
+      "address": "0x01ffe9982cb900da7b6faa84ff06a2bf43a149cd",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "Rouge on xDai",
+      "symbol": "RGE"
+    },
+    "0x027250581789bf7751eb20e6f7fb724d68238e32": {
+      "id": "f16badb8-fd91-4803-ab33-6dbe6002b463",
+      "address": "0x027250581789bf7751eb20e6f7fb724d68238e32",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "VAFFA on xDai",
+      "symbol": "VAFFA"
+    },
+    "0x027687be2f0c999afbb1d365c9d1ba5151a51f7d": {
+      "id": "c7496872-b47a-4af8-9c16-c6ea15669dfa",
+      "address": "0x027687be2f0c999afbb1d365c9d1ba5151a51f7d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DEFI Top 5 Tokens Index on xDai",
+      "symbol": "DEFI5"
+    },
+    "0x036328204f84b423f0e1a12c3b8777ae08758481": {
+      "id": "48057809-27f7-4fe4-982c-7deecb9a6113",
+      "address": "0x036328204f84b423f0e1a12c3b8777ae08758481",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "HuobiToken on xDai",
+      "symbol": "HT"
+    },
+    "0x03959ac65e621e8c95d5e0f75ea96e5c03a15009": {
+      "id": "3e43bbb7-98bb-416c-954e-42db367bfbed",
+      "address": "0x03959ac65e621e8c95d5e0f75ea96e5c03a15009",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ROOK on xDai",
+      "symbol": "ROOK"
+    },
+    "0x044f6ae3aef34fdb8fddc7c05f9cc17f19acd516": {
+      "id": "0cf1bfda-c70c-464d-a6d3-1822ddf8d171",
+      "address": "0x044f6ae3aef34fdb8fddc7c05f9cc17f19acd516",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Status Network Token on xDai",
+      "symbol": "SNT"
+    },
+    "0x04c056cd650e849668750cc5b2836c2409681ca2": {
+      "id": "6c96ad78-bca8-4d45-bcc3-b326a51cf15f",
+      "address": "0x04c056cd650e849668750cc5b2836c2409681ca2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Relite on xDai",
+      "symbol": "RELI"
+    },
+    "0x05363de9f9940609b48eb268d6d6d1f86a6f17f5": {
+      "id": "27f63043-6cb9-43ad-a909-a0d587fe30d6",
+      "address": "0x05363de9f9940609b48eb268d6d6d1f86a6f17f5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DxSale.Network on xDai",
+      "symbol": "SALE"
+    },
+    "0x067cc331ae488b096f5ddba37b1e0811c1fb7d83": {
+      "id": "c503e6c7-5938-43a9-bd28-ec8cae2d653e",
+      "address": "0x067cc331ae488b096f5ddba37b1e0811c1fb7d83",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Contribute Rig on xDai",
+      "symbol": "TRIG"
+    },
+    "0x06cbdd3bef4c35ac76c48cc5c8f65c973d5a3005": {
+      "id": "83b326b3-3d0d-428a-ab6b-4a647d755689",
+      "address": "0x06cbdd3bef4c35ac76c48cc5c8f65c973d5a3005",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "SCOTT on xDai",
+      "symbol": "SCOTT"
+    },
+    "0x06ee784aa31cbaaa66505ccc5a6a751783e79370": {
+      "id": "cd943b9a-fd2f-4ba1-9abd-1470b4693ff4",
+      "address": "0x06ee784aa31cbaaa66505ccc5a6a751783e79370",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "IRON Titanium Token (Wormhole) from Mainnet",
+      "symbol": "TITAN"
+    },
+    "0x07e2a977b5ef5d526b5c9d9ba68940fe962624b9": {
+      "id": "0adae103-a90e-400f-8983-740cb8b65119",
+      "address": "0x07e2a977b5ef5d526b5c9d9ba68940fe962624b9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Deep Work from Mainnet",
+      "symbol": "DEEP"
+    },
+    "0x0811e451447d5819976a95a02f130c3b00d59346": {
+      "id": "9a52889f-bb6b-4cbc-a9b9-922d9f08f9d1",
+      "address": "0x0811e451447d5819976a95a02f130c3b00d59346",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "tBTC on xDai",
+      "symbol": "TBTC"
+    },
+    "0x08675cccb9338e6197c9cb5453d9e7da143e2c5c": {
+      "id": "e25710de-e777-4a91-9ff2-917b88d8defe",
+      "address": "0x08675cccb9338e6197c9cb5453d9e7da143e2c5c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "HOPR Token on xDai",
+      "symbol": "HOPR"
+    },
+    "0x0939a7c3f8d37c1ce67fada4963ae7e0bd112ff3": {
+      "id": "ee5929d0-1bf7-4ec9-98c6-70a0de3ae64e",
+      "address": "0x0939a7c3f8d37c1ce67fada4963ae7e0bd112ff3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "VitaDAO Token from Mainnet",
+      "symbol": "VITA"
+    },
+    "0x0987c6b9357dee87404dfea0483c337de530be5a": {
+      "id": "14673a2e-3997-48a6-913a-5949378c16a1",
+      "address": "0x0987c6b9357dee87404dfea0483c337de530be5a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Axie Infinity Shard on xDai",
+      "symbol": "AXS"
+    },
+    "0x098946576db0985f8acb99235b925973eb7f8677": {
+      "id": "27b33eb2-7dba-44fd-bab2-2314c140bcd7",
+      "address": "0x098946576db0985f8acb99235b925973eb7f8677",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x09cd39fe6c923959c4603acf5f00325137fd2a0a": {
+      "id": "aeb4dc6b-8cca-41f3-ad89-868a70c586a8",
+      "address": "0x09cd39fe6c923959c4603acf5f00325137fd2a0a",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "BitcashPay on xDai",
+      "symbol": "BCP"
+    },
+    "0x09edb67b19840bb084cbde3b9b15edb954295219": {
+      "id": "7d9e21f5-7697-4650-b0bf-252fb6289cbd",
+      "address": "0x09edb67b19840bb084cbde3b9b15edb954295219",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "FLUX on xDai",
+      "symbol": "FLUX"
+    },
+    "0x0a9446f538288124e0c67425e3ff513203a98ce0": {
+      "id": "803afd35-77e2-4786-b9a9-7a93937a7cdd",
+      "address": "0x0a9446f538288124e0c67425e3ff513203a98ce0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ToiletPaper.Finance on xDai",
+      "symbol": "YFTP"
+    },
+    "0x0acd91f92fe07606ab51ea97d8521e29d110fd09": {
+      "id": "05fefe2c-528b-4551-87b7-561a1f6ccb18",
+      "address": "0x0acd91f92fe07606ab51ea97d8521e29d110fd09",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "Celsius on xDai",
+      "symbol": "CEL"
+    },
+    "0x0b7a1c1a3d314dcc271ea576da400b24e9ad3094": {
+      "id": "f793fb90-536d-4072-baa7-2b66e39c8829",
+      "address": "0x0b7a1c1a3d314dcc271ea576da400b24e9ad3094",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Numeraire on xDai",
+      "symbol": "NMR"
+    },
+    "0x0ca4457f5d23a56d04402ba7af380da3dcce4c68": {
+      "id": "94a09cbc-1c21-42eb-b97a-b07b0f89c2e3",
+      "address": "0x0ca4457f5d23a56d04402ba7af380da3dcce4c68",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "RURAL on xDai",
+      "symbol": "RURAL"
+    },
+    "0x0da1a02cdf84c44021671d183d616925164e08aa": {
+      "id": "a75e9ccc-fc7f-4825-91d3-06bdacaeaf41",
+      "address": "0x0da1a02cdf84c44021671d183d616925164e08aa",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Republic Token on xDai",
+      "symbol": "REN"
+    },
+    "0x0dcfed2c3041e66b2d8c4ea39782c60355716316": {
+      "id": "7dc52d3d-cb81-4fd1-9350-5208a9e9b180",
+      "address": "0x0dcfed2c3041e66b2d8c4ea39782c60355716316",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Energi on xDai",
+      "symbol": "NRGE"
+    },
+    "0x0e0293b766e89011abd9bea5612d978c3a13cbb8": {
+      "id": "f8e739ef-1a4c-4f63-b902-030dae29523c",
+      "address": "0x0e0293b766e89011abd9bea5612d978c3a13cbb8",
+      "chainId": 100,
+      "decimals": 2,
+      "name": "private digitale Schweizer Franken - private digital Swiss Franc on xDai",
+      "symbol": "dCHF"
+    },
+    "0x0e7b66382997a93346f7bd17e1a383973be193d1": {
+      "id": "f7c63c8c-54d6-4f66-b30d-348fc66ffd67",
+      "address": "0x0e7b66382997a93346f7bd17e1a383973be193d1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UniMonitor.io on xDai",
+      "symbol": "UNT"
+    },
+    "0x0e9f346de9780fb966eeb763aa89d254d606b9d8": {
+      "id": "b7107683-f93d-4af9-80a8-e8bde2d3bd38",
+      "address": "0x0e9f346de9780fb966eeb763aa89d254d606b9d8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wootrade Network on xDai",
+      "symbol": "WOO"
+    },
+    "0x10885fd1aabe32f3a271a7fed1c011bf3db472cb": {
+      "id": "5d0be788-f026-46d2-a017-b114ebdb13a6",
+      "address": "0x10885fd1aabe32f3a271a7fed1c011bf3db472cb",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "GIVToken from Mainnet",
+      "symbol": "GIV"
+    },
+    "0x10beea85519a704a63765d396415f9ea5aa30a17": {
+      "id": "c0e8f3ff-d2f9-40da-9226-5050b3e5187c",
+      "address": "0x10beea85519a704a63765d396415f9ea5aa30a17",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "PILLAR on xDai",
+      "symbol": "PLR"
+    },
+    "0x10c5f7427697a328bad8857d05ac82f5d1fa5074": {
+      "id": "a4604ff4-bcf2-4bac-bc29-6eed7562c064",
+      "address": "0x10c5f7427697a328bad8857d05ac82f5d1fa5074",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Uniswap V2 on xDai",
+      "symbol": "UNI-V2"
+    },
+    "0x10cf0409a5f11073ccdf8df6f94b9df324445603": {
+      "id": "405e2160-b03d-4475-bcba-8bbda267e765",
+      "address": "0x10cf0409a5f11073ccdf8df6f94b9df324445603",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x110961c70e6c745cceda58ffaf9ab09f53b5af14": {
+      "id": "393804aa-9e90-454a-9981-f8e947ba2d37",
+      "address": "0x110961c70e6c745cceda58ffaf9ab09f53b5af14",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x11a79faa23b045af86b5a319ae33d82ff38379b5": {
+      "id": "329edc0c-3bc6-4d5b-8314-e79143065778",
+      "address": "0x11a79faa23b045af86b5a319ae33d82ff38379b5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x12a9fe4cd4e5c5df4a9ec0f952a8e0670019e74f": {
+      "id": "545ebd06-1288-4a85-a60d-c34086ca9e4d",
+      "address": "0x12a9fe4cd4e5c5df4a9ec0f952a8e0670019e74f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Iron Finance ICE Token (Wormhole) from Mainnet",
+      "symbol": "ICE"
+    },
+    "0x12dabe79cffc1fde82fcd3b96dbe09fa4d8cd599": {
+      "id": "c5d4f319-5f6f-4233-a9ed-ce493a7668b7",
+      "address": "0x12dabe79cffc1fde82fcd3b96dbe09fa4d8cd599",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAOstack on xDai",
+      "symbol": "GEN"
+    },
+    "0x1319067e82f0b9981f19191e1c08bb6e6e055dd3": {
+      "id": "924c48d8-7b80-4bb0-a18f-6648e0f57b22",
+      "address": "0x1319067e82f0b9981f19191e1c08bb6e6e055dd3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DeFireX DAI on xDai",
+      "symbol": "dDAI"
+    },
+    "0x1326f053e2452e73c66f38914fb338c8de331684": {
+      "id": "b92e873c-fbdf-47b8-a745-eaeeeeafe406",
+      "address": "0x1326f053e2452e73c66f38914fb338c8de331684",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped MIR Token on xDai",
+      "symbol": "MIR"
+    },
+    "0x13767e44d4c181acd6326fdc7563c1a9b09ad8ee": {
+      "id": "9cfd8839-a668-4580-81d7-db6edd2d917a",
+      "address": "0x13767e44d4c181acd6326fdc7563c1a9b09ad8ee",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "Meghan Jerolaman Token from Mainnet",
+      "symbol": "LAVAPAWS"
+    },
+    "0x137a021d3d5120c003a6dac30036cf8f55d6fc40": {
+      "id": "acaa18d6-2512-42f3-8c87-a9975e2b2f30",
+      "address": "0x137a021d3d5120c003a6dac30036cf8f55d6fc40",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "InnovativeBioresearchCoin on xDai",
+      "symbol": "INNBC"
+    },
+    "0x13ab0ad0b5244a4d8503147648cdff2c68dde2e6": {
+      "id": "154bedfa-b7af-4718-b833-c3b89b20c0f8",
+      "address": "0x13ab0ad0b5244a4d8503147648cdff2c68dde2e6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAppNode DAO Token on xDai",
+      "symbol": "NODE"
+    },
+    "0x140c5ad0e080825587e66692c3c125a5c393556c": {
+      "id": "ed9af678-a404-4bfb-821f-214ad72a9702",
+      "address": "0x140c5ad0e080825587e66692c3c125a5c393556c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bella on xDai",
+      "symbol": "BEL"
+    },
+    "0x14411aeca652f5131834bf0c8ff581b5ddf3bc03": {
+      "id": "30a52b95-a586-4843-a2cc-161ba3c5f9f1",
+      "address": "0x14411aeca652f5131834bf0c8ff581b5ddf3bc03",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "coin_artist on xDai",
+      "symbol": "COIN"
+    },
+    "0x1451877ae08f909afb8c0445c11b502cb97eacce": {
+      "id": "57ad7efb-e8f9-4283-bf0a-332ba26642f8",
+      "address": "0x1451877ae08f909afb8c0445c11b502cb97eacce",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Trism on xDai",
+      "symbol": "TRISM"
+    },
+    "0x1479ebfe327b62bff255c0749a242748d3e7347a": {
+      "id": "b7224d3b-df5d-4dd2-8136-b026e9f72d00",
+      "address": "0x1479ebfe327b62bff255c0749a242748d3e7347a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Darwinia Network Native Token on xDai",
+      "symbol": "RING"
+    },
+    "0x1509465afbd36c09b2f6501bcc1384a12ef22d66": {
+      "id": "e477a31b-23c5-45d2-b445-72f0a9b38893",
+      "address": "0x1509465afbd36c09b2f6501bcc1384a12ef22d66",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "KEEP Token on xDai",
+      "symbol": "KEEP"
+    },
+    "0x1534fb3e82849314360c267fe20df3901a2ed3f9": {
+      "id": "68c452d5-351e-4555-abd2-cf6e85669686",
+      "address": "0x1534fb3e82849314360c267fe20df3901a2ed3f9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Kyber Network Crystal on xDai",
+      "symbol": "KNC"
+    },
+    "0x163cd5cc21600007d2b1c1ecc9b776b0ad280c57": {
+      "id": "f0210b76-73d1-4d6a-b671-bcb06f894de0",
+      "address": "0x163cd5cc21600007d2b1c1ecc9b776b0ad280c57",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Crown on xDai",
+      "symbol": "CRWN"
+    },
+    "0x16afe6e6754fa3694afd0ce48f4bea102efacc17": {
+      "id": "399a5152-4b9f-4fad-91a9-28deb325e827",
+      "address": "0x16afe6e6754fa3694afd0ce48f4bea102efacc17",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Testa on xDai",
+      "symbol": "TESTA"
+    },
+    "0x1724401f229e45fb65d235fc8d16768383e75ed2": {
+      "id": "d014eaa6-ba76-4c30-9e05-4715d38506d6",
+      "address": "0x1724401f229e45fb65d235fc8d16768383e75ed2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Deep Skills from Mainnet",
+      "symbol": "DSN"
+    },
+    "0x173e235da85ab16d4247662c050be2870dd2d177": {
+      "id": "0ecb59d5-3006-49b7-af89-8e282051acff",
+      "address": "0x173e235da85ab16d4247662c050be2870dd2d177",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UpBots on xDai",
+      "symbol": "UBXT"
+    },
+    "0x177127622c4a00f3d409b75571e12cb3c8973d3c": {
+      "id": "8b988c44-1cf7-4f16-840e-9892f6273d24",
+      "address": "0x177127622c4a00f3d409b75571e12cb3c8973d3c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CoW Protocol Token from Mainnet",
+      "symbol": "COW"
+    },
+    "0x178578bcc316c60282c1b73556b1fe10fb3a742a": {
+      "id": "fbe07fb0-5165-4bd8-b712-3801db0d655c",
+      "address": "0x178578bcc316c60282c1b73556b1fe10fb3a742a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wise Token on xDai",
+      "symbol": "WISE"
+    },
+    "0x18e9262e68cc6c6004db93105cc7c001bb103e49": {
+      "id": "4d83e324-d4b3-4ded-98dc-87bb11988e15",
+      "address": "0x18e9262e68cc6c6004db93105cc7c001bb103e49",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Raid Guild Token ⚔️ on xDai",
+      "symbol": "RAID"
+    },
+    "0x19200282fd98361c8c0840694b60495117f42e19": {
+      "id": "4a4013da-f3d8-450d-9e6d-ec6dbded6b93",
+      "address": "0x19200282fd98361c8c0840694b60495117f42e19",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Cryptocurrency Top 10 Tokens Index on xDai",
+      "symbol": "CC10"
+    },
+    "0x1939d3431cf0e44b1d63b86e2ce489e5a341b1bf": {
+      "id": "9934b95b-110a-4832-ac9d-64772227c3c8",
+      "address": "0x1939d3431cf0e44b1d63b86e2ce489e5a341b1bf",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Cream on xDai",
+      "symbol": "CREAM"
+    },
+    "0x1a186e7268f3ed5adfea6b9e0655f70059941e11": {
+      "id": "a9bc8cb5-628c-41f9-8eaf-4d6643c35ea3",
+      "address": "0x1a186e7268f3ed5adfea6b9e0655f70059941e11",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Unifty on xDai",
+      "symbol": "NIF"
+    },
+    "0x1a4ea432e58bff38873af87bf68c525eb402aa1d": {
+      "id": "88ce765e-50bf-41d2-b7b6-69a819a4ba4e",
+      "address": "0x1a4ea432e58bff38873af87bf68c525eb402aa1d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BLOCKS on xDai",
+      "symbol": "BLOCKS"
+    },
+    "0x1aa1bc04f43c2d29f2ae84694d4f99b9c4c59bad": {
+      "id": "afb341c9-7e9a-4a06-bf57-2288df23998e",
+      "address": "0x1aa1bc04f43c2d29f2ae84694d4f99b9c4c59bad",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Insula on xDai",
+      "symbol": "ISLA"
+    },
+    "0x1aea02878c6dbc94cc56c4cac6975f2bcf557776": {
+      "id": "2097996a-6f06-40d4-9fb4-2df8d9f8a713",
+      "address": "0x1aea02878c6dbc94cc56c4cac6975f2bcf557776",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Monnos Token on xDai",
+      "symbol": "MNS"
+    },
+    "0x1b01d319a252a7a4cbd0a65f7fa2e9fd51b6f0db": {
+      "id": "6bc67c68-c006-4a5b-8036-a1a9fe681f8b",
+      "address": "0x1b01d319a252a7a4cbd0a65f7fa2e9fd51b6f0db",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CuraDAI on xDai",
+      "symbol": "CURA"
+    },
+    "0x1b5c72bbc29859b005c940aaa6c29fd7be73ac8c": {
+      "id": "b033dd61-0492-455e-b7f8-28386b586302",
+      "address": "0x1b5c72bbc29859b005c940aaa6c29fd7be73ac8c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DokiDokiAzuki on xDai",
+      "symbol": "AZUKI"
+    },
+    "0x1bbca7491f14b46788ff9c834d97a668c4886523": {
+      "id": "b61e95ac-62e9-400f-8d34-6bf42e5cd143",
+      "address": "0x1bbca7491f14b46788ff9c834d97a668c4886523",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Frontier Token on xDai",
+      "symbol": "FRONT"
+    },
+    "0x1d117a9279d8569aff378a29519a9af47df87267": {
+      "id": "ae268923-f786-43a8-a328-37b01b9c46f3",
+      "address": "0x1d117a9279d8569aff378a29519a9af47df87267",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UNIDOGE on xDai",
+      "symbol": "UDOGE"
+    },
+    "0x20a0ccb1b79c8081de089fae028bbe15a88a4e7a": {
+      "id": "45cfeae6-e94b-41bc-bd7c-c30053f75861",
+      "address": "0x20a0ccb1b79c8081de089fae028bbe15a88a4e7a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "StakeSquid Ink Token on xDai",
+      "symbol": "SINK"
+    },
+    "0x20cfc7c76c446f889e3969bedef46a950a2111f5": {
+      "id": "464592c0-5179-4b40-a914-30822bb134df",
+      "address": "0x20cfc7c76c446f889e3969bedef46a950a2111f5",
+      "chainId": 100,
+      "decimals": 16,
+      "name": "SANA on xDai",
+      "symbol": "SANA"
+    },
+    "0x21a42669643f45bc0e086b8fc2ed70c23d67509d": {
+      "id": "f69f039a-b57f-4560-ad2b-a4bfee0dd993",
+      "address": "0x21a42669643f45bc0e086b8fc2ed70c23d67509d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "FOX on xDai",
+      "symbol": "FOX"
+    },
+    "0x226bcf0e417428a25012d0fa2183d37f92bcedf6": {
+      "id": "6306cbfb-244c-4492-adfa-e8ad998aa30e",
+      "address": "0x226bcf0e417428a25012d0fa2183d37f92bcedf6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "0x Protocol Token on xDai",
+      "symbol": "ZRX"
+    },
+    "0x22bd2a732b39dace37ae7e8f50a186f3d9702e87": {
+      "id": "d74cee78-1c20-4adf-8e07-7999424f6eae",
+      "address": "0x22bd2a732b39dace37ae7e8f50a186f3d9702e87",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD on xDai",
+      "symbol": "yDAI+yUSDC+yUSDT+yTUSD"
+    },
+    "0x2344376e4b39af2b977adf7d4a575085ed6d4280": {
+      "id": "9b279fed-f13f-4061-8ca4-7a5f1abbdafe",
+      "address": "0x2344376e4b39af2b977adf7d4a575085ed6d4280",
+      "chainId": 100,
+      "decimals": 16,
+      "name": "XI Dollars on xDai",
+      "symbol": "XID"
+    },
+    "0x2473b9380a8cbb195544bc8577b2f8a076e96320": {
+      "id": "0c3434ff-c504-4e28-b2f6-7befb3da9dfe",
+      "address": "0x2473b9380a8cbb195544bc8577b2f8a076e96320",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Fraktal on xDai",
+      "symbol": "FRAK"
+    },
+    "0x247b2e8b54ffbb78031e6f338a65b27bd852816a": {
+      "id": "7562ef19-c499-417f-972c-da48c83b6e67",
+      "address": "0x247b2e8b54ffbb78031e6f338a65b27bd852816a",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "USDC yVault on xDai",
+      "symbol": "yvUSDC"
+    },
+    "0x247e04cc5d6d046679cdcf33c70d61a4c68c4037": {
+      "id": "73e166b8-0f21-42bb-8b63-6ed31c7cf33a",
+      "address": "0x247e04cc5d6d046679cdcf33c70d61a4c68c4037",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Orbs on xDai",
+      "symbol": "ORBS"
+    },
+    "0x248c54b3fc3bc8b20d0cdee059e17c67e4a3299d": {
+      "id": "e419ac98-9e6d-4d8e-8078-87ec2e284085",
+      "address": "0x248c54b3fc3bc8b20d0cdee059e17c67e4a3299d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CelerToken on xDai",
+      "symbol": "CELR"
+    },
+    "0x248e081e3c9e738d7c1ded5d471069dcf4fd9b15": {
+      "id": "e9b8c195-d5f7-4067-b352-76bc402461f5",
+      "address": "0x248e081e3c9e738d7c1ded5d471069dcf4fd9b15",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "DevCash on xDai",
+      "symbol": "DCASH"
+    },
+    "0x24bdb1285110d92eb83485e8f18c0166fd1427cc": {
+      "id": "6d341c21-3df3-4ff6-b745-8b6c0f8f8f63",
+      "address": "0x24bdb1285110d92eb83485e8f18c0166fd1427cc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "OTR Coin from Mainnet",
+      "symbol": "OTRC"
+    },
+    "0x26dd64bdcb2faf4f7e49a73145752e8d9cb34c94": {
+      "id": "463c0151-8adf-46eb-b36a-90fb5aa767da",
+      "address": "0x26dd64bdcb2faf4f7e49a73145752e8d9cb34c94",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Pundi X Token on xDai",
+      "symbol": "NPXS"
+    },
+    "0x270de58f54649608d316faa795a9941b355a2bd0": {
+      "id": "96a079e0-baec-433b-a5e5-6fc540f7ace1",
+      "address": "0x270de58f54649608d316faa795a9941b355a2bd0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Freedom Reserve on xDai",
+      "symbol": "FR"
+    },
+    "0x2853f6e9605419ccf38d102fb1fb3961904ae263": {
+      "id": "0b8bdf30-14bb-423a-af3f-926f17368e47",
+      "address": "0x2853f6e9605419ccf38d102fb1fb3961904ae263",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Gitcoin from Mainnet",
+      "symbol": "GTC"
+    },
+    "0x28af9113a4e4826ce9c8d8155e9dfe690f8f3727": {
+      "id": "0e542f6a-3bef-4f59-837d-4fe8e2a18d71",
+      "address": "0x28af9113a4e4826ce9c8d8155e9dfe690f8f3727",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "LunaChow on xDai",
+      "symbol": "LUCHOW"
+    },
+    "0x28d765e3cd8e00082608e279967f3d54dc6942c3": {
+      "id": "5ed016a9-776a-480d-aef3-3b2ad0e369a4",
+      "address": "0x28d765e3cd8e00082608e279967f3d54dc6942c3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DivVC on xDai",
+      "symbol": "DIV"
+    },
+    "0x2906480c618ded6417cb942cd487c9929726527a": {
+      "id": "96a3ebfe-6bc4-4931-8d84-767e553d17c0",
+      "address": "0x2906480c618ded6417cb942cd487c9929726527a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAOSquare on xDai",
+      "symbol": "RICE"
+    },
+    "0x2977893f4c04bfbd6efc68d0e46598d27810d3db": {
+      "id": "f1e07193-a87a-477a-8a1d-58cdd0c491b6",
+      "address": "0x2977893f4c04bfbd6efc68d0e46598d27810d3db",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bidao on xDai",
+      "symbol": "BID"
+    },
+    "0x2a49347b5e267b462e379ece891df901377ea1b1": {
+      "id": "08ea4cd2-82d1-4ae4-8888-3546b29cb243",
+      "address": "0x2a49347b5e267b462e379ece891df901377ea1b1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SANtiment network token on xDai",
+      "symbol": "SAN"
+    },
+    "0x2ad8e5e5cdd891955c5d0e4c28f7fcc6236b08c2": {
+      "id": "71f2f588-b1ca-41bc-942e-c25ed77057a4",
+      "address": "0x2ad8e5e5cdd891955c5d0e4c28f7fcc6236b08c2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "NOprotocol on xDai",
+      "symbol": "NO"
+    },
+    "0x2be73bfeec620aa9b67535a4d3827bb1e29436d1": {
+      "id": "4b1b64e0-2ab7-44b5-9d7c-a57b260a2b35",
+      "address": "0x2be73bfeec620aa9b67535a4d3827bb1e29436d1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "LoopringCoin V2 on xDai",
+      "symbol": "LRC"
+    },
+    "0x2d86ee4f488d914877880987d2e7d20a83701d21": {
+      "id": "046384ca-8afa-48cf-ae4f-4584d5624ccc",
+      "address": "0x2d86ee4f488d914877880987d2e7d20a83701d21",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Blockchain Certified Data Token on xDai",
+      "symbol": "BCDT"
+    },
+    "0x2db3ddf96aaa6c03566c9b0cef7e1b8777607770": {
+      "id": "cc03c02b-ac17-4955-9acc-3a93b6da314b",
+      "address": "0x2db3ddf96aaa6c03566c9b0cef7e1b8777607770",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "APYSwap on xDai",
+      "symbol": "APYS"
+    },
+    "0x2de9593176751689d6253646b0e2480af425190c": {
+      "id": "31916922-1816-43a5-9958-a5f55d799817",
+      "address": "0x2de9593176751689d6253646b0e2480af425190c",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Tokenswim on xDai",
+      "symbol": "TKS"
+    },
+    "0x2df5912439d2d14d04a7742346508505288ef367": {
+      "id": "e7b35042-48a1-4e74-ae38-f0c2cb689898",
+      "address": "0x2df5912439d2d14d04a7742346508505288ef367",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Rickle from Mainnet",
+      "symbol": "rkl"
+    },
+    "0x2e36fb6c7bfb00ec4a65fd8b3116b2824cc72ae5": {
+      "id": "c7c75fc5-e8dd-4693-8a87-ed049725485c",
+      "address": "0x2e36fb6c7bfb00ec4a65fd8b3116b2824cc72ae5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ZperToken on xDai",
+      "symbol": "ZPR"
+    },
+    "0x2e9d0492a53ee882918c6db662ac37a4f344db93": {
+      "id": "de70fc42-e233-4823-aa7c-309798e5bb45",
+      "address": "0x2e9d0492a53ee882918c6db662ac37a4f344db93",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Lif from Mainnet",
+      "symbol": "LIF"
+    },
+    "0x2f0e755efe6b58238a67db420ff3513ec1fb31ef": {
+      "id": "751bc97e-9f30-46d5-a1f5-bcdebad93bf6",
+      "address": "0x2f0e755efe6b58238a67db420ff3513ec1fb31ef",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Rocket Pool on xDai",
+      "symbol": "RPL"
+    },
+    "0x2fb16a262c868889d8f7dd30c9738687efeca971": {
+      "id": "76b903df-80a6-47ad-a87a-ce505b87f86d",
+      "address": "0x2fb16a262c868889d8f7dd30c9738687efeca971",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bitcoin Cash by Strudel on xDai",
+      "symbol": "vBCH"
+    },
+    "0x2fd0c73ad006407f0a96c984f06a9ce8415b094e": {
+      "id": "3f517b84-0e5c-4f78-a6fd-1a0c99810d77",
+      "address": "0x2fd0c73ad006407f0a96c984f06a9ce8415b094e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Seed on xDai",
+      "symbol": "SEED"
+    },
+    "0x309bc6dbcbfb9c84d26fdf65e8924367efccbdb9": {
+      "id": "784e5d7e-bd36-4bd1-b391-c6e542864201",
+      "address": "0x309bc6dbcbfb9c84d26fdf65e8924367efccbdb9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "OM Token on xDai",
+      "symbol": "OM"
+    },
+    "0x317eab07380d670ea814025cba40f5624354a32f": {
+      "id": "a68eebd0-6e70-42d5-af69-a20393cc6048",
+      "address": "0x317eab07380d670ea814025cba40f5624354a32f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DeFiPIE Token on xDai",
+      "symbol": "PIE"
+    },
+    "0x31c2dc490167af022c8f666d93044503ba96404a": {
+      "id": "9b2d3061-77dc-4944-ba17-0d9402e98c6d",
+      "address": "0x31c2dc490167af022c8f666d93044503ba96404a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CopyrightCoin from Mainnet",
+      "symbol": "CCIM"
+    },
+    "0x326bda8a9d3e4f1443cd00ec330bf6af1c664976": {
+      "id": "053e75d8-0df6-4a9e-a59d-dd1d4dc3d0f0",
+      "address": "0x326bda8a9d3e4f1443cd00ec330bf6af1c664976",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "PickleToken on xDai",
+      "symbol": "PICKLE"
+    },
+    "0x338587ef2330e72fe35acfa139dc02541a121003": {
+      "id": "faa5d7b7-dfbd-4a51-af36-e77a9339f55b",
+      "address": "0x338587ef2330e72fe35acfa139dc02541a121003",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "RAC on xDai",
+      "symbol": "RAC"
+    },
+    "0x338d4527c9e7f7316c43581684bc510b851f832a": {
+      "id": "7541b878-8961-49ed-a1ee-c212f35101fa",
+      "address": "0x338d4527c9e7f7316c43581684bc510b851f832a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Save Coin from Mainnet",
+      "symbol": "SAVE"
+    },
+    "0x33af468fa54d6a903f296e166a0de4e89747686c": {
+      "id": "7a4dfc41-0b14-4265-9f4e-acc349c97468",
+      "address": "0x33af468fa54d6a903f296e166a0de4e89747686c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Baguette Token on xDai",
+      "symbol": "BGTT"
+    },
+    "0x346b2968508d32f0192cd7a60ef3d9c39a3cf549": {
+      "id": "024b8b45-2f87-4461-8892-4067aa697464",
+      "address": "0x346b2968508d32f0192cd7a60ef3d9c39a3cf549",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "HoloToken on xDai",
+      "symbol": "HOT"
+    },
+    "0x34c7d439a8c3eb6f40b01649e349a6f9e6bcd4a9": {
+      "id": "38579f1e-a21b-4e8d-8629-5a13e2a3e976",
+      "address": "0x34c7d439a8c3eb6f40b01649e349a6f9e6bcd4a9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Morph Coin on xDai",
+      "symbol": "MORC"
+    },
+    "0x3581cc6a09de85e9b91ef93f2a5ef837706b84a5": {
+      "id": "12079b9a-ce63-451c-8ef2-8474dd4e307f",
+      "address": "0x3581cc6a09de85e9b91ef93f2a5ef837706b84a5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "AllianceBlock Token on xDai",
+      "symbol": "ALBT"
+    },
+    "0x35f346cb4149746272974a92d719fd48ae2f72fa": {
+      "id": "1c20a631-8b69-4e1b-8659-57193c120c87",
+      "address": "0x35f346cb4149746272974a92d719fd48ae2f72fa",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Unisocks Edition 0 on xDai",
+      "symbol": "SOCKS"
+    },
+    "0x364b5975385b4de226cf450df82d7ed69902ac5a": {
+      "id": "db1d1fd9-ece8-4573-856e-ac37e279cc48",
+      "address": "0x364b5975385b4de226cf450df82d7ed69902ac5a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TORG on xDai",
+      "symbol": "TORG"
+    },
+    "0x368a4f99034b639caa3fa0e092bda13ae3b39601": {
+      "id": "0c7efdde-770a-43cf-99fc-4af85f4b34b5",
+      "address": "0x368a4f99034b639caa3fa0e092bda13ae3b39601",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "Philip DePooche Token on xDai",
+      "symbol": "PHXGOLD"
+    },
+    "0x370825bc4f39c72ba84d290db131bccb35aa1d49": {
+      "id": "14ad8b26-b509-4f9d-b1d0-2a7e65e5caa7",
+      "address": "0x370825bc4f39c72ba84d290db131bccb35aa1d49",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "0xBitcoin Token on xDai",
+      "symbol": "0xBTC"
+    },
+    "0x376bc3d3b9a6bd71e127ae4e2c80aed5dde6cf19": {
+      "id": "fe6fe160-14a4-4d5b-b86a-35f55d039d63",
+      "address": "0x376bc3d3b9a6bd71e127ae4e2c80aed5dde6cf19",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "X0swap Token on xDai",
+      "symbol": "X0"
+    },
+    "0x37b60f4e9a31a64ccc0024dce7d0fd07eaa0f7b3": {
+      "id": "a48e1489-2e8b-4c0b-939a-8dede23997c4",
+      "address": "0x37b60f4e9a31a64ccc0024dce7d0fd07eaa0f7b3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Pinakion on xDai",
+      "symbol": "PNK"
+    },
+    "0x3802c6e89cfe9a30b11557a13befd7e5849ea1e2": {
+      "id": "73b6b967-f36b-44cd-b73e-a613c065466e",
+      "address": "0x3802c6e89cfe9a30b11557a13befd7e5849ea1e2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x3901403f4de78135434a47e2f2dc9804831f06bc": {
+      "id": "4cc2d8e1-cb93-48b9-b35f-133eb9b0fc7b",
+      "address": "0x3901403f4de78135434a47e2f2dc9804831f06bc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CyberFM Radio on xDai",
+      "symbol": "CYFM"
+    },
+    "0x3985dba7fb95ef9e35142cff0e829979f2491e3b": {
+      "id": "39f76edf-2205-412d-8d4a-c9256da32db2",
+      "address": "0x3985dba7fb95ef9e35142cff0e829979f2491e3b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bankless Token on xDai",
+      "symbol": "BANK"
+    },
+    "0x39ea27194f24756c7315321db7fff8f4c4213c17": {
+      "id": "802e2c9d-c4f5-4cf4-ad4c-b310dfe6c0e5",
+      "address": "0x39ea27194f24756c7315321db7fff8f4c4213c17",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Digital Standard Unit on xDai",
+      "symbol": "DSU"
+    },
+    "0x3a00e08544d589e19a8e7d97d0294331341cdbf6": {
+      "id": "daa4716c-e3ec-4d15-99ef-9c3355cba5ea",
+      "address": "0x3a00e08544d589e19a8e7d97d0294331341cdbf6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Synthetix Network Token on xDai",
+      "symbol": "SNX"
+    },
+    "0x3bf633efd235325c5767b7eafef8166759b9950e": {
+      "id": "0cacb286-0abb-4ef9-b945-daad20d2a086",
+      "address": "0x3bf633efd235325c5767b7eafef8166759b9950e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAOfi Test ERC20 on xDai",
+      "symbol": "WETHtest"
+    },
+    "0x3c037849a8ffcf19886e2f5b04f293b7847d0377": {
+      "id": "2c11a010-8897-4d9a-af04-7de1ac45b715",
+      "address": "0x3c037849a8ffcf19886e2f5b04f293b7847d0377",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Liquid staked Ether 2.0 on xDai",
+      "symbol": "stETH"
+    },
+    "0x3cfd76af96be1491dc58c76458791763d354f275": {
+      "id": "79adb721-6b5d-4169-bbdb-13631507f03d",
+      "address": "0x3cfd76af96be1491dc58c76458791763d354f275",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x3d1d2b236ad8ef3fd7c6c1625845fb59dffacca1": {
+      "id": "f9ad8cbe-741a-4b3d-8ed4-5f7b1ca25ebd",
+      "address": "0x3d1d2b236ad8ef3fd7c6c1625845fb59dffacca1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x3dd8f464c7cc4e4d60db001e54a9a4568895c7b3": {
+      "id": "1f674897-82a5-4cc6-aff6-380bf66590d4",
+      "address": "0x3dd8f464c7cc4e4d60db001e54a9a4568895c7b3",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "Trustcoin on xDai",
+      "symbol": "TRST"
+    },
+    "0x3e34a554b7b7274852050d0cb9e7c48f07812148": {
+      "id": "ed629020-f302-46c7-8bcd-d3a5e4ee66b3",
+      "address": "0x3e34a554b7b7274852050d0cb9e7c48f07812148",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DeHive.finance from Mainnet",
+      "symbol": "DHV"
+    },
+    "0x3e76f9caaf9b47089810b4579c598228735e7a11": {
+      "id": "4c6af1be-b0b1-4cac-900c-9a550c78346e",
+      "address": "0x3e76f9caaf9b47089810b4579c598228735e7a11",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Paxos Gold from Mainnet",
+      "symbol": "PAXG"
+    },
+    "0x3f428e2c193b40550728af51fe13dec7d89e4a48": {
+      "id": "5a1165ae-7cd7-439e-99ec-ad172d518c31",
+      "address": "0x3f428e2c193b40550728af51fe13dec7d89e4a48",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped vBZRX on xDai",
+      "symbol": "wvBZRX"
+    },
+    "0x3f4f1073c0950cf4e8c7073b5e569b789aa1e13a": {
+      "id": "e210c898-d70e-46c4-9814-e4c0d5320296",
+      "address": "0x3f4f1073c0950cf4e8c7073b5e569b789aa1e13a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Honeyswap on xDai",
+      "symbol": "HONEY"
+    },
+    "0x40fd32644304577da2f70b7135f9573163b7702d": {
+      "id": "7b890136-4f18-45cf-8f94-b213170febd5",
+      "address": "0x40fd32644304577da2f70b7135f9573163b7702d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x41641d0985879b496c1793ab7b21bc5b214c4b86": {
+      "id": "c5284aa3-0a2d-4a74-af46-a60793a0fa27",
+      "address": "0x41641d0985879b496c1793ab7b21bc5b214c4b86",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "Clover on xDai",
+      "symbol": "CLV"
+    },
+    "0x42d2db0f2403a1b729817b5b52239461f8b51323": {
+      "id": "f654a407-4e58-49c0-88e4-a862e5e1d3cd",
+      "address": "0x42d2db0f2403a1b729817b5b52239461f8b51323",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "X0swap Token on xDai",
+      "symbol": "X0"
+    },
+    "0x42d730f697c3f23f7fe7c9a0f4219b13ff139fd9": {
+      "id": "9269d04f-1bd4-4485-b456-b1545e158ec8",
+      "address": "0x42d730f697c3f23f7fe7c9a0f4219b13ff139fd9",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Dobbscoin on xDai",
+      "symbol": "SLACK"
+    },
+    "0x437a044fb4693890e61d2c1c88e3718e928b8e90": {
+      "id": "b96d1f99-36fb-432e-ac06-263937ba524e",
+      "address": "0x437a044fb4693890e61d2c1c88e3718e928b8e90",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Aragon Network Token on xDai",
+      "symbol": "ANT"
+    },
+    "0x43b3256af7109434064c57184076ba9a2742c103": {
+      "id": "520d4b67-751a-49ed-a368-3f3f0609a44d",
+      "address": "0x43b3256af7109434064c57184076ba9a2742c103",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Meeds Token from Mainnet",
+      "symbol": "MEED"
+    },
+    "0x43bc76493dea7c82116a38e9c012b9a03127132c": {
+      "id": "f0661bd5-ebd3-4632-b5ae-d6bcfd65ddf2",
+      "address": "0x43bc76493dea7c82116a38e9c012b9a03127132c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x43cac5c3195241fbd41885505a2aa151e8cea6eb": {
+      "id": "83e76f6e-ba6f-46e6-95c1-32f1a286d3fd",
+      "address": "0x43cac5c3195241fbd41885505a2aa151e8cea6eb",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "NFT STARS COIN on xDai",
+      "symbol": "NFTS"
+    },
+    "0x447aef271d784c52fbcddd13b67ecddc77da80cf": {
+      "id": "67ab3484-f1a3-4287-ba84-a08d2b4fb2f9",
+      "address": "0x447aef271d784c52fbcddd13b67ecddc77da80cf",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ignis on xDai",
+      "symbol": "🕯️"
+    },
+    "0x44b6bba599f100006143e82a60462d71ac1331da": {
+      "id": "06eba10d-00b9-4afe-90cd-479715da3da8",
+      "address": "0x44b6bba599f100006143e82a60462d71ac1331da",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "API3 on xDai",
+      "symbol": "API3"
+    },
+    "0x44fa8e6f47987339850636f88629646662444217": {
+      "id": "8573761e-3c57-4a65-927e-d3ec3b0a5781",
+      "address": "0x44fa8e6f47987339850636f88629646662444217",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Dai Stablecoin on xDai",
+      "symbol": "DAI"
+    },
+    "0x45297179626c6174b4841fd4bab88bc73dbab278": {
+      "id": "ef3f184b-a348-44b5-a14b-3c2a02a0ad47",
+      "address": "0x45297179626c6174b4841fd4bab88bc73dbab278",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MUAN on xDai",
+      "symbol": "MUA"
+    },
+    "0x4537e328bf7e4efa29d05caea260d7fe26af9d74": {
+      "id": "2a66935b-1293-4103-8a41-829968a15f22",
+      "address": "0x4537e328bf7e4efa29d05caea260d7fe26af9d74",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Uniswap on xDai",
+      "symbol": "UNI"
+    },
+    "0x45e9aef2e86ae7a240f6379987395a719dbcb46b": {
+      "id": "f6ca1321-c2e1-4e8c-8d09-116c845060cf",
+      "address": "0x45e9aef2e86ae7a240f6379987395a719dbcb46b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "VIQYY on xDai",
+      "symbol": "VIQYY"
+    },
+    "0x471383ef5e8abf135fe7cb51c40f11edcd24ddcc": {
+      "id": "5ffb739b-1ed8-4d71-9137-f6593c0b7e14",
+      "address": "0x471383ef5e8abf135fe7cb51c40f11edcd24ddcc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CoinDash Token on xDai",
+      "symbol": "CDT"
+    },
+    "0x479e32cdff5f216f93060700c711d1cc8e811a6b": {
+      "id": "c7f3d651-f1b2-420c-a281-04ac18d19eea",
+      "address": "0x479e32cdff5f216f93060700c711d1cc8e811a6b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Trips on xDai",
+      "symbol": "TRIPS"
+    },
+    "0x481d6104761442f162d1f7ac3dc6f98896e7a4ef": {
+      "id": "26f018fb-7f9a-4048-9994-1f37069ae10c",
+      "address": "0x481d6104761442f162d1f7ac3dc6f98896e7a4ef",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MoonRock from Mainnet",
+      "symbol": "MR"
+    },
+    "0x48912bc57dfe56aea7a9892f669c9740064bd0e1": {
+      "id": "5d5505f5-0837-417e-9d6a-39be15365027",
+      "address": "0x48912bc57dfe56aea7a9892f669c9740064bd0e1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "My DeFi Pet Token on xDai",
+      "symbol": "DPET"
+    },
+    "0x48b1b0d077b4919b65b4e4114806dd803901e1d9": {
+      "id": "a07b7105-6920-4b5d-a1a6-5a3b66bbf409",
+      "address": "0x48b1b0d077b4919b65b4e4114806dd803901e1d9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Decentralized Insurance Protocol on xDai",
+      "symbol": "DIP"
+    },
+    "0x49b408a651d80c61ba2f15f3dfb2cf455078e8ee": {
+      "id": "2d15206c-39fd-4097-a41e-c19d646adf66",
+      "address": "0x49b408a651d80c61ba2f15f3dfb2cf455078e8ee",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Cream Dai Stablecoin on xDai",
+      "symbol": "crDAI"
+    },
+    "0x4a0679ddd56d18ac84962ff4b44b8e8793957c4c": {
+      "id": "bf503a42-f57e-48a4-893b-97a547179381",
+      "address": "0x4a0679ddd56d18ac84962ff4b44b8e8793957c4c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CyberNetwork on xDai",
+      "symbol": "CYNW"
+    },
+    "0x4a88248baa5b39bb4a9caa697fb7f8ae0c3f0ddb": {
+      "id": "3e38e614-7064-4b57-afa7-861d31612e55",
+      "address": "0x4a88248baa5b39bb4a9caa697fb7f8ae0c3f0ddb",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "renBTC on xDai",
+      "symbol": "renBTC"
+    },
+    "0x4b2c191198acd5f1c941fa1ba0c870b38470f331": {
+      "id": "f4fbdfdb-8290-44cb-9fe4-c0626bcf647e",
+      "address": "0x4b2c191198acd5f1c941fa1ba0c870b38470f331",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x4bc97997883c0397f556bd0f9da6fb71da22f9a2": {
+      "id": "b8179dae-8d0e-4732-8ecf-6ce36eff9e7c",
+      "address": "0x4bc97997883c0397f556bd0f9da6fb71da22f9a2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "aleph.im v2 on xDai",
+      "symbol": "ALEPH"
+    },
+    "0x4be85acc1cd711f403dc7bde9e6cadfc5a94744b": {
+      "id": "3e9380c9-d6dd-4a57-a884-1dca51961716",
+      "address": "0x4be85acc1cd711f403dc7bde9e6cadfc5a94744b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Rarible on xDai",
+      "symbol": "RARI"
+    },
+    "0x4c3887963bd62200f5304aadaa84dbd0bab1e3ad": {
+      "id": "a52b0b9a-f7b4-4580-9099-9d267520f6f2",
+      "address": "0x4c3887963bd62200f5304aadaa84dbd0bab1e3ad",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x4c82f5220902b3a70accdf86aeb93d5c90386891": {
+      "id": "da6626b1-3627-40ed-9ff5-77183bedbdd7",
+      "address": "0x4c82f5220902b3a70accdf86aeb93d5c90386891",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BUSD Token from BSC on xDai",
+      "symbol": "BUSD"
+    },
+    "0x4e1a2bffe81000f7be4807faf0315173c817d6f4": {
+      "id": "b72fd259-1b98-43d8-8ad9-59c66eb4ac3e",
+      "address": "0x4e1a2bffe81000f7be4807faf0315173c817d6f4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Mask Network on xDai",
+      "symbol": "MASK"
+    },
+    "0x4e52d29d591e64dde67977078ed3182f1ac8a8c3": {
+      "id": "1dd20a9f-f756-4abd-9b98-6c0ac4612178",
+      "address": "0x4e52d29d591e64dde67977078ed3182f1ac8a8c3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x4ea1172f4c4e8e8d3c9e1be4269b696bf19d24fe": {
+      "id": "61bed6bf-7ccc-4611-a144-f413b39da6c5",
+      "address": "0x4ea1172f4c4e8e8d3c9e1be4269b696bf19d24fe",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SHIBA INU on xDai",
+      "symbol": "SHIB"
+    },
+    "0x4ecaba5870353805a9f068101a40e0f32ed605c6": {
+      "id": "e648e221-acd5-41e8-9bf1-8afb61d9e7ba",
+      "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "Tether USD on xDai",
+      "symbol": "USDT"
+    },
+    "0x4efdfbb7cca540a79a7e4dcad1cb6ed14f21c43e": {
+      "id": "71d07169-fa9d-47f9-9d2f-ec546ebeb8bd",
+      "address": "0x4efdfbb7cca540a79a7e4dcad1cb6ed14f21c43e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "OKB on xDai",
+      "symbol": "OKB"
+    },
+    "0x4f133efa3775942c24d2e66e0f12ab371d4d15f4": {
+      "id": "07d02d85-1806-47e0-8064-d18a1ffeb6bd",
+      "address": "0x4f133efa3775942c24d2e66e0f12ab371d4d15f4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Dai Token from BSC on xDai",
+      "symbol": "DAI"
+    },
+    "0x4f4f9b8d5b4d0dc10506e5551b0513b61fd59e75": {
+      "id": "7a1eecde-2733-4307-bf99-92748ddc0b51",
+      "address": "0x4f4f9b8d5b4d0dc10506e5551b0513b61fd59e75",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Giveth from Mainnet",
+      "symbol": "GIV"
+    },
+    "0x504b0c1e18b3045d69d8652ff6277a2835681075": {
+      "id": "6cc10bd8-140d-4cfa-872f-75fd801b2003",
+      "address": "0x504b0c1e18b3045d69d8652ff6277a2835681075",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Uniswap V2 on xDai",
+      "symbol": "UNI-V2"
+    },
+    "0x50fddd9d029abb34924e9601e689ffbdd72f451a": {
+      "id": "62b7a76c-f50e-412c-ad65-35e4293189d2",
+      "address": "0x50fddd9d029abb34924e9601e689ffbdd72f451a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "FOTO on xDai",
+      "symbol": "FOTO"
+    },
+    "0x51732a6fc4673d1acca4c047f5465922716508ad": {
+      "id": "2faabf27-bf1d-456d-b97b-cf6ce728ceb0",
+      "address": "0x51732a6fc4673d1acca4c047f5465922716508ad",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Ocean Token on xDai",
+      "symbol": "OCEAN"
+    },
+    "0x5197f9f1a28aa6214686cead7e43976354429c21": {
+      "id": "7c408a88-739f-4d4f-bbe4-fbeb02ce622d",
+      "address": "0x5197f9f1a28aa6214686cead7e43976354429c21",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "IDXMTILE001 on xDai",
+      "symbol": "IDXMTILE001"
+    },
+    "0x51ad25f47c5e7a5e2a2e6ca40c4cf117d9c0d7a9": {
+      "id": "f8d94101-d83a-4fca-bd81-d4028f7698c3",
+      "address": "0x51ad25f47c5e7a5e2a2e6ca40c4cf117d9c0d7a9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Truebit on xDai",
+      "symbol": "TRU"
+    },
+    "0x524b969793a64a602342d89bc2789d43a016b13a": {
+      "id": "c1c38b06-23ed-4a6d-b395-ff8aa430b1b1",
+      "address": "0x524b969793a64a602342d89bc2789d43a016b13a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Donut on xDai",
+      "symbol": "DONUT"
+    },
+    "0x532801ed6f82fffd2dab70a19fc2d7b2772c4f4b": {
+      "id": "a0d7483f-6c05-436d-90d9-732730357c74",
+      "address": "0x532801ed6f82fffd2dab70a19fc2d7b2772c4f4b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Swapr on xDai",
+      "symbol": "SWPR"
+    },
+    "0x534179b3d7292d8a82a2985ee80a6d2027ee8378": {
+      "id": "08c13eb5-d697-41f3-963c-51f9e8161714",
+      "address": "0x534179b3d7292d8a82a2985ee80a6d2027ee8378",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Idle on xDai",
+      "symbol": "IDLE"
+    },
+    "0x537c1e62e1610fa9592accf3800010800921ecf3": {
+      "id": "f155cf8f-89fe-42e2-ac38-98e5085f0db8",
+      "address": "0x537c1e62e1610fa9592accf3800010800921ecf3",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "Hokkaidu Inu from Mainnet",
+      "symbol": "HOKK"
+    },
+    "0x53ee8d3641df5a757dae4de6c9e0a2f715475f54": {
+      "id": "a879f97d-7b2f-4ae8-9ce8-96a934cc8bb0",
+      "address": "0x53ee8d3641df5a757dae4de6c9e0a2f715475f54",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "Benchmark on xDai",
+      "symbol": "MARK"
+    },
+    "0x5438ede75f1a9c8ebb15cf7217af4fc79e94e4b3": {
+      "id": "f10d62e1-cd81-4036-af0f-36b1b9464cbe",
+      "address": "0x5438ede75f1a9c8ebb15cf7217af4fc79e94e4b3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x54f10fd56a4990c96735c5dd8ca746538be97199": {
+      "id": "9e29b108-a231-4d62-9bb1-6baf4b45c52a",
+      "address": "0x54f10fd56a4990c96735c5dd8ca746538be97199",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x54fc4f66781d1adb1432a5ade20e95f78b0433e6": {
+      "id": "814bd2c4-d861-4fbc-afb4-14d5134d86f1",
+      "address": "0x54fc4f66781d1adb1432a5ade20e95f78b0433e6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Corn on xDai",
+      "symbol": "CONS041"
+    },
+    "0x553815c5ade7b70cebc094fa1b4175519be6caf1": {
+      "id": "327800d3-fcaf-4cf5-9bbc-c0f17f51e3ad",
+      "address": "0x553815c5ade7b70cebc094fa1b4175519be6caf1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x57d445d6f54a0a90f6fb405d4b2ec0ef38bbd616": {
+      "id": "2cbe9cc2-9d35-456f-82df-c1e27317f914",
+      "address": "0x57d445d6f54a0a90f6fb405d4b2ec0ef38bbd616",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Pundi X Token on xDai",
+      "symbol": "PXS"
+    },
+    "0x5806212bec491beb309e3f5c1f911eac6f24cd6b": {
+      "id": "472c0a67-3e8e-4f00-b9df-1179b949022c",
+      "address": "0x5806212bec491beb309e3f5c1f911eac6f24cd6b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UMA Voting Token v1 on xDai",
+      "symbol": "UMA"
+    },
+    "0x58d145532d4faa53a3a21ea5b262ce0f29afdd42": {
+      "id": "b6bf1d05-4a62-4e4c-ba47-e8e80d730656",
+      "address": "0x58d145532d4faa53a3a21ea5b262ce0f29afdd42",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x5a757f0bcadfdb78651b7bdbe67e44e8fd7f7f6b": {
+      "id": "c687092a-01ed-4fd3-a02b-bc23980aef62",
+      "address": "0x5a757f0bcadfdb78651b7bdbe67e44e8fd7f7f6b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Enjin Coin on xDai",
+      "symbol": "ENJ"
+    },
+    "0x5a87eac5642bfed4e354ee8738dacd298e07d1af": {
+      "id": "21595a1b-0f5b-418d-b726-9aa281de8c2c",
+      "address": "0x5a87eac5642bfed4e354ee8738dacd298e07d1af",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Reserve Rights on xDai",
+      "symbol": "RSR"
+    },
+    "0x5addec6b4f6a79a13eacaee24f08b317d6ea99a0": {
+      "id": "c7d4c43c-af15-4491-ae38-c9376de02f2b",
+      "address": "0x5addec6b4f6a79a13eacaee24f08b317d6ea99a0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x5b449ea0e550c143074146abc89a6328d9e70798": {
+      "id": "5e57da59-f1af-427c-a5d2-b985efa08a25",
+      "address": "0x5b449ea0e550c143074146abc89a6328d9e70798",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Keep3rV1 on xDai",
+      "symbol": "KP3R"
+    },
+    "0x5bbfbfb123b72a255504be985bd2b474e481e866": {
+      "id": "bc14fa63-1bc2-4ef4-ba1f-3c4a8cadb683",
+      "address": "0x5bbfbfb123b72a255504be985bd2b474e481e866",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Sora Token on xDai",
+      "symbol": "XOR"
+    },
+    "0x5c40bda735796bc1bda83b12c8ec524faddd151d": {
+      "id": "d14b57f1-7215-4e2d-bd54-333d4b5e9db2",
+      "address": "0x5c40bda735796bc1bda83b12c8ec524faddd151d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bancor USD Token from Mainnet",
+      "symbol": "USDB"
+    },
+    "0x5c718937b2d7442624b2c45db4552f28aa8e15be": {
+      "id": "06264bb3-3b6e-46eb-be7e-b8bc19a5d531",
+      "address": "0x5c718937b2d7442624b2c45db4552f28aa8e15be",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Knup from Mainnet",
+      "symbol": "KNUP"
+    },
+    "0x5d1c44f1136ba5b8412441fb04332adf90f26b24": {
+      "id": "bca88ffe-391a-462a-b278-cc420625847a",
+      "address": "0x5d1c44f1136ba5b8412441fb04332adf90f26b24",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DefiDollar on xDai",
+      "symbol": "DUSD"
+    },
+    "0x5d83ea923d62066f2547dfad7ff662e41fb961b4": {
+      "id": "5f8de378-ed37-4b97-9e51-a9e4b1cfd4c0",
+      "address": "0x5d83ea923d62066f2547dfad7ff662e41fb961b4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x5f03f50cc59b3fef995903ebda62e2b3f0d1e12f": {
+      "id": "fe546e22-2aab-44f9-b69f-e489de8ab2d1",
+      "address": "0x5f03f50cc59b3fef995903ebda62e2b3f0d1e12f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ROBOT on xDai",
+      "symbol": "ROBOT"
+    },
+    "0x5f1f81de1d21b97a5d0d5d62d89bde9ddec27325": {
+      "id": "9458277f-7e96-4ca5-8fc9-57f600a4e71d",
+      "address": "0x5f1f81de1d21b97a5d0d5d62d89bde9ddec27325",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Adept Coin Governance on xDai",
+      "symbol": "AC"
+    },
+    "0x5f2852afd20c39849f6f56f4102b8c29ee141add": {
+      "id": "6d362a1a-c16a-4732-bfc9-c6acd7461760",
+      "address": "0x5f2852afd20c39849f6f56f4102b8c29ee141add",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "renZEC on xDai",
+      "symbol": "renZEC"
+    },
+    "0x5f7d0574776890c720d79c0e495c9406a39008b4": {
+      "id": "3e51894f-60e2-4510-9178-b85074da31b5",
+      "address": "0x5f7d0574776890c720d79c0e495c9406a39008b4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bee on xDai",
+      "symbol": "XBEE"
+    },
+    "0x5fd896d248fbfa54d26855c267859eb1b4daee72": {
+      "id": "5b456133-f0d8-4b0b-84e8-f235d4ccce5e",
+      "address": "0x5fd896d248fbfa54d26855c267859eb1b4daee72",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Maker on xDai",
+      "symbol": "MKR"
+    },
+    "0x5fe9885226677f3eb5c9ad8ab6c421b4ea38535d": {
+      "id": "9eb6571a-76c2-4d5b-9e3b-e989b837c212",
+      "address": "0x5fe9885226677f3eb5c9ad8ab6c421b4ea38535d",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "JOON on xDai",
+      "symbol": "JOON"
+    },
+    "0x6052245ec516d0f653794052d24efca8a39fcbc3": {
+      "id": "4f5ae288-cdb3-4e6b-b159-6b0791c74c19",
+      "address": "0x6052245ec516d0f653794052d24efca8a39fcbc3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Index on xDai",
+      "symbol": "INDEX"
+    },
+    "0x6062ec2a1ecfcd0026d9bd67aa5ad743adc03995": {
+      "id": "b5b9cc9d-d55a-4b7f-b9b5-99359af1b1a5",
+      "address": "0x6062ec2a1ecfcd0026d9bd67aa5ad743adc03995",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "lien on xDai",
+      "symbol": "LIEN"
+    },
+    "0x6099280dc5fc97cbb61b456246316a1b8f79534b": {
+      "id": "5bef05b9-0816-4bd4-85b6-2b305f83de1e",
+      "address": "0x6099280dc5fc97cbb61b456246316a1b8f79534b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Polyient Games Governance Token on xDai",
+      "symbol": "PGT"
+    },
+    "0x60bd77d5988c0676d4644ee7f0dd07f42ff2edc7": {
+      "id": "7420eae4-580b-426c-b1a1-2cd4095aa0e8",
+      "address": "0x60bd77d5988c0676d4644ee7f0dd07f42ff2edc7",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x60c5c8ad6f298797305c87c9ad5af5135670e0d9": {
+      "id": "5314c5e1-8b30-4544-b849-a7e3e742fbe2",
+      "address": "0x60c5c8ad6f298797305c87c9ad5af5135670e0d9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Seven Mountain on xDai",
+      "symbol": "7MT"
+    },
+    "0x60e663eb97bd747566bad4fb736ddc671fabbe95": {
+      "id": "0f8c3122-8496-4616-997d-7216f98d9b05",
+      "address": "0x60e663eb97bd747566bad4fb736ddc671fabbe95",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "NuCypher on xDai",
+      "symbol": "NU"
+    },
+    "0x60f2a610ce376f3923142de5841b4b07ff604583": {
+      "id": "63593ecc-b4fa-4343-8a67-827fe8b4d661",
+      "address": "0x60f2a610ce376f3923142de5841b4b07ff604583",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Friends With Benefits Pro from Mainnet",
+      "symbol": "FWB"
+    },
+    "0x614d04630faf994187b7aa19c7b5d2e6bc3336e7": {
+      "id": "fa800af6-2dd7-4036-8486-56c853c9cc55",
+      "address": "0x614d04630faf994187b7aa19c7b5d2e6bc3336e7",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x6184ef4121fe6063fdc28b932d6f8f623904addc": {
+      "id": "dbb9a60a-3ce8-4f6d-a350-cfd233c415c8",
+      "address": "0x6184ef4121fe6063fdc28b932d6f8f623904addc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Epicenter Token on xDai",
+      "symbol": "ECR"
+    },
+    "0x6185b184b3bbd36331a7430a61d59c8ef2845c39": {
+      "id": "a60ef72b-21f4-44aa-8a41-74da3256b1ab",
+      "address": "0x6185b184b3bbd36331a7430a61d59c8ef2845c39",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "Digg on xDai",
+      "symbol": "DIGG"
+    },
+    "0x620030d647bdc38b592d28330f54e605004d296b": {
+      "id": "7d4deed5-9f2b-4c50-aacb-8b35b69de259",
+      "address": "0x620030d647bdc38b592d28330f54e605004d296b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "The Work Testv2 on xDai",
+      "symbol": "WORKt2"
+    },
+    "0x62d963c32cf49215948e2855529790e7f41bda71": {
+      "id": "150f107e-f60c-4361-8f41-3b5f8370c907",
+      "address": "0x62d963c32cf49215948e2855529790e7f41bda71",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "CircuitsOfValue on xDai",
+      "symbol": "Coval"
+    },
+    "0x6457998a96963fcdebb2f4be031f56ad782b4f7c": {
+      "id": "738b08af-3ce0-4132-be26-b605ec2619a4",
+      "address": "0x6457998a96963fcdebb2f4be031f56ad782b4f7c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "LocallyOwnedGov on xDai",
+      "symbol": "GOX"
+    },
+    "0x64b17a95e6c45306fb23bc526eb2dc9e1331a1b1": {
+      "id": "4a5cb2a3-8a06-419e-9862-7c97b86a1c51",
+      "address": "0x64b17a95e6c45306fb23bc526eb2dc9e1331a1b1",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "CFX Quantum on xDai",
+      "symbol": "CFXQ"
+    },
+    "0x679922d1edca00d2f41ec9aeb023ccc1d58d045f": {
+      "id": "c15c26d5-9d89-4523-9b99-e1f9bd05d18e",
+      "address": "0x679922d1edca00d2f41ec9aeb023ccc1d58d045f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Ampleforth Governance on xDai",
+      "symbol": "FORTH"
+    },
+    "0x699d001ef13b15335193bc5fad6cfc6747eee8be": {
+      "id": "c58da52c-ae8a-4c7d-b2e5-1facb120cd2d",
+      "address": "0x699d001ef13b15335193bc5fad6cfc6747eee8be",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "Base Protocol on xDai",
+      "symbol": "BASE"
+    },
+    "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1": {
+      "id": "d52a65cb-e8f2-4431-9fbb-a5fc8ae65693",
+      "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped Ether on xDai",
+      "symbol": "WETH"
+    },
+    "0x6a2f29604639289803b56aee8ead3434216ec2e3": {
+      "id": "d6203845-d9c3-4d6e-8952-82fd106e9176",
+      "address": "0x6a2f29604639289803b56aee8ead3434216ec2e3",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "AutoBurn on xDai",
+      "symbol": "ABN"
+    },
+    "0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2": {
+      "id": "982fdb0b-49ed-4bed-a86a-e7c95d1bb031",
+      "address": "0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Energy Web Token Bridged on xDai",
+      "symbol": "EWTB"
+    },
+    "0x6ad5006571eb8e838c25224f8160397d7d08e40b": {
+      "id": "7d77bb49-7e81-49ef-9d56-fe0bee7ffe99",
+      "address": "0x6ad5006571eb8e838c25224f8160397d7d08e40b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x6c01227ee27036351b3e83458dca4c08b9221d3e": {
+      "id": "8ed1292a-f2c9-4688-82f0-468a594bb781",
+      "address": "0x6c01227ee27036351b3e83458dca4c08b9221d3e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "StackOS on xDai",
+      "symbol": "STACK"
+    },
+    "0x6c96c63d754d2c6cfdd0bbdc7c4bd810ed8ae07f": {
+      "id": "4e26a463-dc50-4d50-a705-74dbbd47ce8c",
+      "address": "0x6c96c63d754d2c6cfdd0bbdc7c4bd810ed8ae07f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "YK Coin on xDai",
+      "symbol": "YK"
+    },
+    "0x6cccc6c3ece1ceb7671c5c5de08ce1715936b66d": {
+      "id": "2579fb04-c08e-4d60-977d-0d17e47f086a",
+      "address": "0x6cccc6c3ece1ceb7671c5c5de08ce1715936b66d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "NBZZ on xDai",
+      "symbol": "NBZZ"
+    },
+    "0x6e63aeed35c1810ec9c27665bede677b3f066feb": {
+      "id": "4ecdff86-3e7f-4cfb-b26d-7d83e69e8748",
+      "address": "0x6e63aeed35c1810ec9c27665bede677b3f066feb",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "DANNY on xDai",
+      "symbol": "DANNY"
+    },
+    "0x6eeceab954efdbd7a8a8d9387bc719959b04b9ca": {
+      "id": "b287aba8-e77e-4aaf-95a5-feba60737f48",
+      "address": "0x6eeceab954efdbd7a8a8d9387bc719959b04b9ca",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Aragon Network Token on xDai",
+      "symbol": "ANT"
+    },
+    "0x6f09cf96558d44584db07f8477dd3490599aa63e": {
+      "id": "128e0675-6e35-47ff-8a6b-39a1ade7fa8f",
+      "address": "0x6f09cf96558d44584db07f8477dd3490599aa63e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bitgear on xDai",
+      "symbol": "GEAR"
+    },
+    "0x6fe914fca932af29fc500392d6e42387dc67eed1": {
+      "id": "201aebf4-9aa0-47f4-af72-657e94ae1115",
+      "address": "0x6fe914fca932af29fc500392d6e42387dc67eed1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SPANK on xDai",
+      "symbol": "SPANK"
+    },
+    "0x702bee06bdc4b0b6bdde173cb3458e86258c48e0": {
+      "id": "eecef2cc-cfce-45f3-ae7a-d003f3549752",
+      "address": "0x702bee06bdc4b0b6bdde173cb3458e86258c48e0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SmartBuyerBot Smart Pool Token from Mainnet",
+      "symbol": "EMIT1USDB"
+    },
+    "0x7122d7661c4564b7c6cd4878b06766489a6028a2": {
+      "id": "764a5b8d-3e63-4a32-9f9c-b21d5842629a",
+      "address": "0x7122d7661c4564b7c6cd4878b06766489a6028a2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Matic Token on xDai",
+      "symbol": "MATIC"
+    },
+    "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd": {
+      "id": "3907fed4-b31f-49b5-b5b6-e2d2a7217015",
+      "address": "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Curve DAO Token on xDai",
+      "symbol": "CRV"
+    },
+    "0x7211ab649a4139561a152b787de52d257cbaaee9": {
+      "id": "b5c893ad-32b7-459b-acc9-201bbedc7e4e",
+      "address": "0x7211ab649a4139561a152b787de52d257cbaaee9",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Wrapped CHI on xDai",
+      "symbol": "WCHI"
+    },
+    "0x743335d8ec69b176ac5af20b523258254e1d686a": {
+      "id": "9e09a68c-d5cf-4354-a2ad-5aaa26a7e9f0",
+      "address": "0x743335d8ec69b176ac5af20b523258254e1d686a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x743a991365ba94bfc90ad0002cad433c7a33cb4a": {
+      "id": "e7ff4cdc-03c1-4763-864c-0d8b9de05988",
+      "address": "0x743a991365ba94bfc90ad0002cad433c7a33cb4a",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "AirSwap Token on xDai",
+      "symbol": "AST"
+    },
+    "0x7531f756f0ad18e708a4f62cc5dd5b0c732d7c5f": {
+      "id": "a82f8970-62d6-42bb-86e0-3b42d7413a24",
+      "address": "0x7531f756f0ad18e708a4f62cc5dd5b0c732d7c5f",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "lien on xDai from xDai from BSC on xDai",
+      "symbol": "LIEN"
+    },
+    "0x75481a953a4bba6b3c445907db403e4b5d222174": {
+      "id": "10b612b1-f382-4072-bdcb-f6a33f9a22f6",
+      "address": "0x75481a953a4bba6b3c445907db403e4b5d222174",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "PolkastarterToken on xDai",
+      "symbol": "POLS"
+    },
+    "0x75886f00c1a20ec1511111fb4ec3c51de65b1fe7": {
+      "id": "59bf6bf7-400d-4e8e-a59e-cf451b5088e7",
+      "address": "0x75886f00c1a20ec1511111fb4ec3c51de65b1fe7",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "FTT on xDai",
+      "symbol": "FTX Token"
+    },
+    "0x763c308855a5bd8332333a990ee7276a45d7a1d7": {
+      "id": "7d514f6e-f92d-4b04-a6ae-cbfde8f4555e",
+      "address": "0x763c308855a5bd8332333a990ee7276a45d7a1d7",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ChronosPoint on xDai",
+      "symbol": "CHRP"
+    },
+    "0x7671cbe4320c0772c00b5ce157ac94b936cb083f": {
+      "id": "1b2a6159-ff8d-4dab-a84b-9ce7fc4da3ab",
+      "address": "0x7671cbe4320c0772c00b5ce157ac94b936cb083f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Muse on xDai",
+      "symbol": "MUSE"
+    },
+    "0x76eafffa1873a8acd43864b66a728bd873c5e08a": {
+      "id": "5fa632fe-6dd9-4e9d-947b-89a5d5532637",
+      "address": "0x76eafffa1873a8acd43864b66a728bd873c5e08a",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "SwissBorg Token on xDai",
+      "symbol": "CHSB"
+    },
+    "0x778aa03021b0cd2b798b0b506403e070125d81c9": {
+      "id": "9763ae1f-6123-465f-a525-d92c674ca577",
+      "address": "0x778aa03021b0cd2b798b0b506403e070125d81c9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BlackDragon Token on xDai",
+      "symbol": "BDT"
+    },
+    "0x7838796b6802b18d7ef58fc8b757705d6c9d12b3": {
+      "id": "0c26b23c-ff2b-4bb5-b01e-d8deca6df529",
+      "address": "0x7838796b6802b18d7ef58fc8b757705d6c9d12b3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Decentraland MANA on xDai",
+      "symbol": "MANA"
+    },
+    "0x788c1deddbfff19701dcd7b3b53d3df54721993d": {
+      "id": "82a79f24-81a1-4150-8ab8-85a08be366cd",
+      "address": "0x788c1deddbfff19701dcd7b3b53d3df54721993d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Homebrew.Finance NFT Platforms on xDai",
+      "symbol": "MUG"
+    },
+    "0x78dd0a06083c1c8b27208025224ee7c9852924c8": {
+      "id": "55f3cf1c-42c4-4867-a89a-41c874970fb9",
+      "address": "0x78dd0a06083c1c8b27208025224ee7c9852924c8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAOfi Test Token on xDai",
+      "symbol": "DAOfiT"
+    },
+    "0x79cf2029717e2e78c8927f65f079ab8da21781ee": {
+      "id": "dc3a472b-cdee-48eb-b95c-c7f9f78d4521",
+      "address": "0x79cf2029717e2e78c8927f65f079ab8da21781ee",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "LUKSO Token on xDai",
+      "symbol": "LYXe"
+    },
+    "0x7a0dfaf2c7af61bdb5770d195e6687054c3317c6": {
+      "id": "dc04331b-c109-4afe-a3c5-d917696fbd20",
+      "address": "0x7a0dfaf2c7af61bdb5770d195e6687054c3317c6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Mask on xDai",
+      "symbol": "MASK"
+    },
+    "0x7a7d81657a1a66b38a6ca2565433a9873c6913b2": {
+      "id": "e8cce6ba-e961-4851-a1eb-df2c76514c65",
+      "address": "0x7a7d81657a1a66b38a6ca2565433a9873c6913b2",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Enigma on xDai",
+      "symbol": "ENG"
+    },
+    "0x7bba7e85066ccdfe686b450b63515d3a6b46729c": {
+      "id": "d45d258b-04a1-4b1d-a526-0b3960d87e65",
+      "address": "0x7bba7e85066ccdfe686b450b63515d3a6b46729c",
+      "chainId": 100,
+      "decimals": 12,
+      "name": "思襄会币 on xDai",
+      "symbol": "SXHC"
+    },
+    "0x7cc121d777c4322fb1daab5d511236e682d83512": {
+      "id": "c006b661-3e3c-4753-bae9-12dc071d8861",
+      "address": "0x7cc121d777c4322fb1daab5d511236e682d83512",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x7d434a4f5d4b10b8a99e1a1e6174f813913f61b0": {
+      "id": "dfccddd4-91a2-4eb8-86a0-d815b5fd1c45",
+      "address": "0x7d434a4f5d4b10b8a99e1a1e6174f813913f61b0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "PlannerDAO on xDai",
+      "symbol": "PLAN"
+    },
+    "0x7da0bfe9d26c5b64c7580c04bb1425364273e4b0": {
+      "id": "e465123f-8706-463d-b81a-94777c414990",
+      "address": "0x7da0bfe9d26c5b64c7580c04bb1425364273e4b0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Concentrated Voting Power on xDai",
+      "symbol": "CVP"
+    },
+    "0x7da55417cac4053c0d3b6dbbd74d7f0680f41ddf": {
+      "id": "e0e8666a-f825-4a45-8349-da7976b8dce6",
+      "address": "0x7da55417cac4053c0d3b6dbbd74d7f0680f41ddf",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "RAMP DEFI on xDai",
+      "symbol": "RAMP"
+    },
+    "0x7db0be7a41b5395268e065776e800e27181c81ab": {
+      "id": "bb8e33d5-a7f0-4688-b3a4-66dd467c1165",
+      "address": "0x7db0be7a41b5395268e065776e800e27181c81ab",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Livepeer Token on xDai",
+      "symbol": "LPT"
+    },
+    "0x7e40559c80e0512e75fba5e0ce80fc4d54174bb4": {
+      "id": "e4402ecf-11ab-4dcd-8fca-bf65913d3e6f",
+      "address": "0x7e40559c80e0512e75fba5e0ce80fc4d54174bb4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SUKU on xDai",
+      "symbol": "SUKU"
+    },
+    "0x7ea8af7301b763451b7fb25f8fc2406819a7e36f": {
+      "id": "fe3ed09f-ad3f-4d19-9b17-a804c32d10cd",
+      "address": "0x7ea8af7301b763451b7fb25f8fc2406819a7e36f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Phala on xDai",
+      "symbol": "PHA"
+    },
+    "0x7ef541e2a22058048904fe5744f9c7e4c57af717": {
+      "id": "2b8f9662-b245-4531-ae72-cf5e6331f8dc",
+      "address": "0x7ef541e2a22058048904fe5744f9c7e4c57af717",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Balancer on xDai",
+      "symbol": "BAL"
+    },
+    "0x7f2c4866432645c2f45cd709cfb7a31030c180c6": {
+      "id": "a67f76d6-652b-43b0-9a8e-73f0de91a375",
+      "address": "0x7f2c4866432645c2f45cd709cfb7a31030c180c6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "YELD on xDai",
+      "symbol": "YELD"
+    },
+    "0x7f43c8bd55ed503b697b872680e32fc312db9a44": {
+      "id": "04dc7adc-0214-48e1-8971-4b85001d87b3",
+      "address": "0x7f43c8bd55ed503b697b872680e32fc312db9a44",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Court Token on xDai",
+      "symbol": "COURT"
+    },
+    "0x7f7440c5098462f833e123b44b8a03e1d9785bab": {
+      "id": "b9a75294-27fb-4bf6-a724-065cde9059d3",
+      "address": "0x7f7440c5098462f833e123b44b8a03e1d9785bab",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "1INCH Token on xDai",
+      "symbol": "1INCH"
+    },
+    "0x80405ba126a64245cbed12e344fa5df59b769910": {
+      "id": "2f88fb74-9663-48ed-84dd-478dc9ad0790",
+      "address": "0x80405ba126a64245cbed12e344fa5df59b769910",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "USD Coin from BSC on xDai",
+      "symbol": "USDC"
+    },
+    "0x81765e9e44c16c7e8f52952b8936f5e715e04625": {
+      "id": "5b660662-13c9-45c1-8c4d-37ff2a0e495c",
+      "address": "0x81765e9e44c16c7e8f52952b8936f5e715e04625",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "YunJiaMi on xDai",
+      "symbol": "YJM"
+    },
+    "0x821be3c2c2a10582b79d71423ef083e4dc9a9641": {
+      "id": "a72d2fbc-c4e1-47aa-b0a1-0ea86d632880",
+      "address": "0x821be3c2c2a10582b79d71423ef083e4dc9a9641",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Avocado on xDai",
+      "symbol": "AVO"
+    },
+    "0x822fb282df684464aafa1b01330bc0bdd2c98675": {
+      "id": "54970aed-3fd3-482f-b246-377c79f2f04a",
+      "address": "0x822fb282df684464aafa1b01330bc0bdd2c98675",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "GriffinToken on xDai",
+      "symbol": "GFIN"
+    },
+    "0x82dba822e83bb600fca119e076f98f1d0d88629f": {
+      "id": "793a92aa-ab70-4adb-892b-124baad539b7",
+      "address": "0x82dba822e83bb600fca119e076f98f1d0d88629f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Deep Skills from Mainnet",
+      "symbol": "DSN"
+    },
+    "0x82dfe19164729949fd66da1a37bc70dd6c4746ce": {
+      "id": "26f4b7fb-fc35-400e-9776-cc431ca9bff6",
+      "address": "0x82dfe19164729949fd66da1a37bc70dd6c4746ce",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BaoToken on xDai",
+      "symbol": "BAO"
+    },
+    "0x82f1c117501bc05d9f63964db9eddafe6fc4faac": {
+      "id": "c456afa8-55dc-4913-8654-ace0fd4d5988",
+      "address": "0x82f1c117501bc05d9f63964db9eddafe6fc4faac",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "BRZ on xDai",
+      "symbol": "BRZ"
+    },
+    "0x831c475a2933692c977a6223a4df7542c9df4e55": {
+      "id": "9e679774-9f26-4bb5-a649-bad7a201716e",
+      "address": "0x831c475a2933692c977a6223a4df7542c9df4e55",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Candle from Mainnet",
+      "symbol": "CNDL"
+    },
+    "0x8395f7123ba3ffad52e7414433d825931c81c879": {
+      "id": "05585533-5773-4783-9f2c-d8e0725c79dc",
+      "address": "0x8395f7123ba3ffad52e7414433d825931c81c879",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "OMGToken on xDai",
+      "symbol": "OMG"
+    },
+    "0x83ff60e2f93f8edd0637ef669c69d5fb4f64ca8e": {
+      "id": "b94bba48-4299-497d-bbef-9b75144eae8e",
+      "address": "0x83ff60e2f93f8edd0637ef669c69d5fb4f64ca8e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bright on xDai",
+      "symbol": "BRIGHT"
+    },
+    "0x848c5df3137818c35a55a21e368e9c894feb79fd": {
+      "id": "c9fd6ee3-6f13-48c1-be41-0e8021e6742a",
+      "address": "0x848c5df3137818c35a55a21e368e9c894feb79fd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Hundred Finance from Mainnet",
+      "symbol": "HND"
+    },
+    "0x848e442f2d275fe1de90946a494ac3cf1a196956": {
+      "id": "5b89ea8c-f5cf-4327-8692-fdc060444d26",
+      "address": "0x848e442f2d275fe1de90946a494ac3cf1a196956",
+      "chainId": 100,
+      "decimals": 0,
+      "name": "21Fi on xDai",
+      "symbol": "TOFI"
+    },
+    "0x855888b91ba0a7d6ae9c801868211eacf38b4019": {
+      "id": "5b7bd3c7-9714-4785-b048-7445f32e2198",
+      "address": "0x855888b91ba0a7d6ae9c801868211eacf38b4019",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Universal Basic Income on xDai",
+      "symbol": "UBI"
+    },
+    "0x8599722b2d34c9cb5fd86d866e381fa0ed1690e7": {
+      "id": "d6453fd7-5b07-437e-a00a-1c22aa179443",
+      "address": "0x8599722b2d34c9cb5fd86d866e381fa0ed1690e7",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Badger Sett Badger on xDai",
+      "symbol": "bBADGER"
+    },
+    "0x860182180e146300df38aab8d328c6e80bec9547": {
+      "id": "04eeb882-df1c-4dc0-8ac0-edf260b29635",
+      "address": "0x860182180e146300df38aab8d328c6e80bec9547",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UniTrade on xDai",
+      "symbol": "TRADE"
+    },
+    "0x86567281a326d8c8dd92427c8f3c33f83ac8e9a3": {
+      "id": "b75f587d-9003-4a86-9604-d00c57641753",
+      "address": "0x86567281a326d8c8dd92427c8f3c33f83ac8e9a3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DEAPCOIN on xDai",
+      "symbol": "DEP"
+    },
+    "0x870063e887bb861bdbefce34989c8f7cf65ad029": {
+      "id": "5fc8b123-c6db-4d00-8fad-6a9fc8f5fa71",
+      "address": "0x870063e887bb861bdbefce34989c8f7cf65ad029",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Tosa on xDai",
+      "symbol": "Tosa"
+    },
+    "0x87038e66b40f7d1fb1aa6c957a266037ad5c867c": {
+      "id": "03e65b89-b679-4400-a49d-4db36acd969b",
+      "address": "0x87038e66b40f7d1fb1aa6c957a266037ad5c867c",
+      "chainId": 100,
+      "decimals": 0,
+      "name": "AtariToken on xDai",
+      "symbol": "ATRI"
+    },
+    "0x871d61c97740d515256a2e50ff09dbb7eb800f52": {
+      "id": "c5a923db-e7be-4704-acde-cdc14189d584",
+      "address": "0x871d61c97740d515256a2e50ff09dbb7eb800f52",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Monet on xDai",
+      "symbol": "MNT"
+    },
+    "0x874623a3e613b43efa4dcc2cb04a03da1442db6c": {
+      "id": "32630b81-09c4-421d-9397-c036aadff4d5",
+      "address": "0x874623a3e613b43efa4dcc2cb04a03da1442db6c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Reputation on xDai",
+      "symbol": "REP"
+    },
+    "0x875ff953053442ca19796f20c8c8cc169263b775": {
+      "id": "30b990a8-8b5e-4691-8f96-316d6cc4a713",
+      "address": "0x875ff953053442ca19796f20c8c8cc169263b775",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Carbon Art Hybridization Charity from Mainnet",
+      "symbol": "CAHC"
+    },
+    "0x8898552fdda4b5117ab8a5d1b779d10a577c8eb8": {
+      "id": "4eb05e2c-20db-4d54-874a-8a0381b743bd",
+      "address": "0x8898552fdda4b5117ab8a5d1b779d10a577c8eb8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CrypToads on xDai",
+      "symbol": "CRT"
+    },
+    "0x896b192c84e5d042f78d0d33e39e2e8c0c4c9008": {
+      "id": "d857aaad-746b-4934-bb80-752ab65d4f98",
+      "address": "0x896b192c84e5d042f78d0d33e39e2e8c0c4c9008",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Million on xDai",
+      "symbol": "MM"
+    },
+    "0x89920b17e1753ad2c51a567d6f4e1f3ebb29fede": {
+      "id": "ee25d5f3-d0a6-4be9-b587-8f965695ed1b",
+      "address": "0x89920b17e1753ad2c51a567d6f4e1f3ebb29fede",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x8a95ea379e1fa4c749dd0a7a21377162028c479e": {
+      "id": "e05e9664-fa43-4ee5-bb32-2332ee7f8f8a",
+      "address": "0x8a95ea379e1fa4c749dd0a7a21377162028c479e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Audius on xDai",
+      "symbol": "AUDIO"
+    },
+    "0x8c60b82dd2861f06b7e49e37a990edca94044470": {
+      "id": "da9d6a70-c908-441f-83e6-84ff43c8a6ad",
+      "address": "0x8c60b82dd2861f06b7e49e37a990edca94044470",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x8c88ea1fd60462ef7004b9e288afcb4680a3c50c": {
+      "id": "dd615444-8c25-4df1-860f-0f4cda1e577b",
+      "address": "0x8c88ea1fd60462ef7004b9e288afcb4680a3c50c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "0xMonero on xDai",
+      "symbol": "0xMR"
+    },
+    "0x8d730b438db94d2fee60a5363851b24ee0c54ede": {
+      "id": "9e1464f2-086f-4998-b215-5027d94d3a0e",
+      "address": "0x8d730b438db94d2fee60a5363851b24ee0c54ede",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "KingToken on xDai",
+      "symbol": "$KING"
+    },
+    "0x8e1a12da00bbf9db10d48bd66ff818be933964d5": {
+      "id": "8793e51d-33dc-4497-93e2-bf9c12b6a3ab",
+      "address": "0x8e1a12da00bbf9db10d48bd66ff818be933964d5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "NFTX on xDai",
+      "symbol": "NFTX"
+    },
+    "0x8e5bbbb09ed1ebde8674cda39a0c169401db4252": {
+      "id": "408c6fb8-2e53-4831-b28d-5e5d9a0d13b4",
+      "address": "0x8e5bbbb09ed1ebde8674cda39a0c169401db4252",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Wrapped BTC on xDai",
+      "symbol": "WBTC"
+    },
+    "0x8eb7446baee1da5a99e8f7e9d8e73aa09783a50e": {
+      "id": "e9383025-399c-488f-93f0-a854eeae89b2",
+      "address": "0x8eb7446baee1da5a99e8f7e9d8e73aa09783a50e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "OneRooT on xDai",
+      "symbol": "OneRT"
+    },
+    "0x8f875a1d0c129f326c41284265119cc25ee81297": {
+      "id": "99e04367-b7dd-4a28-ab26-593c9f68d7be",
+      "address": "0x8f875a1d0c129f326c41284265119cc25ee81297",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Meaningwave Autonomous Zone Token on xDai",
+      "symbol": "MAZ"
+    },
+    "0x8fbedd16904b561e30ea402f459900e9d90614af": {
+      "id": "c8997d30-6d57-47f0-b79a-9f6d672394d4",
+      "address": "0x8fbedd16904b561e30ea402f459900e9d90614af",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Unilayer on xDai",
+      "symbol": "LAYER"
+    },
+    "0x9118f251781e4397ec4ffa3d7153cfcbd6ba39d8": {
+      "id": "4b75d484-6f13-4953-866e-eefcf407b79c",
+      "address": "0x9118f251781e4397ec4ffa3d7153cfcbd6ba39d8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Component LP Token on xDai",
+      "symbol": "CMP-LP"
+    },
+    "0x911f196ed489e41c8b45b5c56fece021c27a6159": {
+      "id": "30fbf15f-3198-4498-8678-0e70fa2c44e5",
+      "address": "0x911f196ed489e41c8b45b5c56fece021c27a6159",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Component on xDai",
+      "symbol": "CMP"
+    },
+    "0x915742cb77124761015f63e079089ad0eff1b57c": {
+      "id": "dfa0b92c-7d09-478c-a742-6776271787c1",
+      "address": "0x915742cb77124761015f63e079089ad0eff1b57c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "decentral.games on xDai",
+      "symbol": "$DG"
+    },
+    "0x918889abfab8dc54dd665b8cdf5ee2562dec0b04": {
+      "id": "0cc39e08-53cb-482e-aace-8a16509f77b0",
+      "address": "0x918889abfab8dc54dd665b8cdf5ee2562dec0b04",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Keep4r on xDai",
+      "symbol": "KP4R"
+    },
+    "0x91a47740ad671d0355eb10d3e83dbcf7596cc9f6": {
+      "id": "3508732b-23f8-4c04-af70-1a79333581bc",
+      "address": "0x91a47740ad671d0355eb10d3e83dbcf7596cc9f6",
+      "chainId": 100,
+      "decimals": 3,
+      "name": "Favor Token on xDai",
+      "symbol": "FVR"
+    },
+    "0x91c22f57df810d541239fbb262afb36cef2814c5": {
+      "id": "821c2edd-af68-46f4-888b-3aedaffad73f",
+      "address": "0x91c22f57df810d541239fbb262afb36cef2814c5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Rally from Mainnet",
+      "symbol": "RLY"
+    },
+    "0x921557ac88f770aab08eef6ac32106f00c7a5e72": {
+      "id": "3bfc9052-9e31-4b2c-a3d6-2f010f7068b2",
+      "address": "0x921557ac88f770aab08eef6ac32106f00c7a5e72",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Prime from Mainnet",
+      "symbol": "D2D"
+    },
+    "0x924016517ada0ca3d596c9174742d05786e8bbc0": {
+      "id": "0e3f0f2c-3712-41aa-8512-56ce3f1316a8",
+      "address": "0x924016517ada0ca3d596c9174742d05786e8bbc0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "GRILLA from Mainnet",
+      "symbol": "GRILLA"
+    },
+    "0x93623ea664eebb3f00644b19ea88f0d54f3df469": {
+      "id": "5e5fbd23-d340-4373-bb41-20e4fa0d7a44",
+      "address": "0x93623ea664eebb3f00644b19ea88f0d54f3df469",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Eranauts Governance from Mainnet",
+      "symbol": "ERAD"
+    },
+    "0x93f9e5394d5238597a690e50ca4e03541d9511cf": {
+      "id": "bf02ea33-fb85-43f8-9134-beb0ed1f5f84",
+      "address": "0x93f9e5394d5238597a690e50ca4e03541d9511cf",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "WrappedStar from Mainnet",
+      "symbol": "WSTR"
+    },
+    "0x9411991cd3ec8745597658434c49970fa2654480": {
+      "id": "c5b56747-fe9c-46b0-ad12-b70c6ca38df0",
+      "address": "0x9411991cd3ec8745597658434c49970fa2654480",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0x944d62470dd34b0c6b332e1807dcaf8d826f9277": {
+      "id": "0059a795-05dc-46e5-9831-1f6af11ac333",
+      "address": "0x944d62470dd34b0c6b332e1807dcaf8d826f9277",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Indexed on xDai",
+      "symbol": "NDX"
+    },
+    "0x95c82e543ea0b5a3da1fb556e675e79a876a71a1": {
+      "id": "41bb05e7-01e8-4614-8470-0ed513fbb2cf",
+      "address": "0x95c82e543ea0b5a3da1fb556e675e79a876a71a1",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "UCASH on xDai",
+      "symbol": "UCASH"
+    },
+    "0x96c7a5b8b5ec5f2a522f69a20994f79d8c756dbd": {
+      "id": "75557a40-84ff-4e44-9225-9fa6c4784ded",
+      "address": "0x96c7a5b8b5ec5f2a522f69a20994f79d8c756dbd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TEST CoW Protocol Token from Mainnet",
+      "symbol": "TESTCOW"
+    },
+    "0x96f9e81b7e2c5edf58327e04d61120fcecf48b41": {
+      "id": "06daa202-0443-455f-8896-5e61543c41b4",
+      "address": "0x96f9e81b7e2c5edf58327e04d61120fcecf48b41",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Benzene from Mainnet",
+      "symbol": "BZN"
+    },
+    "0x97699c8ae5bf3e6783da14b291085f760a917924": {
+      "id": "33dd2b21-6eb2-475e-9f0e-4e1270b293e1",
+      "address": "0x97699c8ae5bf3e6783da14b291085f760a917924",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TornadoCash from Mainnet",
+      "symbol": "TORN"
+    },
+    "0x97edc0e345fbbbd8460847fcfa3bc2a13bf8641f": {
+      "id": "308e826a-8928-4f97-9621-23539fde30f2",
+      "address": "0x97edc0e345fbbbd8460847fcfa3bc2a13bf8641f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAOSquare Governance Token on xDai",
+      "symbol": "RICE"
+    },
+    "0x981fb9ba94078a2275a8fc906898ea107b9462a8": {
+      "id": "5e68fe14-ef72-4ee4-ae47-464e3a0ba820",
+      "address": "0x981fb9ba94078a2275a8fc906898ea107b9462a8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Panvala pan on xDai",
+      "symbol": "PAN"
+    },
+    "0x985e144eb355273c4b4d51e448b68b657f482e26": {
+      "id": "dcfef671-d8a2-425e-8ec3-309c497fa160",
+      "address": "0x985e144eb355273c4b4d51e448b68b657f482e26",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "POA ERC20 on Foundation on xDai",
+      "symbol": "POA20"
+    },
+    "0x988d1be68f2c5cde2516a2287c59bd6302b7d20d": {
+      "id": "0c68d4ea-966d-42a4-8c93-b054eb94725d",
+      "address": "0x988d1be68f2c5cde2516a2287c59bd6302b7d20d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Punk from Mainnet",
+      "symbol": "PUNK"
+    },
+    "0x994df8fb2c032b3ecb43a4f4533a5a837c7d5d08": {
+      "id": "0d88fae7-bfc8-40bc-83cd-7577215c9282",
+      "address": "0x994df8fb2c032b3ecb43a4f4533a5a837c7d5d08",
+      "chainId": 100,
+      "decimals": 2,
+      "name": "Laro from Mainnet",
+      "symbol": "LRC"
+    },
+    "0x99a0c53d52e58de7cab792902608882f4359a6d8": {
+      "id": "9091beaa-23c6-4843-b777-65178a05a91d",
+      "address": "0x99a0c53d52e58de7cab792902608882f4359a6d8",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "Max on xDai",
+      "symbol": "MAX"
+    },
+    "0x99deb53501ac9b1c9f386f628f284b5cd8b107b9": {
+      "id": "bb75c393-f197-4fe6-89d7-0145b0236257",
+      "address": "0x99deb53501ac9b1c9f386f628f284b5cd8b107b9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "AAH on xDai",
+      "symbol": "AAH"
+    },
+    "0x9a495a281d959192343b0e007284bf130bd05f86": {
+      "id": "136e6eb1-c32a-453b-98fa-94e2229ae517",
+      "address": "0x9a495a281d959192343b0e007284bf130bd05f86",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Bancor Network Token on xDai",
+      "symbol": "BNT"
+    },
+    "0x9b388743bdd602ed922e88d5c3c607c1585ecf51": {
+      "id": "ec2c8a99-7138-4f0e-af16-33155b8ac335",
+      "address": "0x9b388743bdd602ed922e88d5c3c607c1585ecf51",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Alchemist on xDai",
+      "symbol": "⚗️"
+    },
+    "0x9b8c2a41c6170a37723dd4cbd4d11d52d1981dd6": {
+      "id": "c9fbab75-84ac-4d4d-bf25-d1791becd9d8",
+      "address": "0x9b8c2a41c6170a37723dd4cbd4d11d52d1981dd6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "tbzz on xDai",
+      "symbol": "tbzz"
+    },
+    "0x9bd5e0ce813d5172859b0b70ff7bb3c325cee913": {
+      "id": "e2a14be5-9087-4670-9e14-46758f760613",
+      "address": "0x9bd5e0ce813d5172859b0b70ff7bb3c325cee913",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Ethereum Meta on xDai",
+      "symbol": "ETHM"
+    },
+    "0x9c58bacc331c9aa871afd802db6379a98e80cedb": {
+      "id": "a14e9ce2-419d-4a52-bd0e-2a72d9284dd8",
+      "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Gnosis Token on xDai",
+      "symbol": "GNO"
+    },
+    "0x9c940356f5846eceff282d3ee8b33015d93502a9": {
+      "id": "2f919459-f578-48c1-bb9f-c6a01886d4ac",
+      "address": "0x9c940356f5846eceff282d3ee8b33015d93502a9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Commons protoWORK on xDai",
+      "symbol": "protoWORK"
+    },
+    "0x9e711d75298300ae6970df6d02b26afcbbe73076": {
+      "id": "b7a37207-9ae4-47c9-a696-02ad4d92466f",
+      "address": "0x9e711d75298300ae6970df6d02b26afcbbe73076",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Echo Token on xDai",
+      "symbol": "ECHO"
+    },
+    "0x9ee0a145d3e1a843369534e3ea535ded34990341": {
+      "id": "555d50e8-ec02-4470-a491-9b2eb4170bfc",
+      "address": "0x9ee0a145d3e1a843369534e3ea535ded34990341",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MuffinToken on xDai",
+      "symbol": "MFFN"
+    },
+    "0x9ee40742182707467f78344f6b287be8704f27e2": {
+      "id": "d54393b5-aa4c-427c-a3d8-a5d28af0121f",
+      "address": "0x9ee40742182707467f78344f6b287be8704f27e2",
+      "chainId": 100,
+      "decimals": 2,
+      "name": "STASIS EURS Token on xDai",
+      "symbol": "EURS"
+    },
+    "0xa034fed09662fef97f9ff4176e988973885e77c1": {
+      "id": "9a0775e9-ac66-47b2-8152-73faba715340",
+      "address": "0xa034fed09662fef97f9ff4176e988973885e77c1",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "IKIGAI on xDai",
+      "symbol": "IKI"
+    },
+    "0xa088d78e9c9cbccad3a0153341385633b1b1125d": {
+      "id": "035e50a8-2bdc-444b-9752-7c0d8cc6b454",
+      "address": "0xa088d78e9c9cbccad3a0153341385633b1b1125d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "88mph.app on xDai",
+      "symbol": "MPH"
+    },
+    "0xa0b60941705347fbda7fe9237923d4c57009805f": {
+      "id": "4fde24f6-0f49-4d2d-aa1a-c05c555d58a4",
+      "address": "0xa0b60941705347fbda7fe9237923d4c57009805f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CHAINLINK on xDai",
+      "symbol": "LINK"
+    },
+    "0xa1265493aa2a06cbc89bd4050dc5a79590951505": {
+      "id": "a005f2cc-1b32-4cfa-b6fd-5f4c073e1a38",
+      "address": "0xa1265493aa2a06cbc89bd4050dc5a79590951505",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "NationalJVCoin on xDai",
+      "symbol": "NJV"
+    },
+    "0xa187153c9e2bbadee5782d6b604cb1007bc6a86a": {
+      "id": "03c7af55-e775-46d9-9030-4c268438795e",
+      "address": "0xa187153c9e2bbadee5782d6b604cb1007bc6a86a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "The Employment Commons Work Token from Mainnet",
+      "symbol": "WORK"
+    },
+    "0xa1d732c3aab0be026774b47372a1f4d3b7da4f3b": {
+      "id": "950a85ca-ce9d-48e7-a4e1-3c9f2d42a0a8",
+      "address": "0xa1d732c3aab0be026774b47372a1f4d3b7da4f3b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MinkToken on xDai",
+      "symbol": "MINK"
+    },
+    "0xa1d8be3ce50244f7e2a3446996471631673bb03a": {
+      "id": "2bd74125-2834-4d91-9485-b31907c08fe2",
+      "address": "0xa1d8be3ce50244f7e2a3446996471631673bb03a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Charlies Tuna from Mainnet",
+      "symbol": "TUNA"
+    },
+    "0xa1ee90aae534cb784e284b1a4e6e38d6b85f8f92": {
+      "id": "a52daeb9-12d1-4f4a-9288-4cc092eced29",
+      "address": "0xa1ee90aae534cb784e284b1a4e6e38d6b85f8f92",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "WabiIshi on xDai",
+      "symbol": "WABIS"
+    },
+    "0xa1f8d469309342ff99ee6c04dae41e67406882aa": {
+      "id": "adef9b3b-5641-4752-b2b5-c9c39fa1466e",
+      "address": "0xa1f8d469309342ff99ee6c04dae41e67406882aa",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Askobar Network on xDai",
+      "symbol": "ASKO"
+    },
+    "0xa2fec95b3d3fecb39098e81f108533e1abf22ccf": {
+      "id": "a80d09f3-2183-405d-b570-a5e12cd0276e",
+      "address": "0xa2fec95b3d3fecb39098e81f108533e1abf22ccf",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Yield on xDai",
+      "symbol": "YLD"
+    },
+    "0xa3e792d55820023456cb40d2d26d50071d28fa28": {
+      "id": "980d6d86-a0f7-414c-b544-b0d1797aae30",
+      "address": "0xa3e792d55820023456cb40d2d26d50071d28fa28",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Common Ground from Mainnet",
+      "symbol": "CG"
+    },
+    "0xa566114ea449f52da52b5751443c89456957a077": {
+      "id": "b62a5485-162d-4e93-a2b5-8512b804e601",
+      "address": "0xa566114ea449f52da52b5751443c89456957a077",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ARTH on xDai",
+      "symbol": "ARTH"
+    },
+    "0xa6788b7c44a33c72233099acd28643e358d5ead0": {
+      "id": "bdf84855-aa27-4bf7-a956-8afd83babb96",
+      "address": "0xa6788b7c44a33c72233099acd28643e358d5ead0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Augmented Finance from Mainnet",
+      "symbol": "AGF"
+    },
+    "0xa6b19bcef36eaa4a76355049e806d44ca771b861": {
+      "id": "7c6ee108-40be-4f1d-9120-4fe131ce3944",
+      "address": "0xa6b19bcef36eaa4a76355049e806d44ca771b861",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Leather Doublet on xDai",
+      "symbol": "CHST024"
+    },
+    "0xa700cf3775c747762426c223a293c9c505a71d44": {
+      "id": "61f76aec-84df-4e17-8513-d821bb02ddd5",
+      "address": "0xa700cf3775c747762426c223a293c9c505a71d44",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xa7e37561d476a064cec9f2573017fa7033ffcc91": {
+      "id": "8448d7ca-8c40-443b-b283-4b9421728f2a",
+      "address": "0xa7e37561d476a064cec9f2573017fa7033ffcc91",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "GENESIS on xDai",
+      "symbol": "L1"
+    },
+    "0xaa5116dbe7f0a9ec0c5635ce3196dac2c977988a": {
+      "id": "91f11d8b-482a-4a29-aeb6-5ba1f749120b",
+      "address": "0xaa5116dbe7f0a9ec0c5635ce3196dac2c977988a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Paralink Network on xDai",
+      "symbol": "PARA"
+    },
+    "0xab3f79d783158d44137973da1b09f3bf41ce963e": {
+      "id": "4a23b5c7-46aa-4000-9e90-7ca908cb6655",
+      "address": "0xab3f79d783158d44137973da1b09f3bf41ce963e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "PeetyCoin on xDai",
+      "symbol": "PTC"
+    },
+    "0xab57c72bfe106e6d4f8d82bc8cad9614cdd890fa": {
+      "id": "0d78e6a6-cda5-4855-a583-6ac24f3cadef",
+      "address": "0xab57c72bfe106e6d4f8d82bc8cad9614cdd890fa",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SWARM on xDai",
+      "symbol": "SWM"
+    },
+    "0xab68e00e5d402005fad284c8e0d48766650ddd2b": {
+      "id": "b1e6cbc6-f77a-4833-8f51-369ad4ecb556",
+      "address": "0xab68e00e5d402005fad284c8e0d48766650ddd2b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xab78a2ee5a256ed2152ff595f0160a9afe204ade": {
+      "id": "30ddbde9-e7d3-41c7-a910-2b86c9fa5dd8",
+      "address": "0xab78a2ee5a256ed2152ff595f0160a9afe204ade",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "IRON Stablecoin (Wormhole) from Mainnet",
+      "symbol": "IRON"
+    },
+    "0xab827aa0375253a9281b2ab22bc83545b99e23a9": {
+      "id": "3c25fe1a-23a8-4ac0-916d-3484b058d0e6",
+      "address": "0xab827aa0375253a9281b2ab22bc83545b99e23a9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TBO Coin on xDai",
+      "symbol": "TBO"
+    },
+    "0xabc2e2b87fec5d79b8143f82f4c4ac1dcecfe7ef": {
+      "id": "756767ae-7290-4db6-95c7-482d32be9923",
+      "address": "0xabc2e2b87fec5d79b8143f82f4c4ac1dcecfe7ef",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xacb7ab752072c1b2a5448672a12c124a532954de": {
+      "id": "5e746d29-8021-470a-b818-edbdccee7ef6",
+      "address": "0xacb7ab752072c1b2a5448672a12c124a532954de",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Umbrella on xDai",
+      "symbol": "UMB"
+    },
+    "0xacb954db4f51558016455ce9b1ba32a5bd8b529d": {
+      "id": "09422a28-3f2c-42cd-82ab-92eeff2b8810",
+      "address": "0xacb954db4f51558016455ce9b1ba32a5bd8b529d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped Leviathan on xDai",
+      "symbol": "WLEV"
+    },
+    "0xacdd3649f3d2c64b34ea8fe1a713d8c7f63deee3": {
+      "id": "0a076d33-8e85-443d-b347-8ed35b2c1a8a",
+      "address": "0xacdd3649f3d2c64b34ea8fe1a713d8c7f63deee3",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "MJ Token on xDai",
+      "symbol": "XMJ"
+    },
+    "0xad642183ceb61d38f751d5b1a8cfa9d0fec36495": {
+      "id": "f4def625-0245-42ad-9e3b-0e1a2cff4ac1",
+      "address": "0xad642183ceb61d38f751d5b1a8cfa9d0fec36495",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "UBICITY on xDai",
+      "symbol": "CITY"
+    },
+    "0xaea303807af6e769eb74b1d7dcf466e82d1265cc": {
+      "id": "27e472a0-cfdd-433a-9b45-d10c7ed071e3",
+      "address": "0xaea303807af6e769eb74b1d7dcf466e82d1265cc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xaf4d17a2077e1de12de66a44de1b4f14c120d32d": {
+      "id": "984ad3c5-9adb-4738-b483-27e3fac15fa2",
+      "address": "0xaf4d17a2077e1de12de66a44de1b4f14c120d32d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MATH Token on xDai",
+      "symbol": "MATH"
+    },
+    "0xb0102a005090d6d3dfd7e26094d952707c42b086": {
+      "id": "450975ac-8736-4113-a0d7-424ca04eded1",
+      "address": "0xb0102a005090d6d3dfd7e26094d952707c42b086",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Cardstack from Mainnet",
+      "symbol": "CARD"
+    },
+    "0xb03d196c5932c1ade4061ac0a26227f155e81c58": {
+      "id": "3f2d43fa-3bbf-4aae-9b33-6028f2b881ae",
+      "address": "0xb03d196c5932c1ade4061ac0a26227f155e81c58",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "tree.finance on xDai",
+      "symbol": "TREE"
+    },
+    "0xb04511a946b51a03d0439f6f2dfefec08fd5593f": {
+      "id": "5e3e28cd-cb26-4fb4-9d37-0f6e3de1954d",
+      "address": "0xb04511a946b51a03d0439f6f2dfefec08fd5593f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Balancer Pool Token on xDai",
+      "symbol": "BPT"
+    },
+    "0xb0c5f3100a4d9d9532a4cfd68c55f1ae8da987eb": {
+      "id": "37ce2014-63ba-42b4-9d04-28b1124a3ff9",
+      "address": "0xb0c5f3100a4d9d9532a4cfd68c55f1ae8da987eb",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAOhaus Token on xDai",
+      "symbol": "HAUS"
+    },
+    "0xb1950fb2c9c0cbc8553578c67db52aa110a93393": {
+      "id": "3d2160a7-b33d-430c-b829-8eb1dc4ab7af",
+      "address": "0xb1950fb2c9c0cbc8553578c67db52aa110a93393",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Synth sUSD on xDai",
+      "symbol": "sUSD"
+    },
+    "0xb2129038a6ef37945306b0d1194cc4b8952e55e8": {
+      "id": "b4a8b212-470a-49ff-9022-2389e7052331",
+      "address": "0xb2129038a6ef37945306b0d1194cc4b8952e55e8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xb31a2595e4cf66efbc1fe348b1429e5730891382": {
+      "id": "17ee047c-30d0-49a1-8c3e-90e8e7df0b65",
+      "address": "0xb31a2595e4cf66efbc1fe348b1429e5730891382",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BarnBridge Governance Token on xDai",
+      "symbol": "BOND"
+    },
+    "0xb4b6f80d8e573e9867c90163bfdb00e29d92716a": {
+      "id": "5af89a93-fd84-4143-8dfd-77417ec1375c",
+      "address": "0xb4b6f80d8e573e9867c90163bfdb00e29d92716a",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Metronome on xDai",
+      "symbol": "MET"
+    },
+    "0xb656d7b1632c713c5f3c3b6abd71b94022dc0f62": {
+      "id": "61063a53-6ed8-4ad2-a1c2-d9995ac45528",
+      "address": "0xb656d7b1632c713c5f3c3b6abd71b94022dc0f62",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xb714654e905edad1ca1940b7790a8239ece5a9ff": {
+      "id": "66c9b7bc-baa5-44ac-94d9-cadafc4caec7",
+      "address": "0xb714654e905edad1ca1940b7790a8239ece5a9ff",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TrueUSD on xDai",
+      "symbol": "TUSD"
+    },
+    "0xb7d311e2eb55f2f68a9440da38e7989210b9a05e": {
+      "id": "23c1f20f-80ac-4972-9d69-9212fbe510ac",
+      "address": "0xb7d311e2eb55f2f68a9440da38e7989210b9a05e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "STAKE on xDai",
+      "symbol": "STAKE"
+    },
+    "0xb7e7fe460b00d8bc3ceb728f72652b82f433322b": {
+      "id": "cfecd1f0-b6eb-4416-b30d-dc8624ee66b4",
+      "address": "0xb7e7fe460b00d8bc3ceb728f72652b82f433322b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xb8d89191083d6c0ac7213f0f4522cf3fad188b92": {
+      "id": "6bb012c2-a1ab-494d-b10c-606cd4a9e2fb",
+      "address": "0xb8d89191083d6c0ac7213f0f4522cf3fad188b92",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Curve DAO Token on xDai on BSC from BSC on xDai",
+      "symbol": "CRV"
+    },
+    "0xba6da86c5976b2fe4f24b2a1ea3a20888ed55f17": {
+      "id": "510b4406-b6b0-47f9-ab2e-8349d6a7335e",
+      "address": "0xba6da86c5976b2fe4f24b2a1ea3a20888ed55f17",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "EVO on xDai",
+      "symbol": "EVO"
+    },
+    "0xbab3cbdcbcc578445480a79ed80269c50bb5b718": {
+      "id": "a1eeeec6-5e4d-4c53-b3bc-b03b61a69090",
+      "address": "0xbab3cbdcbcc578445480a79ed80269c50bb5b718",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MEDOOZA Ecosystem v2.0 on xDai",
+      "symbol": "MDZA"
+    },
+    "0xbb4b6003db191d43171a0a7345b59f1a75820c15": {
+      "id": "f7fe59cb-f567-4945-89ca-4aa43eb892fa",
+      "address": "0xbb4b6003db191d43171a0a7345b59f1a75820c15",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CPUcoin from Mainnet",
+      "symbol": "CPU"
+    },
+    "0xbdb90bdadae84af0b07abf4cefcc7989f909f9bd": {
+      "id": "22bfbe88-39c9-4152-9266-b0030cdfe30f",
+      "address": "0xbdb90bdadae84af0b07abf4cefcc7989f909f9bd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "bns.finance on xDai",
+      "symbol": "BNSD"
+    },
+    "0xbdb9b0d78854db895b5d28f67aed04ef761d2780": {
+      "id": "fba53a38-89cc-40a3-9aba-01d014bdfaf3",
+      "address": "0xbdb9b0d78854db895b5d28f67aed04ef761d2780",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xbe69766b8221408e4b7801efc733119b7266a240": {
+      "id": "e881b3de-d9d3-4286-84fd-05b86743158f",
+      "address": "0xbe69766b8221408e4b7801efc733119b7266a240",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Launchpool token from BSC on xDai",
+      "symbol": "LPOOL"
+    },
+    "0xbf65bfcb5da067446cee6a706ba3fe2fb1a9fdfd": {
+      "id": "9ff7a276-da8c-4ebb-b434-ff96ac5e6dbb",
+      "address": "0xbf65bfcb5da067446cee6a706ba3fe2fb1a9fdfd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "yearn.finance on xDai",
+      "symbol": "YFI"
+    },
+    "0xbf662d6f819cc4d2655de913efb25fcbbbf2058d": {
+      "id": "072ed747-2dc7-4d40-afec-6ab23d48329c",
+      "address": "0xbf662d6f819cc4d2655de913efb25fcbbbf2058d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "sucoin on xDai",
+      "symbol": "SUC"
+    },
+    "0xc12956b840b403b600014a3092f6ebd9259738fe": {
+      "id": "2121bb4f-6cf9-4559-8473-e6c606bd134c",
+      "address": "0xc12956b840b403b600014a3092f6ebd9259738fe",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SURF.Finance on xDai",
+      "symbol": "SURF"
+    },
+    "0xc1b42bdb485deb24c74f58399288d7915a726c1d": {
+      "id": "4a05f095-f498-4ff7-859d-1928759de38a",
+      "address": "0xc1b42bdb485deb24c74f58399288d7915a726c1d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "EthLend Token on xDai",
+      "symbol": "LEND"
+    },
+    "0xc2f123a74a9751cef90e2bc655182dfb983017ab": {
+      "id": "53d1a4fc-01a3-415a-a185-817448196e6f",
+      "address": "0xc2f123a74a9751cef90e2bc655182dfb983017ab",
+      "chainId": 100,
+      "decimals": 0,
+      "name": "AyurVeda AG Shares from Mainnet",
+      "symbol": "VEDA"
+    },
+    "0xc4265d14eff50179771d65345f0814b3d852ccfc": {
+      "id": "015c27c1-6ac5-45b8-8a1e-558ed399f06b",
+      "address": "0xc4265d14eff50179771d65345f0814b3d852ccfc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xc439e5b1dee4f866b681e7c5e5df140aa47fbf19": {
+      "id": "b19788e4-851d-4fe2-972d-5b6118255828",
+      "address": "0xc439e5b1dee4f866b681e7c5e5df140aa47fbf19",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Dai Stablecoin v1.0 on xDai",
+      "symbol": "DAI"
+    },
+    "0xc45b3c1c24d5f54e7a2cf288ac668c74dd507a84": {
+      "id": "32fa6736-460d-4d93-97e8-e01c05d6a0b5",
+      "address": "0xc45b3c1c24d5f54e7a2cf288ac668c74dd507a84",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Symmetric on xDai",
+      "symbol": "SYMM"
+    },
+    "0xc4c9078226849a9ba4f5779d957c70d507ac1cb1": {
+      "id": "985e3718-3a6f-4587-a90d-2d3dfdf1a540",
+      "address": "0xc4c9078226849a9ba4f5779d957c70d507ac1cb1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "stakedETH on xDai",
+      "symbol": "stETH"
+    },
+    "0xc51ba153cc67c78b63e47a9b7b910e933244aa53": {
+      "id": "c5e167b0-e07b-4977-96fc-a259c395064c",
+      "address": "0xc51ba153cc67c78b63e47a9b7b910e933244aa53",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "OPEN Governance Token on xDai",
+      "symbol": "OPEN"
+    },
+    "0xc60e38c6352875c051b481cbe79dd0383adb7817": {
+      "id": "ef1f3a83-56a6-4e75-85fe-be1c818b501e",
+      "address": "0xc60e38c6352875c051b481cbe79dd0383adb7817",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DAppNode DAO Token on xDai",
+      "symbol": "NODE"
+    },
+    "0xc6cc63f4aa25bbd4453eb5f3a0dfe546fef9b2f3": {
+      "id": "9b09d8c5-18c8-4a2a-a5e8-976a632f0f6c",
+      "address": "0xc6cc63f4aa25bbd4453eb5f3a0dfe546fef9b2f3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Basic Attention Token on xDai",
+      "symbol": "BAT"
+    },
+    "0xc7ee81f528014149822b72ac2c78ebab54e16b96": {
+      "id": "a1d44f0b-3b26-45e1-8574-8eb7b9ea3a1b",
+      "address": "0xc7ee81f528014149822b72ac2c78ebab54e16b96",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "CPChain on xDai",
+      "symbol": "CPC"
+    },
+    "0xc81c785653d97766b995d867cf91f56367742eac": {
+      "id": "9160239e-03c6-45f6-a75b-3f22b204fab6",
+      "address": "0xc81c785653d97766b995d867cf91f56367742eac",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "AriesFinancial on xDai",
+      "symbol": "AFI"
+    },
+    "0xc82d74c23e4981f7a60f73818d7638eeb6ab19f9": {
+      "id": "3c4454d1-a6de-44ab-817d-ce4accacd519",
+      "address": "0xc82d74c23e4981f7a60f73818d7638eeb6ab19f9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Fake CLNY from Mainnet",
+      "symbol": "FCLNY"
+    },
+    "0xc84dd5b971521b6c9fa5e10d25e6428b19710e05": {
+      "id": "8f86387e-f7d6-4503-aad8-d1f3fb67a967",
+      "address": "0xc84dd5b971521b6c9fa5e10d25e6428b19710e05",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "Ampleforth on xDai",
+      "symbol": "AMPL"
+    },
+    "0xc9b6218affe8aba68a13899cbf7cf7f14ddd304c": {
+      "id": "bf5a05a7-dff7-45fe-a98f-9c69bce6ae3b",
+      "address": "0xc9b6218affe8aba68a13899cbf7cf7f14ddd304c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Colony Network Token on xDai",
+      "symbol": "CLNY"
+    },
+    "0xca5d82e40081f220d59f7ed9e2e1428deaf55355": {
+      "id": "633c841a-2cdc-4f82-a651-bc324da5a444",
+      "address": "0xca5d82e40081f220d59f7ed9e2e1428deaf55355",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Frax on xDai",
+      "symbol": "FRAX"
+    },
+    "0xcae40062a887581a3d1661d0ac2b481c32e3e938": {
+      "id": "2201c481-8a72-40e5-a370-9ab50f334777",
+      "address": "0xcae40062a887581a3d1661d0ac2b481c32e3e938",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Autopia Token on xDai",
+      "symbol": "AUT"
+    },
+    "0xcbad7660ef48447980cbf70eb31bad54caae5df5": {
+      "id": "98962612-d3b6-43f6-b6b7-53b4604246c3",
+      "address": "0xcbad7660ef48447980cbf70eb31bad54caae5df5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Low Orbit Crypto Cannon on xDai",
+      "symbol": "LOCC"
+    },
+    "0xcbbe9bd32d4df6c328befd853ba083c5a85403f1": {
+      "id": "11dd29af-d633-4bbc-940a-6864cc6a4e69",
+      "address": "0xcbbe9bd32d4df6c328befd853ba083c5a85403f1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "HAPI on xDai",
+      "symbol": "HAPI"
+    },
+    "0xcc9d34a7be0c8b11e8390cce0b4b46a1b268aaa7": {
+      "id": "3fbe49ba-235d-46a8-993c-1d163a616955",
+      "address": "0xcc9d34a7be0c8b11e8390cce0b4b46a1b268aaa7",
+      "chainId": 100,
+      "decimals": 0,
+      "name": "Crosschain CloutContracts from Mainnet",
+      "symbol": "CCCS"
+    },
+    "0xccf1279c3406ad1181bee00dab4b28b23d17ddb1": {
+      "id": "0cd1cc1c-35d7-414c-b3f1-26228849c6c1",
+      "address": "0xccf1279c3406ad1181bee00dab4b28b23d17ddb1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Jarvis Reward Token on xDai",
+      "symbol": "JRT"
+    },
+    "0xcd022e3ed68aba7c83964fc2f56d6eb59559ab71": {
+      "id": "65de05ec-8b31-4cde-a1c4-fe5256f71b44",
+      "address": "0xcd022e3ed68aba7c83964fc2f56d6eb59559ab71",
+      "chainId": 100,
+      "decimals": 0,
+      "name": "MtPelerin Shares from Mainnet",
+      "symbol": "MPS"
+    },
+    "0xcdc9d5e3ef18fb815325b0d7e566d52dc8cca3d1": {
+      "id": "0ecce282-f735-4a27-9bc9-501493b957b7",
+      "address": "0xcdc9d5e3ef18fb815325b0d7e566d52dc8cca3d1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "K9 Wallet Token on xDai",
+      "symbol": "K9WT"
+    },
+    "0xcf888a52e065dd704f18557cbb7f9657fab7196c": {
+      "id": "6f882cc1-7aa6-4da0-beeb-0ee4e851c03c",
+      "address": "0xcf888a52e065dd704f18557cbb7f9657fab7196c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Aurora.finance on xDai",
+      "symbol": "ARF"
+    },
+    "0xcf9dc2de2a67d7db1a7171e3b8456d2171e4da75": {
+      "id": "7112eec6-8780-4479-8465-7fcbaaac0fba",
+      "address": "0xcf9dc2de2a67d7db1a7171e3b8456d2171e4da75",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Layer 2 Index on xDai",
+      "symbol": "LTI"
+    },
+    "0xd057604a14982fe8d88c5fc25aac3267ea142a08": {
+      "id": "5c9b1718-a968-488e-a4c4-08ce1ff9f09a",
+      "address": "0xd057604a14982fe8d88c5fc25aac3267ea142a08",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "HOPR Token on xDai",
+      "symbol": "HOPR"
+    },
+    "0xd1226418f4c86e3585de7c09ba48e98a4af16463": {
+      "id": "959cd68d-8c82-4167-9fc0-9ee9363ddf11",
+      "address": "0xd1226418f4c86e3585de7c09ba48e98a4af16463",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Rodeo from Mainnet",
+      "symbol": "ROD"
+    },
+    "0xd166effb0d5ac03eb515ad03ff418352db5d8faf": {
+      "id": "0be23beb-2024-4567-a218-f64f6370d83e",
+      "address": "0xd166effb0d5ac03eb515ad03ff418352db5d8faf",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "KRAUSE from Mainnet",
+      "symbol": "KRAUSE"
+    },
+    "0xd1a89cafc806b524ecfcf29cf2c09870a1c3249e": {
+      "id": "e6ce2c73-e35b-423c-8a1e-1c87529dd01f",
+      "address": "0xd1a89cafc806b524ecfcf29cf2c09870a1c3249e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Pool Dai on xDai",
+      "symbol": "plDai"
+    },
+    "0xd27e1ecc4748f42e052331bea917d89beb883fc3": {
+      "id": "ec766144-733c-4d54-b04a-7375f7b03921",
+      "address": "0xd27e1ecc4748f42e052331bea917d89beb883fc3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Akropolis on xDai",
+      "symbol": "AKRO"
+    },
+    "0xd2fc023851d1cdd6cdfa2c29f90512e89e02d606": {
+      "id": "7bf01018-53b3-4a2b-bfd6-a134c89fb463",
+      "address": "0xd2fc023851d1cdd6cdfa2c29f90512e89e02d606",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "GeoDB Coin on xDai",
+      "symbol": "GEO"
+    },
+    "0xd361c1fd663d8f2dc36ae07ff6f3623532cabdd3": {
+      "id": "2a9011c7-6b72-49b2-b989-f161087eed78",
+      "address": "0xd361c1fd663d8f2dc36ae07ff6f3623532cabdd3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MCDEX Token on xDai",
+      "symbol": "MCB"
+    },
+    "0xd3a3eb41d49fe3c2b6aa4cebc27b677bfc333f02": {
+      "id": "bf06306f-b4cb-4f43-a503-b206219edbc4",
+      "address": "0xd3a3eb41d49fe3c2b6aa4cebc27b677bfc333f02",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "xPocket on xDai",
+      "symbol": "POCKET"
+    },
+    "0xd3b93ff74e43ba9568e5019b38addb804fef719b": {
+      "id": "e8a54abb-c5f4-45b9-ab6f-45ccc4e15a5c",
+      "address": "0xd3b93ff74e43ba9568e5019b38addb804fef719b",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "UniBright on xDai",
+      "symbol": "UBT"
+    },
+    "0xd3d47d5578e55c880505dc40648f7f9307c3e7a8": {
+      "id": "ac63827e-8549-48b1-b62e-1af1f1cba9c4",
+      "address": "0xd3d47d5578e55c880505dc40648f7f9307c3e7a8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "DefiPulse Index on xDai",
+      "symbol": "DPI"
+    },
+    "0xd3f899283c8203a87c6c1e0e017e3a641e2cc1cd": {
+      "id": "0f0a8d19-4389-4854-b14c-59c13f26baf0",
+      "address": "0xd3f899283c8203a87c6c1e0e017e3a641e2cc1cd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "KeyFi Token on xDai",
+      "symbol": "KEYFI"
+    },
+    "0xd433bd438472907d9dc74a3df0ced5e0ea14ae09": {
+      "id": "ffc57945-443f-497d-98d6-35099e540c24",
+      "address": "0xd433bd438472907d9dc74a3df0ced5e0ea14ae09",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "*TEST* CoW Protocol Token from Mainnet",
+      "symbol": "TESTCOW"
+    },
+    "0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93": {
+      "id": "6f387c2d-0760-4afe-b9ed-d8acd93ab76c",
+      "address": "0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "AMIS on xDai",
+      "symbol": "AMIS"
+    },
+    "0xd5fe5f651dde69f6fc444d123f2c0cfb804542cd": {
+      "id": "b0757f2e-abea-46c3-bfad-c05daff88b04",
+      "address": "0xd5fe5f651dde69f6fc444d123f2c0cfb804542cd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Binance USD on xDai",
+      "symbol": "BUSD"
+    },
+    "0xd6dcb8dd30c79b588f0a8fac8e2ddcfea4d5f6d1": {
+      "id": "77654c67-02ce-4b03-a3bf-b70016c2f0a6",
+      "address": "0xd6dcb8dd30c79b588f0a8fac8e2ddcfea4d5f6d1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ParaSwap from Mainnet",
+      "symbol": "PSP"
+    },
+    "0xd71460a76312d5874cd47c93853b7c72bbac49c8": {
+      "id": "33d9bdb9-dd29-4485-80ec-9bf929912206",
+      "address": "0xd71460a76312d5874cd47c93853b7c72bbac49c8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "PLANETARIA from Mainnet",
+      "symbol": "PLA"
+    },
+    "0xd7a28aa9c470e7e9d8c676bcd5dd2f40c5683afa": {
+      "id": "44da74ad-7db0-4bfb-a23c-4d4be5bcac29",
+      "address": "0xd7a28aa9c470e7e9d8c676bcd5dd2f40c5683afa",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Rai Reflex Index from Mainnet",
+      "symbol": "RAI"
+    },
+    "0xd83ce865abce674ec61116c4abda281f0184cff7": {
+      "id": "01e33aaf-41a1-4b4b-a850-fba124969548",
+      "address": "0xd83ce865abce674ec61116c4abda281f0184cff7",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xd877b08d185318af8845ab0f955f0936b53d144b": {
+      "id": "7739d105-c7f9-40e5-b78e-fb0a2795dd97",
+      "address": "0xd877b08d185318af8845ab0f955f0936b53d144b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Huh on xDai",
+      "symbol": "HUH"
+    },
+    "0xd87eaa26dcfb0c0a6160ccf8c8a01beb1c15fb00": {
+      "id": "783165e4-8671-4ab1-beea-b6b5108dcf67",
+      "address": "0xd87eaa26dcfb0c0a6160ccf8c8a01beb1c15fb00",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Flex Ungovernance Token from Mainnet",
+      "symbol": "FLX"
+    },
+    "0xd87fcb23da48d4d9b70c6f39b46debb5d993ad19": {
+      "id": "673916a7-1ea2-4f80-baae-397a15183f4f",
+      "address": "0xd87fcb23da48d4d9b70c6f39b46debb5d993ad19",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Huobi BTC on xDai",
+      "symbol": "HBTC"
+    },
+    "0xd9cddb4b6538de9bf7cbe93070b2a99c380395e9": {
+      "id": "7bd760fa-3f63-4d53-8dfd-2e3eb806fe7f",
+      "address": "0xd9cddb4b6538de9bf7cbe93070b2a99c380395e9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Luna on xDai",
+      "symbol": "LUNA"
+    },
+    "0xd9fa47e33d4ff7a1aca489de1865ac36c042b07a": {
+      "id": "ccaf92aa-6a86-46f9-9942-b3010ede929d",
+      "address": "0xd9fa47e33d4ff7a1aca489de1865ac36c042b07a",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "HEX on xDai",
+      "symbol": "HEX"
+    },
+    "0xda623b1bc7ea3edbbc69ae229334e6d46a8aa307": {
+      "id": "62f8a945-76c9-4647-a0b4-d029207b9713",
+      "address": "0xda623b1bc7ea3edbbc69ae229334e6d46a8aa307",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Kitten on xDai",
+      "symbol": "MEW"
+    },
+    "0xda7712b5959499629a9f6b4cae2f22910fb894fd": {
+      "id": "4d567ce8-ac8b-4648-a021-28b0d7050eaa",
+      "address": "0xda7712b5959499629a9f6b4cae2f22910fb894fd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xdad6980598dbfa4a4b2fcf520a0cc92dc6533365": {
+      "id": "6d164281-9b65-40dc-9053-dd6a6584ba85",
+      "address": "0xdad6980598dbfa4a4b2fcf520a0cc92dc6533365",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Perp Together on xDai",
+      "symbol": "pPERP"
+    },
+    "0xdae7eec9fc8d5a1d77a907f5663325447aa06767": {
+      "id": "629973c2-2d37-49d3-9b3e-959607519b4e",
+      "address": "0xdae7eec9fc8d5a1d77a907f5663325447aa06767",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "HK Monetary Token on xDai",
+      "symbol": "HKMT"
+    },
+    "0xdb7fd64dd769784c86010c2a5c56866ac875ffe4": {
+      "id": "9f235738-0d08-44bc-9da1-17ce01b58340",
+      "address": "0xdb7fd64dd769784c86010c2a5c56866ac875ffe4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "linkedin token on xDai",
+      "symbol": "LNK"
+    },
+    "0xdbf3ea6f5bee45c02255b2c26a16f300502f68da": {
+      "id": "c5e5f3b7-183f-4379-a5c6-f3cb5019026d",
+      "address": "0xdbf3ea6f5bee45c02255b2c26a16f300502f68da",
+      "chainId": 100,
+      "decimals": 16,
+      "name": "BZZ on xDai",
+      "symbol": "BZZ"
+    },
+    "0xdd11aec1ff78b06f73528d7ce0216f1890d7b45c": {
+      "id": "cc813dfe-ef75-40c5-bb76-039bab182600",
+      "address": "0xdd11aec1ff78b06f73528d7ce0216f1890d7b45c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xdd656161e73f79055d5f06cee53e1647335d257f": {
+      "id": "bd82f1b6-2b66-40fb-9610-f72de16e3ae7",
+      "address": "0xdd656161e73f79055d5f06cee53e1647335d257f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "XionGlobal Token on xDai",
+      "symbol": "XGT"
+    },
+    "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83": {
+      "id": "35015d50-c374-4b72-b0c6-ca5b169a86d9",
+      "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+      "chainId": 100,
+      "decimals": 6,
+      "name": "USD//C on xDai",
+      "symbol": "USDC"
+    },
+    "0xde1e70ed71936e4c249a7d43e550f0b99fccddfc": {
+      "id": "36d5993c-880b-4c14-b463-feada74d7582",
+      "address": "0xde1e70ed71936e4c249a7d43e550f0b99fccddfc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "FalconSwap Token on xDai",
+      "symbol": "FSW"
+    },
+    "0xde7a0853163a172e1a98f10c9d7bd16ed308ef32": {
+      "id": "e96b215c-21a8-4f97-a718-f8ae4f5eb161",
+      "address": "0xde7a0853163a172e1a98f10c9d7bd16ed308ef32",
+      "chainId": 100,
+      "decimals": 3,
+      "name": "SmartMint BondFiat StableToken on xDai",
+      "symbol": "EMIT"
+    },
+    "0xde9f126eb737f2aa480527992d18266f5261e0a5": {
+      "id": "ca314743-9dba-4bb3-991e-5d7dd06992a2",
+      "address": "0xde9f126eb737f2aa480527992d18266f5261e0a5",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xdee4e0b8f9a0d3aa253eac11e4c5c7acbfb466ae": {
+      "id": "f4653b6c-b273-4df2-9448-7b130e0229f0",
+      "address": "0xdee4e0b8f9a0d3aa253eac11e4c5c7acbfb466ae",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xdefbf1910ce272d030a1e385f358cfe60822e11c": {
+      "id": "9ab239ee-b131-4c79-bfee-20ecf4600ab4",
+      "address": "0xdefbf1910ce272d030a1e385f358cfe60822e11c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "yearn Curve.fi DAI/USDC/USDT on xDai",
+      "symbol": "y3Crv"
+    },
+    "0xdf613af6b44a31299e48131e9347f034347e2f00": {
+      "id": "2187ace3-d324-4da4-9729-c9965f20ee16",
+      "address": "0xdf613af6b44a31299e48131e9347f034347e2f00",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Aave Token on xDai",
+      "symbol": "AAVE"
+    },
+    "0xdf6ff92bfdc1e8be45177dc1f4845d391d3ad8fd": {
+      "id": "7a4a7513-d101-4561-9bbf-167934e2244e",
+      "address": "0xdf6ff92bfdc1e8be45177dc1f4845d391d3ad8fd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Compound on xDai",
+      "symbol": "COMP"
+    },
+    "0xdff7fcf6a86f7dc86e7faceca502851f82a349a6": {
+      "id": "36ab7896-30fd-4f0a-ae1d-d6986447e021",
+      "address": "0xdff7fcf6a86f7dc86e7faceca502851f82a349a6",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "hoge.finance on xDai",
+      "symbol": "HOGE"
+    },
+    "0xe0a425fa1e00e72d24351ed233085f16dcad5101": {
+      "id": "6e70cbf8-116e-41ca-956f-ac6ac9a67f2c",
+      "address": "0xe0a425fa1e00e72d24351ed233085f16dcad5101",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Updog on xDai",
+      "symbol": "UPDOG"
+    },
+    "0xe154a435408211ac89757b76c4fbe4dc9ed2ef27": {
+      "id": "5e94dbb3-41f8-486c-9f42-391b0a2dfb19",
+      "address": "0xe154a435408211ac89757b76c4fbe4dc9ed2ef27",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BandToken on xDai",
+      "symbol": "BAND"
+    },
+    "0xe1fe0c26aa72cd058286b5d296f32acb27102786": {
+      "id": "33c90b32-36f0-4bbe-8af9-3a28e2fbfc5b",
+      "address": "0xe1fe0c26aa72cd058286b5d296f32acb27102786",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MoonTools.io on xDai",
+      "symbol": "MOONS"
+    },
+    "0xe2abfd0900e464bdc019ee88a4f840eba6fcbca4": {
+      "id": "af4817e9-1ef5-4c56-99c5-bceb64229f05",
+      "address": "0xe2abfd0900e464bdc019ee88a4f840eba6fcbca4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "EMIT1USDB Freedom Act of 2022 from Mainnet",
+      "symbol": "FREEDOM"
+    },
+    "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2": {
+      "id": "9f417887-c77b-49f0-b906-52e294c4d16d",
+      "address": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ChainLink Token on xDai",
+      "symbol": "LINK"
+    },
+    "0xe369133b84ba2f9c73ed366ac5f1a9d1ef82525d": {
+      "id": "c933009f-2b30-46e3-a56e-1f6bfbef36e3",
+      "address": "0xe369133b84ba2f9c73ed366ac5f1a9d1ef82525d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "The Employment Commons Work Token on xDai",
+      "symbol": "WORK"
+    },
+    "0xe4137463f30a28bc4c25c829c212c774b8b8a38b": {
+      "id": "6a37d143-3038-496d-bdd2-10e2cf59dcd5",
+      "address": "0xe4137463f30a28bc4c25c829c212c774b8b8a38b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "VAULTZ on xDai",
+      "symbol": "VAULTZ"
+    },
+    "0xe48e777e1d33bb6a9c1814a85fc819ce709d74e3": {
+      "id": "c8b73dcf-8744-4e94-8de6-c2cc144e7cf7",
+      "address": "0xe48e777e1d33bb6a9c1814a85fc819ce709d74e3",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Deep Work on xDai",
+      "symbol": "DEEP"
+    },
+    "0xe570c987f26a321374e71088d89eedef7cf9620d": {
+      "id": "df4f9108-7883-48ce-ba7f-852203250d53",
+      "address": "0xe570c987f26a321374e71088d89eedef7cf9620d",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "Value Transfer Token from Mainnet",
+      "symbol": "VTT"
+    },
+    "0xe6891b861e3013192cac65af2a407229e777b87e": {
+      "id": "581fd5f6-5061-4d3b-a644-8a4740febe3c",
+      "address": "0xe6891b861e3013192cac65af2a407229e777b87e",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "Matthew Zarka Token on xDai",
+      "symbol": "MDZ"
+    },
+    "0xe6a1f98b0f4368559bd16639c844510f5db6fe48": {
+      "id": "10782390-752c-43f6-9ffa-93c02470ce5f",
+      "address": "0xe6a1f98b0f4368559bd16639c844510f5db6fe48",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "bZx Protocol Token on xDai",
+      "symbol": "BZRX"
+    },
+    "0xe6ff35dc3227a0c46e92b640bcb5c5895ad8c687": {
+      "id": "34e09b28-ad4f-4cca-9dbf-ee0ccc2642e6",
+      "address": "0xe6ff35dc3227a0c46e92b640bcb5c5895ad8c687",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "The 4th Pillar Token on xDai",
+      "symbol": "FOUR"
+    },
+    "0xe72cba323f5a67eec73869eae483da7ec70a52e1": {
+      "id": "ad436168-b135-4b89-874c-a578bc985b44",
+      "address": "0xe72cba323f5a67eec73869eae483da7ec70a52e1",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MachiX Token on xDai",
+      "symbol": "MCX"
+    },
+    "0xe73d646157765f8b8b8f28506df0c99178256fb9": {
+      "id": "5585d5d6-019f-4e03-aba1-613a8eb97b0f",
+      "address": "0xe73d646157765f8b8b8f28506df0c99178256fb9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Injective Token on xDai",
+      "symbol": "INJ"
+    },
+    "0xe77336ff53852303b4d964f9ee1a7bdb6ade6fde": {
+      "id": "9999a301-5734-4b6a-be5b-3f418c508d32",
+      "address": "0xe77336ff53852303b4d964f9ee1a7bdb6ade6fde",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Tadpole on xDai",
+      "symbol": "TAD"
+    },
+    "0xe78bdab494570f4787b51f8bb124eaec2869078e": {
+      "id": "fe17a5c8-d8c2-4dda-9dc6-b3329f615792",
+      "address": "0xe78bdab494570f4787b51f8bb124eaec2869078e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped Banano on xDai",
+      "symbol": "wBAN"
+    },
+    "0xe7eb6df7d2ac2ee4a31f00ef50683755b0b03d6c": {
+      "id": "363f3623-cdea-4d17-9b8a-8e425d56bf25",
+      "address": "0xe7eb6df7d2ac2ee4a31f00ef50683755b0b03d6c",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "MEWO MEOW MEOW on xDai",
+      "symbol": "MEOW"
+    },
+    "0xe7ef58d8180cc269c6620ded3e6cc536a52e2ebd": {
+      "id": "e2662a16-2b17-4798-a864-e6ffe2b8a1a9",
+      "address": "0xe7ef58d8180cc269c6620ded3e6cc536a52e2ebd",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "BlockMesh on xDai",
+      "symbol": "MESH"
+    },
+    "0xe7f0cfc2043b8872f35dbef4ebf6eea41a8b2bbe": {
+      "id": "2f505a89-07d3-4800-b325-834a4ad56775",
+      "address": "0xe7f0cfc2043b8872f35dbef4ebf6eea41a8b2bbe",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SKALE from Mainnet",
+      "symbol": "SKL"
+    },
+    "0xe7f5f654c57236a651f576155c63428432d03943": {
+      "id": "31bfcd61-6a1b-4996-99a4-a8e4494ca004",
+      "address": "0xe7f5f654c57236a651f576155c63428432d03943",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Neos Credits on xDai",
+      "symbol": "NCR"
+    },
+    "0xe8e8937b92259adb26d510aa2f6ad6ca65243d9e": {
+      "id": "895a0044-207a-4cdd-8ec9-87226700b92f",
+      "address": "0xe8e8937b92259adb26d510aa2f6ad6ca65243d9e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xe9885845ed1e1f31e97a3961caa26e79dea63afc": {
+      "id": "284ec645-a985-4698-90c7-1ed331e05aae",
+      "address": "0xe9885845ed1e1f31e97a3961caa26e79dea63afc",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "NthOpinion on xDai",
+      "symbol": "NTO"
+    },
+    "0xea20f3e0b42ca83a27d0d5eeeca73212d8d6af21": {
+      "id": "ff0b1a17-dafa-4094-8512-8444a4bb962b",
+      "address": "0xea20f3e0b42ca83a27d0d5eeeca73212d8d6af21",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "ERC20 on xDai",
+      "symbol": "ERC20"
+    },
+    "0xeaacce3e5bcc10fb32c2553f8d6fc4c3888ffdad": {
+      "id": "c96119ca-5ca5-4038-85b8-0b8ef1af9237",
+      "address": "0xeaacce3e5bcc10fb32c2553f8d6fc4c3888ffdad",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TrustSwap Token on xDai",
+      "symbol": "SWAP"
+    },
+    "0xeab0a9e1ce68e844bc5f452c8174f2885393fdef": {
+      "id": "0e57fdf4-e7bd-4976-9e88-ba9fa77f2417",
+      "address": "0xeab0a9e1ce68e844bc5f452c8174f2885393fdef",
+      "chainId": 100,
+      "decimals": 10,
+      "name": "DENARIO on xDai",
+      "symbol": "DNR"
+    },
+    "0xeb2bcabb0cdc099978a74cfe4ab4d45e7e677a45": {
+      "id": "da4e3b9c-48a1-4911-88fb-a9ddc15ab8d5",
+      "address": "0xeb2bcabb0cdc099978a74cfe4ab4d45e7e677a45",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Terra Virtua Kolect on xDai",
+      "symbol": "TVK"
+    },
+    "0xec3f3e6d7907acda3a7431abd230196cda3fbb19": {
+      "id": "65abcf24-d106-48c1-b283-ba868cdc540c",
+      "address": "0xec3f3e6d7907acda3a7431abd230196cda3fbb19",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Ethix on xDai",
+      "symbol": "ETHIX"
+    },
+    "0xec7a4b10bac323a0b322eebc6518c774a4767914": {
+      "id": "c6e17cf9-e15d-4a49-bd4e-e79ed63b0900",
+      "address": "0xec7a4b10bac323a0b322eebc6518c774a4767914",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Herve on xDai",
+      "symbol": "RV"
+    },
+    "0xee2164e1ddd354dde58d6989088d24eeeb5577dc": {
+      "id": "5692923f-cd7b-4754-81be-619a14b6fc20",
+      "address": "0xee2164e1ddd354dde58d6989088d24eeeb5577dc",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Ecto on xDai",
+      "symbol": "ECTO"
+    },
+    "0xeefea398213938ba56b1c5d282187862c9ca5d0d": {
+      "id": "d9b9d00a-4492-40cb-8155-0b2696c899ae",
+      "address": "0xeefea398213938ba56b1c5d282187862c9ca5d0d",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Fantom Token from Mainnet",
+      "symbol": "FTM"
+    },
+    "0xefe7f404957bcc40e8551965fbff6abc895a51b0": {
+      "id": "9006db7a-c41f-4ec1-88b0-d5bb992caf70",
+      "address": "0xefe7f404957bcc40e8551965fbff6abc895a51b0",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Minato from Mainnet",
+      "symbol": "MNTO"
+    },
+    "0xf0721e99d00fe33a1ee6b64d86e749b0e7dbaf60": {
+      "id": "e32bc8d4-4cf6-49e8-b4a7-f784883cdba8",
+      "address": "0xf0721e99d00fe33a1ee6b64d86e749b0e7dbaf60",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "FL on xDai",
+      "symbol": "FL"
+    },
+    "0xf0d226e9abc400fb4376afc5bd7a6dfa8269ca3f": {
+      "id": "48c6f3ad-1cba-43f8-9d16-cf4a9b63e695",
+      "address": "0xf0d226e9abc400fb4376afc5bd7a6dfa8269ca3f",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Kyber Network Crystal v2 on xDai",
+      "symbol": "KNC"
+    },
+    "0xf0dd817ff483535f4059781441596aea4f32a4b9": {
+      "id": "a913f404-c626-481f-81bb-97fe6766d1d7",
+      "address": "0xf0dd817ff483535f4059781441596aea4f32a4b9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Melon Token on xDai",
+      "symbol": "MLN"
+    },
+    "0xf18a3717de5a0610a649b4090ab2a94b18735526": {
+      "id": "416c3652-7231-4df8-ad55-c59dbed34d0b",
+      "address": "0xf18a3717de5a0610a649b4090ab2a94b18735526",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Wrapped Nano on xDai",
+      "symbol": "wNANO"
+    },
+    "0xf2197c8b553e37e949815360d5ca5e745e925511": {
+      "id": "2feeb009-9808-437d-a2d1-0c8a2c2408ab",
+      "address": "0xf2197c8b553e37e949815360d5ca5e745e925511",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "Fedoragold Coin  on xDai",
+      "symbol": "BFED"
+    },
+    "0xf2f9ff5cb8e2b21117715b2e3b5c6285349da498": {
+      "id": "59b6947d-64db-490b-a4db-a033fbb60d6f",
+      "address": "0xf2f9ff5cb8e2b21117715b2e3b5c6285349da498",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xf3a04abc37236955905f43965c66fe8ac0de99b9": {
+      "id": "374e01a8-0d6b-4f40-8c0c-e059edfe7b98",
+      "address": "0xf3a04abc37236955905f43965c66fe8ac0de99b9",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "EASY on xDai",
+      "symbol": "EASY"
+    },
+    "0xf52eabb903831e2026a6a50ce813fc871b5578f4": {
+      "id": "8b0792b1-b983-4e22-959d-b5db74e828f4",
+      "address": "0xf52eabb903831e2026a6a50ce813fc871b5578f4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TEST on xDai",
+      "symbol": "TEST"
+    },
+    "0xf54b47b00b6916974c73b81b7d9929a4f443db49": {
+      "id": "397b508a-56d6-4d80-91ce-47a42f041662",
+      "address": "0xf54b47b00b6916974c73b81b7d9929a4f443db49",
+      "chainId": 100,
+      "decimals": 9,
+      "name": "Robonomics on xDai",
+      "symbol": "XRT"
+    },
+    "0xf6305b3a92236592fac664a6082caf6b81b32c19": {
+      "id": "dd45c9d7-2e4d-4788-8fdc-29d8d9e6c2d8",
+      "address": "0xf6305b3a92236592fac664a6082caf6b81b32c19",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Token on xDai",
+      "symbol": "TOKEN"
+    },
+    "0xf667064c067686237c84bdc84b3df77fdeae237f": {
+      "id": "e0eddf8c-ad00-4944-b9f9-edda27dd7a16",
+      "address": "0xf667064c067686237c84bdc84b3df77fdeae237f",
+      "chainId": 100,
+      "decimals": 4,
+      "name": "GarySymons TokenSmith Token on xDai",
+      "symbol": "BUFFGATE"
+    },
+    "0xf7375daf05d2f8d61557856f041c79c84c5f41f6": {
+      "id": "0d350903-b5d1-427d-9a0d-508d2101967f",
+      "address": "0xf7375daf05d2f8d61557856f041c79c84c5f41f6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Uniswap V2 on xDai",
+      "symbol": "UNI-V2"
+    },
+    "0xf8d82a4722ff2d012b0ae824cdddf6d57f01a08b": {
+      "id": "26a990fe-ef91-4f91-8956-fa248ea2e611",
+      "address": "0xf8d82a4722ff2d012b0ae824cdddf6d57f01a08b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "**TEST** CoW Protocol Token from Mainnet",
+      "symbol": "TESTCOW"
+    },
+    "0xf99efeb34aff6d3099c41605e9ee778caec39317": {
+      "id": "892a227d-4c4f-4618-9459-b1d8a99c4eda",
+      "address": "0xf99efeb34aff6d3099c41605e9ee778caec39317",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Meridian Network on xDai",
+      "symbol": "LOCK"
+    },
+    "0xfb23cfd35046466fdba7f73dc2fccb5b17abf1aa": {
+      "id": "ca12a3fd-4b39-4ec0-9888-2eb4020c60a3",
+      "address": "0xfb23cfd35046466fdba7f73dc2fccb5b17abf1aa",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "AlbCoin on xDai",
+      "symbol": "ALBC"
+    },
+    "0xfbf28d3bd2304107deb8721a716807173ec615a6": {
+      "id": "1923db10-3ec3-4949-909b-d04f20e063f3",
+      "address": "0xfbf28d3bd2304107deb8721a716807173ec615a6",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Token on xDai",
+      "symbol": "TOKEN"
+    },
+    "0xfc9ef9fee5c5a6e0854f5a18573065273e6b777e": {
+      "id": "899a7883-af95-42b4-a903-f02aefd07f03",
+      "address": "0xfc9ef9fee5c5a6e0854f5a18573065273e6b777e",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "TNBZZ on xDai",
+      "symbol": "TNBZZ"
+    },
+    "0xfcb0320d0ce08536a58495b75bf4262e4acc04af": {
+      "id": "ce28ccda-cf89-4778-a261-2b661237fcf6",
+      "address": "0xfcb0320d0ce08536a58495b75bf4262e4acc04af",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "JasmyCoin on xDai",
+      "symbol": "JASMY"
+    },
+    "0xfd4e5f45ea24ec50c4db4367380b014875caf219": {
+      "id": "0e020011-4b46-491b-b3da-3d222237e6ab",
+      "address": "0xfd4e5f45ea24ec50c4db4367380b014875caf219",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "XY Oracle on xDai",
+      "symbol": "XYO"
+    },
+    "0xfda94f056346d2320d4b5e468d6ad099b2277746": {
+      "id": "1fe94f6b-027a-488d-a174-88f96be75efa",
+      "address": "0xfda94f056346d2320d4b5e468d6ad099b2277746",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "StakeWise from Mainnet",
+      "symbol": "SWISE"
+    },
+    "0xfe1ec48605344641cf4ba618fc4aa5a49db2b563": {
+      "id": "3ca55c4f-6797-4dc2-a540-1729cbaee281",
+      "address": "0xfe1ec48605344641cf4ba618fc4aa5a49db2b563",
+      "chainId": 100,
+      "decimals": 8,
+      "name": "renDOGE on xDai",
+      "symbol": "renDOGE"
+    },
+    "0xfe334ed5b2498f83f8f35cb63aeb80759a9b1176": {
+      "id": "a113ee2a-4276-4d49-bc0f-68ddcb607fc8",
+      "address": "0xfe334ed5b2498f83f8f35cb63aeb80759a9b1176",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Aave interest bearing DAI from Mainnet",
+      "symbol": "aDAI"
+    },
+    "0xfe536fe3c3e870675083f66441df0f8ed3273650": {
+      "id": "c564b515-8048-446a-bc17-a59b65c09826",
+      "address": "0xfe536fe3c3e870675083f66441df0f8ed3273650",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xfe7ed09c4956f7cdb54ec4ffcb9818db2d7025b8": {
+      "id": "732f08f3-41e4-47b3-a5b6-c1e08bb9a005",
+      "address": "0xfe7ed09c4956f7cdb54ec4ffcb9818db2d7025b8",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "USDP Stablecoin on xDai",
+      "symbol": "USDP"
+    },
+    "0xfeec1b8acd23068fa29bf01759e0da1c7cede4f4": {
+      "id": "971bd74e-3002-4dd6-8623-c08004a7698e",
+      "address": "0xfeec1b8acd23068fa29bf01759e0da1c7cede4f4",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "SushiSwap LP Token on xDai",
+      "symbol": "SLP"
+    },
+    "0xff0ce179a303f26017019acf78b951cb743b8d9b": {
+      "id": "c9c3e511-b363-434d-8d3e-66ac58e710b6",
+      "address": "0xff0ce179a303f26017019acf78b951cb743b8d9b",
+      "chainId": 100,
+      "decimals": 18,
+      "name": "Contribute on xDai",
+      "symbol": "TRIB"
+    }
+  }
+}
