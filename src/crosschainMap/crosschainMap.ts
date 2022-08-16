@@ -17,6 +17,7 @@ export class CrosschainMap {
   public tokenMapByChain: TokenMapByChain = {
     1: {},
     4: {},
+    10: {},
     100: {},
     137: {},
     42161: {},

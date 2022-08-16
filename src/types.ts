@@ -3,6 +3,7 @@ import { CrosschainMap } from './crosschainMap'
 export enum SupportedChains {
   MAINNET = 1,
   RINKEBY = 4,
+  OPTIMISM_MAINNET = 10,
   GNOSIS = 100,
   POLYGON = 137,
   ARBITRUM = 42161,
@@ -26,7 +27,8 @@ export const PRODUCTION_CHAINS = [
   SupportedChains.MAINNET,
   SupportedChains.ARBITRUM,
   SupportedChains.GNOSIS,
-  SupportedChains.POLYGON
+  SupportedChains.POLYGON,
+  SupportedChains.OPTIMISM_MAINNET
 ]
 
 export type Meta = {
