@@ -23,7 +23,9 @@ const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
 export const getOptimismTokens = async (crosschainMap: CrosschainMap) => {
   console.log('OPTIMISM: get Optimism Tokens')
   const L1L2Pairs = await getTokenPair()
+  console.log({ L1L2Pairs })
   L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
+  console.log(crosschainMap.crosschainMap)
 }
 
 async function getTokenPair(): Promise<
@@ -65,14 +67,4 @@ async function getTokenPair(): Promise<
   }, [])
 
   return pairs
-}
-
-function getL2Addresses(l1Addresses: string[], optimismLists: { [key: string]: Token[] }) {
-  console.log('OPTIMISM: getL2Addresses')
-  const l2Addresses = l1Addresses.map((address) => {
-    for (const tokensPair of Object.values(optimismLists)) {
-      if (tokensPair.some((token) => token.address === address)) return tokensPair[1].address
-    }
-  })
-  return l2Addresses
 }
