@@ -1,8 +1,40 @@
 {
-  "id": "5d3291e2-18e4-4bdf-8419-c06b4c0dae87",
-  "creationTime": "2022-08-16T15:28:25.181Z",
+  "id": "aa546ce5-4dd7-431b-b140-b567c996d43d",
+  "creationTime": "2022-08-17T09:27:59.124Z",
   "data": {
     "1-42161": [
+      {
+        "decimals": 6,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
+        "chainId": 1,
+        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      {
+        "decimals": 6,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
+        "chainId": 42161,
+        "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+      },
+      {
+        "decimals": 8,
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
+        "chainId": 1,
+        "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      },
+      {
+        "decimals": 8,
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
+        "chainId": 42161,
+        "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+      },
       {
         "decimals": 6,
         "name": "Tether USD",
@@ -34,38 +66,6 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "chainId": 42161,
         "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
-      },
-      {
-        "decimals": 8,
-        "name": "Wrapped BTC",
-        "symbol": "WBTC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
-        "chainId": 1,
-        "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
-      },
-      {
-        "decimals": 8,
-        "name": "Wrapped BTC",
-        "symbol": "WBTC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
-        "chainId": 42161,
-        "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
-      },
-      {
-        "decimals": 6,
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
-        "chainId": 1,
-        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-      },
-      {
-        "decimals": 6,
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
-        "chainId": 42161,
-        "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
       },
       {
         "decimals": 18,
@@ -192,6 +192,22 @@
         "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
       },
       {
+        "decimals": 18,
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
+        "chainId": 1,
+        "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+      },
+      {
+        "decimals": 18,
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
+        "chainId": 137,
+        "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f"
+      },
+      {
         "decimals": 6,
         "name": "Tether USD",
         "symbol": "USDT",
@@ -206,6 +222,22 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
         "chainId": 137,
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      {
+        "decimals": 18,
+        "name": "Balancer",
+        "symbol": "BAL",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/bal.svg",
+        "chainId": 1,
+        "address": "0xba100000625a3754423978a60c9317c58a424e3d"
+      },
+      {
+        "decimals": 18,
+        "name": "Balancer",
+        "symbol": "BAL",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/bal.svg",
+        "chainId": 137,
+        "address": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3"
       },
       {
         "decimals": 18,
@@ -273,22 +305,6 @@
       },
       {
         "decimals": 18,
-        "name": "Uniswap",
-        "symbol": "UNI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
-        "chainId": 1,
-        "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
-      },
-      {
-        "decimals": 18,
-        "name": "Uniswap",
-        "symbol": "UNI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
-        "chainId": 137,
-        "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f"
-      },
-      {
-        "decimals": 18,
         "name": "ChainLink Token",
         "symbol": "LINK",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/link.svg",
@@ -337,22 +353,6 @@
       },
       {
         "decimals": 18,
-        "name": "Balancer",
-        "symbol": "BAL",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/bal.svg",
-        "chainId": 1,
-        "address": "0xba100000625a3754423978a60c9317c58a424e3d"
-      },
-      {
-        "decimals": 18,
-        "name": "Balancer",
-        "symbol": "BAL",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/bal.svg",
-        "chainId": 137,
-        "address": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3"
-      },
-      {
-        "decimals": 18,
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
@@ -386,6 +386,22 @@
     ],
     "1-10": [
       {
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 1,
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+      },
+      {
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 10,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      {
         "decimals": 6,
         "name": "USD Coin",
         "symbol": "USDC",
@@ -416,6 +432,22 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
         "chainId": 10,
         "address": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+      },
+      {
+        "decimals": 18,
+        "name": "UMA Voting Token v1",
+        "symbol": "UMA",
+        "logoURI": "https://assets.coingecko.com/coins/images/10951/small/UMA.png?1586307916",
+        "chainId": 1,
+        "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828"
+      },
+      {
+        "decimals": 18,
+        "name": "UMA Voting Token v1",
+        "symbol": "UMA",
+        "logoURI": "https://assets.coingecko.com/coins/images/10951/small/UMA.png?1586307916",
+        "chainId": 10,
+        "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea"
       },
       {
         "decimals": 6,
@@ -510,6 +542,22 @@
     ],
     "137-42161": [
       {
+        "decimals": 8,
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
+        "chainId": 42161,
+        "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+      },
+      {
+        "decimals": 8,
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
+        "chainId": 137,
+        "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      {
         "decimals": 6,
         "name": "USD Coin",
         "symbol": "USDC",
@@ -524,22 +572,6 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
         "chainId": 137,
         "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
-      },
-      {
-        "decimals": 18,
-        "name": "Dai Stablecoin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 42161,
-        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
-      },
-      {
-        "decimals": 18,
-        "name": "Dai Stablecoin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 137,
-        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       },
       {
         "decimals": 6,
@@ -558,20 +590,20 @@
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
       },
       {
-        "decimals": 8,
-        "name": "Wrapped BTC",
-        "symbol": "WBTC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "chainId": 42161,
-        "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       },
       {
-        "decimals": 8,
-        "name": "Wrapped BTC",
-        "symbol": "WBTC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "chainId": 137,
-        "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       },
       {
         "decimals": 18,
@@ -608,22 +640,6 @@
         "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
       },
       {
-        "decimals": 6,
-        "name": "Tether USD",
-        "symbol": "USDT",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
-        "chainId": 42161,
-        "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
-      },
-      {
-        "decimals": 6,
-        "name": "Tether USD",
-        "symbol": "USDT",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
-        "chainId": 10,
-        "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
-      },
-      {
         "decimals": 8,
         "name": "Wrapped BTC",
         "symbol": "WBTC",
@@ -638,6 +654,38 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
         "chainId": 10,
         "address": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+      },
+      {
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 42161,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      {
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 10,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      {
+        "decimals": 6,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
+        "chainId": 42161,
+        "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      {
+        "decimals": 6,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
+        "chainId": 10,
+        "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
       },
       {
         "name": "Wrapped Ether",
@@ -756,6 +804,14 @@
         "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
       },
       {
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "chainId": 10,
+        "decimals": 18,
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      {
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "chainId": 100,
@@ -770,6 +826,14 @@
         "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
         "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1"
+      },
+      {
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "chainId": 10,
+        "decimals": 18,
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       }
     ],
     "10-137": [
@@ -804,6 +868,22 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
         "chainId": 10,
         "address": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+      },
+      {
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 137,
+        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+      },
+      {
+        "decimals": 18,
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 10,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       },
       {
         "decimals": 6,

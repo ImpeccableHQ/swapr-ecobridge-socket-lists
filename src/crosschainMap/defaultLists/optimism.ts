@@ -22,23 +22,11 @@ const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
 
 export const getOptimismTokens = async (crosschainMap: CrosschainMap) => {
   console.log('OPTIMISM: get Optimism Tokens')
-
-  const l1Tokens = Object.values(crosschainMap.tokenMapByChain[SupportedChains.MAINNET]).filter(
-    (l1Token) => !crosschainMap.crosschainMap[l1Token.id].addresses[SupportedChains.OPTIMISM_MAINNET]
-  )
-
-  if (l1Tokens.length === 0) {
-    console.log('OPTIMISM: All L1 tokens are paired with L2')
-  } else {
-    console.log('OPTIMISM: Fetching L2 Addresses')
-    const L1L2Pairs = await getTokenPair(l1Tokens)
-    console.log('OPTIMISM: Adding L2 Addresses')
-    //console.log(L1L2Pairs)
-    L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
-  }
+  const L1L2Pairs = await getTokenPair()
+  L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
 }
 
-async function getTokenPair(l1Tokens: MappedToken[]): Promise<
+async function getTokenPair(): Promise<
   {
     tokenA: Token
     tokenB: Token
@@ -54,10 +42,13 @@ async function getTokenPair(l1Tokens: MappedToken[]): Promise<
     }
     return tokens
   })
-  const l2Addresses = getL2Addresses(
-    l1Tokens.map((token) => token.address),
-    filteredTokens
-  )
+
+  const l2Addresses = Object.values(filteredTokens)
+    .filter((v) => v.length === 2)
+    .map((TokenList) => TokenList[1].address)
+  const l1Tokens = Object.values(filteredTokens)
+    .filter((v) => v.length === 2)
+    .map((TokenList) => TokenList[0])
 
   const pairs = l2Addresses.reduce<{ tokenA: Token; tokenB: Token }[]>((total, l2Address, index) => {
     if (l2Address) {
