@@ -1,6 +1,6 @@
 {
-  "id": "7a42639b-139c-402b-824f-5375e744f86c",
-  "creationTime": "2022-08-17T10:51:24.735Z",
+  "id": "f4ed734d-370e-4554-b3fa-11802a9f9bec",
+  "creationTime": "2022-08-17T14:11:17.787Z",
   "data": {
     "1-42161": [
       {
@@ -2892,102 +2892,7 @@
         "name": "Tether USD",
         "symbol": "USDT",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
-        "chainId": {
-        "decimals": 6,
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
-        "chainId": 1,
-        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-      },
-      {
-        "decimals": 6,
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
         "chainId": 10,
-        "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
-      },
-      {
-        "decimals": 8,
-        "name": "Wrapped BTC",
-        "symbol": "WBTC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
-        "chainId": 1,
-        "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
-      },
-      {
-        "decimals": 8,
-        "name": "Wrapped BTC",
-        "symbol": "WBTC",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/wbtc.svg",
-        "chainId": 10,
-        "address": "0x68f180fcce6836688e9084f035309e29bf0a2095"
-      },
-      {
-        "decimals": 6,
-        "name": "Tether USD",
-        "symbol": "USDT",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
-        "chainId": 1,
-        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
-      },
-      {
-        "decimals": 6,
-        "name": "Tether USD",
-        "symbol": "USDT",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
-        "chainId": 10,
-        "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
-      },
-      {
-        "decimals": 18,
-        "name": "Kromatika",
-        "symbol": "KROM",
-        "logoURI": "https://assets.coingecko.com/coins/images/20541/small/KROM_Transparent.png?1641398421",
-        "chainId": 1,
-        "address": "0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789"
-      },
-      {
-        "decimals": 18,
-        "name": "Kromatika",
-        "symbol": "KROM",
-        "logoURI": "https://assets.coingecko.com/coins/images/20541/small/KROM_Transparent.png?1641398421",
-        "chainId": 10,
-        "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07"
-      },
-      {
-        "decimals": 18,
-        "name": "LUSD Stablecoin",
-        "symbol": "LUSD",
-        "logoURI": "https://assets.coingecko.com/coins/images/14666/small/Group_3.png?1617631327",
-        "chainId": 1,
-        "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0"
-      },
-      {
-        "decimals": 18,
-        "name": "LUSD Stablecoin",
-        "symbol": "LUSD",
-        "logoURI": "https://assets.coingecko.com/coins/images/14666/small/Group_3.png?1617631327",
-        "chainId": 10,
-        "address": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819"
-      },
-      {
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
-        "chainId": 1,
-        "decimals": 18,
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
-        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
-      },
-      {
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
-        "chainId": 1,
-        "decimals": 18,
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
-        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
-      }
         "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
       },
       {

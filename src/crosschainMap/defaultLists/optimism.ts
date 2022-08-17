@@ -23,9 +23,7 @@ const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
 export const getOptimismTokens = async (crosschainMap: CrosschainMap) => {
   console.log('OPTIMISM: get Optimism Tokens')
   const L1L2Pairs = await getTokenPair()
-  console.log({ L1L2Pairs })
   L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
-  console.log(crosschainMap.crosschainMap)
 }
 
 async function getTokenPair(): Promise<
@@ -38,9 +36,9 @@ async function getTokenPair(): Promise<
   const optimismLists = getTokens().then((tokens) => groupBy(tokens, 'symbol'))
   const filteredTokens = await optimismLists.then((tokens) => {
     for (const tokenKey in tokens) {
-      tokens[tokenKey] = tokens[tokenKey].filter((token) =>
-        [SupportedChains.MAINNET, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId)
-      )
+      tokens[tokenKey] = tokens[tokenKey]
+        .filter((token) => [SupportedChains.MAINNET, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
+        .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
     }
     return tokens
   })

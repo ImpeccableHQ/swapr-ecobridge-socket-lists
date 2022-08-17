@@ -1,6 +1,6 @@
 {
-  "id": "7a42639b-139c-402b-824f-5375e744f86c",
-  "creationTime": "2022-08-17T10:51:24.735Z",
+  "id": "f4ed734d-370e-4554-b3fa-11802a9f9bec",
+  "creationTime": "2022-08-17T14:11:17.787Z",
   "data": {
     "1-42161": [
       {
@@ -1286,6 +1286,22 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/link.svg",
         "chainId": 10,
         "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
+      },
+      {
+        "decimals": 18,
+        "name": "Ethereum Name Service",
+        "symbol": "ENS",
+        "logoURI": "https://assets.coingecko.com/coins/images/19785/small/acatxTm8_400x400.jpg?1635850140",
+        "chainId": 1,
+        "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+      },
+      {
+        "decimals": 18,
+        "name": "Ethereum Name Service",
+        "symbol": "ENS",
+        "logoURI": "https://assets.coingecko.com/coins/images/19785/small/acatxTm8_400x400.jpg?1635850140",
+        "chainId": 10,
+        "address": "0x65559aa14915a70190438ef90104769e5e890a00"
       },
       {
         "decimals": 6,
