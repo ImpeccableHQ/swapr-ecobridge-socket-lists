@@ -9,7 +9,9 @@ import {
   Token,
   TokenMapByChain,
   FileNames,
-  Folders
+  Folders,
+  SupportedChains,
+  MappedToken
 } from '../types'
 
 export class CrosschainMap {
@@ -47,6 +49,17 @@ export class CrosschainMap {
 
   public getTokenIDByAddress = ({ address, chainId }: TokenBaseParams) =>
     this.tokenMapByChain[chainId][address.toLowerCase()]?.id
+
+  public getCrosschainTokenBySymbol = ({
+    chainId,
+    symbol
+  }: {
+    chainId: SupportedChains
+    symbol: string
+  }): MappedToken | undefined => {
+    const tokens = Object.values(this.tokenMapByChain[chainId])
+    return tokens.find((token) => token.symbol === symbol)
+  }
 
   public getCrosschainTokenByAddress = ({ address, chainId }: TokenBaseParams) => {
     const id = this.getTokenIDByAddress({ address, chainId })

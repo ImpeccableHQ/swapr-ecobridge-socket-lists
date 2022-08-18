@@ -22,33 +22,49 @@ const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
 
 export const getOptimismTokens = async (crosschainMap: CrosschainMap) => {
   console.log('OPTIMISM: get Optimism Tokens')
-  const L1L2Pairs = await getTokenPair()
+  const L1L2Pairs = await getTokenPair(crosschainMap)
   L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
 }
 
-async function getTokenPair(): Promise<
+async function getTokenPair(crosschainMap: CrosschainMap): Promise<
   {
     tokenA: Token
     tokenB: Token
   }[]
 > {
   console.log('OPTIMISM: get Token Pairs')
-  const optimismLists = getTokens().then((tokens) => groupBy(tokens, 'symbol'))
-  const filteredTokens = await optimismLists.then((tokens) => {
-    for (const tokenKey in tokens) {
-      tokens[tokenKey] = tokens[tokenKey]
-        .filter((token) => [SupportedChains.MAINNET, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
-        .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
-    }
-    return tokens
+  const optimismLists = await getTokens().then((tokens) => groupBy(tokens, 'symbol'))
+  const filteredTokens = optimismLists
+  for (const tokenKey in optimismLists) {
+    optimismLists[tokenKey] = optimismLists[tokenKey]
+      .filter((token) => [SupportedChains.MAINNET, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
+      .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
+  }
+
+  const pairs = getFromPairedTokens(filteredTokens, crosschainMap)
+  return pairs
+}
+
+function getFromPairedTokens(filteredTokens: { [key: string]: Token[] }, crosschainMap: CrosschainMap) {
+  const tokenPairs = Object.values(filteredTokens)
+    .filter((v) => v !== undefined && v.length > 0)
+    .map((tokenList) => {
+      if (tokenList.length == 2) return tokenList
+      tokenList = [
+        crosschainMap.getCrosschainTokenBySymbol({
+          chainId: SupportedChains.MAINNET,
+          symbol: tokenList[0].symbol
+        }) as Token,
+        tokenList[0]
+      ]
+      return tokenList
+    })
+    .filter((tokenList) => !tokenList.some((token) => typeof token == 'undefined'))
+  const l2Addresses = tokenPairs.map((token) => {
+    return token[1].address
   })
 
-  const l2Addresses = Object.values(filteredTokens)
-    .filter((v) => v.length === 2)
-    .map((TokenList) => TokenList[1].address)
-  const l1Tokens = Object.values(filteredTokens)
-    .filter((v) => v.length === 2)
-    .map((TokenList) => TokenList[0])
+  const l1Tokens = tokenPairs.map((tokens) => tokens[0])
 
   const pairs = l2Addresses.reduce<{ tokenA: Token; tokenB: Token }[]>((total, l2Address, index) => {
     if (l2Address) {
@@ -63,6 +79,5 @@ async function getTokenPair(): Promise<
 
     return total
   }, [])
-
   return pairs
 }
