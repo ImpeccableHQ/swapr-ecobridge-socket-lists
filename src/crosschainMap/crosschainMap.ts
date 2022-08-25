@@ -57,7 +57,9 @@ export class CrosschainMap {
     chainId: SupportedChains
     symbol: string
   }): MappedToken | undefined => {
-    const tokens = Object.values(this.tokenMapByChain[chainId])
+    const tokenMap = this.tokenMapByChain[chainId]
+    if (!tokenMap) return
+    const tokens = Object.values(tokenMap)
     return tokens.find((token) => token.symbol === symbol)
   }
 

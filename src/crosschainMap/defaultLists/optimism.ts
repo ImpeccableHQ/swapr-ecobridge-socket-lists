@@ -34,25 +34,36 @@ async function getTokenPair(crosschainMap: CrosschainMap): Promise<
 > {
   console.log('OPTIMISM: get Token Pairs')
   const optimismLists = await getTokens().then((tokens) => groupBy(tokens, 'symbol'))
-  const filteredTokens = optimismLists
-  for (const tokenKey in optimismLists) {
-    optimismLists[tokenKey] = optimismLists[tokenKey]
-      .filter((token) => [SupportedChains.MAINNET, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
-      .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
-  }
+  const listPairs = (Object.values(SupportedChains) as SupportedChains[])
+    .map((chain) => {
+      if (chain === SupportedChains.OPTIMISM_MAINNET) return []
+      const filteredTokens = optimismLists
+      for (const tokenKey in optimismLists) {
+        optimismLists[tokenKey] = optimismLists[tokenKey]
+          .filter((token) => [chain, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
+          .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
+      }
 
-  const pairs = getFromPairedTokens(filteredTokens, crosschainMap)
-  return pairs
+      const pairs = getFromPairedTokens(filteredTokens, crosschainMap, chain)
+      return pairs
+    })
+    .reduce((stateList, newList) => stateList.concat(newList), [])
+
+  return listPairs
 }
 
-function getFromPairedTokens(filteredTokens: { [key: string]: Token[] }, crosschainMap: CrosschainMap) {
+function getFromPairedTokens(
+  filteredTokens: { [key: string]: Token[] },
+  crosschainMap: CrosschainMap,
+  chain: SupportedChains
+) {
   const tokenPairs = Object.values(filteredTokens)
     .filter((v) => v !== undefined && v.length > 0)
     .map((tokenList) => {
       if (tokenList.length == 2) return tokenList
       tokenList = [
         crosschainMap.getCrosschainTokenBySymbol({
-          chainId: SupportedChains.MAINNET,
+          chainId: chain,
           symbol: tokenList[0].symbol
         }) as Token,
         tokenList[0]
