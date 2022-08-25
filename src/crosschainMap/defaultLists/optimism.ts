@@ -21,8 +21,9 @@ const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
 }
 
 export const getOptimismTokens = async (crosschainMap: CrosschainMap) => {
-  console.log('OPTIMISM: get Optimism Tokens')
+  console.log('OPTIMISM: Get Optimism Tokens')
   const L1L2Pairs = await getTokenPair(crosschainMap)
+  console.log('OPTIMISM: Adding Tokens')
   L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
 }
 
@@ -32,7 +33,6 @@ async function getTokenPair(crosschainMap: CrosschainMap): Promise<
     tokenB: Token
   }[]
 > {
-  console.log('OPTIMISM: get Token Pairs')
   const optimismLists = await getTokens().then((tokens) => groupBy(tokens, 'symbol'))
   const listPairs = (Object.values(SupportedChains) as SupportedChains[])
     .map((chain) => {
@@ -58,7 +58,7 @@ function getFromPairedTokens(
   chain: SupportedChains
 ) {
   const tokenPairs = Object.values(filteredTokens)
-    .filter((v) => v !== undefined && v.length > 0)
+    .filter((v) => v?.length > 0)
     .map((tokenList) => {
       if (tokenList.length == 2) return tokenList
       tokenList = [
@@ -71,8 +71,13 @@ function getFromPairedTokens(
       return tokenList
     })
     .filter((tokenList) => !tokenList.some((token) => typeof token == 'undefined'))
-  const l2Addresses = tokenPairs.map((token) => token[1].address)
-  const l1Tokens = tokenPairs.map((tokens) => tokens[0])
+
+  const l2Addresses: string[] = []
+  const l1Tokens: Token[] = []
+  tokenPairs.forEach((pairList) => {
+    l2Addresses.concat([pairList[1].address])
+    l1Tokens.concat([pairList[0]])
+  })
 
   const pairs = l2Addresses.reduce<{ tokenA: Token; tokenB: Token }[]>((total, l2Address, index) => {
     if (l2Address) {
