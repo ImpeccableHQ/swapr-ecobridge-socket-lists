@@ -71,10 +71,7 @@ function getFromPairedTokens(
       return tokenList
     })
     .filter((tokenList) => !tokenList.some((token) => typeof token == 'undefined'))
-  const l2Addresses = tokenPairs.map((token) => {
-    return token[1].address
-  })
-
+  const l2Addresses = tokenPairs.map((token) => token[1].address)
   const l1Tokens = tokenPairs.map((tokens) => tokens[0])
 
   const pairs = l2Addresses.reduce<{ tokenA: Token; tokenB: Token }[]>((total, l2Address, index) => {
