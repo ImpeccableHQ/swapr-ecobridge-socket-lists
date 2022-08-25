@@ -61,13 +61,10 @@ export const getUnidirectionalNativeWrappers = ({
     (token) => token.address.toLowerCase() === fromWrappedCurrency.addresses[toChainId]
   )
 
-  // console.log({ addresses: toWrappedCurrency.addresses })
   // to native wrapper currency on from list // eg. Mainnet-Gnosis, Mainnet DAI
-  const toWrappedSupportedOnFrom = fromTokenList.find((token) => {
-    // console.log({ fromChainId })
-    // console.log({ addresses: toWrappedCurrency.addresses[fromChainId] })
-    return token.address.toLowerCase() === toWrappedCurrency.addresses[fromChainId]
-  })
+  const toWrappedSupportedOnFrom = fromTokenList.find(
+    (token) => token.address.toLowerCase() === toWrappedCurrency.addresses[fromChainId]
+  )
 
   // eg. Mainnet ETH => WETH Gnosis
   // from native is present & from wrapper is present on to list, add wrapped to to list if it's not already there
