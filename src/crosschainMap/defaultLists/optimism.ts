@@ -60,7 +60,7 @@ function getFromPairedTokens(
   const tokenPairs = Object.values(filteredTokens)
     .filter((v) => v?.length > 0)
     .map((tokenList) => {
-      if (tokenList.length == 2) return tokenList
+      if (tokenList.length === 2) return tokenList
       tokenList = [
         crosschainMap.getCrosschainTokenBySymbol({
           chainId: chain,
@@ -70,13 +70,13 @@ function getFromPairedTokens(
       ]
       return tokenList
     })
-    .filter((tokenList) => !tokenList.some((token) => typeof token == 'undefined'))
+    .filter((tokenList) => !tokenList.some((token) => !token))
 
   const l2Addresses: string[] = []
   const l1Tokens: Token[] = []
   tokenPairs.forEach((pairList) => {
-    l2Addresses.concat([pairList[1].address])
-    l1Tokens.concat([pairList[0]])
+    l2Addresses.push(pairList[1].address)
+    l1Tokens.push(pairList[0])
   })
 
   const pairs = l2Addresses.reduce<{ tokenA: Token; tokenB: Token }[]>((total, l2Address, index) => {
