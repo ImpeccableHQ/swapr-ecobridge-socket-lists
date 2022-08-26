@@ -37,14 +37,13 @@ async function getTokenPair(crosschainMap: CrosschainMap): Promise<
   const listPairs = (Object.values(SupportedChains) as SupportedChains[])
     .map((chain) => {
       if (chain === SupportedChains.OPTIMISM_MAINNET) return []
-      const filteredTokens = optimismLists
       for (const tokenKey in optimismLists) {
         optimismLists[tokenKey] = optimismLists[tokenKey]
           .filter((token) => [chain, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
           .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
       }
 
-      const pairs = getFromPairedTokens(filteredTokens, crosschainMap, chain)
+      const pairs = getFromPairedTokens(optimismLists, crosschainMap, chain)
       return pairs
     })
     .reduce((stateList, newList) => stateList.concat(newList), [])
@@ -56,7 +55,10 @@ function getFromPairedTokens(
   filteredTokens: { [key: string]: Token[] },
   crosschainMap: CrosschainMap,
   chain: SupportedChains
-) {
+): {
+  tokenA: Token
+  tokenB: Token
+}[] {
   const tokenPairs = Object.values(filteredTokens)
     .filter((v) => v?.length > 0)
     .map((tokenList) => {
