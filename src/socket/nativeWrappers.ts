@@ -39,6 +39,7 @@ export const getUnidirectionalNativeWrappers = ({
   const wrappedCurrencyMapping = {
     [SupportedChains.MAINNET]: WETH,
     [SupportedChains.ARBITRUM]: WETH,
+    [SupportedChains.OPTIMISM_MAINNET]: WETH,
     [SupportedChains.GNOSIS]: DAI,
     [SupportedChains.POLYGON]: MATIC
   }
