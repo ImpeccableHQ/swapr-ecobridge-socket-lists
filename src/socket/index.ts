@@ -1,5 +1,4 @@
-import fetch from 'node-fetch'
-import { exportToJSON, parseResponse, uniqueTokens } from '../utils'
+import { exportToJSON, fetchWithRetries, parseResponse, uniqueTokens } from '../utils'
 import { CrosschainMap } from '../crosschainMap'
 import { crosschainTokenListToTokenList } from '../crosschainMap/converter'
 import { getUnidirectionalNativeWrappers } from './nativeWrappers'
@@ -43,19 +42,18 @@ const fetchSocketTokenLists = async ({
     })}`
 
   const fromTokenListPromise = parseResponse<SocketBaseResponse<SocketToken[]>>(
-    fetch(urlWithParams(SOCKET_ENDPOINTS.FETCH_FROM_TOKENS), {
+    fetchWithRetries(urlWithParams(SOCKET_ENDPOINTS.FETCH_FROM_TOKENS), 100, 3, {
       headers
     })
   )
 
   const toTokenListPromise = parseResponse<SocketBaseResponse<SocketToken[]>>(
-    fetch(urlWithParams(SOCKET_ENDPOINTS.FETCH_TO_TOKENS), {
+    fetchWithRetries(urlWithParams(SOCKET_ENDPOINTS.FETCH_TO_TOKENS), 100, 3, {
       headers
     })
   )
 
   const [fromTokenList, toTokenList] = await Promise.all([fromTokenListPromise, toTokenListPromise])
-
   if (debug) {
     const shortSuffix = shortList ? '-short' : ''
     exportToJSON(`${fromChainId}-${toChainId}-from${shortSuffix}`, fromTokenList)
@@ -75,20 +73,15 @@ const getListsIntersection = (fromList: SocketToken[], toList: SocketToken[], cr
 
   return toList.reduce<CrosschainToken[]>((total, token) => {
     const crosschainToken = crosschainMap.getCrosschainTokenByAddress(token)
-
     const fromTokenAddress = crosschainToken?.addresses[fromChainId]
-
     if (!fromTokenAddress) return total // no pair has been mapped
 
     const fromToken = fromList.find((fromToken) => fromToken.address.toLowerCase() === fromTokenAddress.toLowerCase())
-
     if (!fromToken) return total // we got the address of pair token but it's not present on toList so it can't be bridged 1:1
 
     // add icon and return crosschainToken for further mappigns
     const pairedToken: CrosschainToken = { ...crosschainToken, logoURI: token.icon }
-
     total.push(pairedToken)
-
     return total
   }, [])
 }
@@ -177,7 +170,6 @@ export const createEcoBridgeCompliantSocketList = async (
   console.log('SOCKET: Creating Socket lists')
 
   const chainPairs = createPairs(PRODUCTION_CHAINS)
-
   const listToExport: { [k: string]: Token[] } = {}
 
   for (const pair of chainPairs) {

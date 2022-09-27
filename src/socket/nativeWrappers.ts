@@ -1,10 +1,11 @@
 import { CrosschainMap } from '../crosschainMap'
 import { SocketToken, SupportedChains, Token } from '../types'
 
-const SOCKET_NATVE_ADDRESS = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
+const SOCKET_NATIVE_ADDRESS = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
 const WETH_MAINNET_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 const DAI_MAINNET_ADDRESS = '0x6b175474e89094c44da98b954eedeac495271d0f'
 const MATIC_MAINNET_ADDRESS = '0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0'
+const BNB_MAINNET_ADDRESS = '0xB8c77482e45F1F44dE1745F52C74426C631bDD52'
 
 export const getUnidirectionalNativeWrappers = ({
   fromTokenList,
@@ -31,8 +32,12 @@ export const getUnidirectionalNativeWrappers = ({
     address: DAI_MAINNET_ADDRESS,
     chainId: SupportedChains.MAINNET
   })
+  const BNB = crosschainMap.getCrosschainTokenByAddress({
+    address: BNB_MAINNET_ADDRESS,
+    chainId: SupportedChains.MAINNET
+  })
 
-  if (!WETH || !MATIC || !DAI) {
+  if (!WETH || !MATIC || !DAI || !BNB) {
     throw new Error('Native Wrappers not found!')
   }
 
@@ -41,7 +46,8 @@ export const getUnidirectionalNativeWrappers = ({
     [SupportedChains.ARBITRUM]: WETH,
     [SupportedChains.OPTIMISM_MAINNET]: WETH,
     [SupportedChains.GNOSIS]: DAI,
-    [SupportedChains.POLYGON]: MATIC
+    [SupportedChains.POLYGON]: MATIC,
+    [SupportedChains.BSC_MAINNET]: BNB
   }
 
   const fromChainId: keyof typeof wrappedCurrencyMapping = fromTokenList[0].chainId
@@ -51,10 +57,10 @@ export const getUnidirectionalNativeWrappers = ({
   const toWrappedCurrency = wrappedCurrencyMapping[toChainId]
 
   // from native currency on from list
-  const fromNativeSupported = fromTokenList.find((token) => token.address === SOCKET_NATVE_ADDRESS)
+  const fromNativeSupported = fromTokenList.find((token) => token.address === SOCKET_NATIVE_ADDRESS)
 
   // to native currency on to list
-  const toNativeSupported = toTokenList.find((token) => token.address === SOCKET_NATVE_ADDRESS)
+  const toNativeSupported = toTokenList.find((token) => token.address === SOCKET_NATIVE_ADDRESS)
 
   // from native wrapper currency on to list // eg. Mainnet-Gnosis, Gnosis WETH
   const fromWrappedSupportedOnTo = toTokenList.find(
@@ -62,9 +68,9 @@ export const getUnidirectionalNativeWrappers = ({
   )
 
   // to native wrapper currency on from list // eg. Mainnet-Gnosis, Mainnet DAI
-  const toWrappedSupportedOnFrom = fromTokenList.find(
-    (token) => token.address.toLowerCase() === toWrappedCurrency.addresses[fromChainId]
-  )
+  const toWrappedSupportedOnFrom = fromTokenList.find((token) => {
+    return token.address.toLowerCase() === toWrappedCurrency.addresses[fromChainId]
+  })
 
   // eg. Mainnet ETH => WETH Gnosis
   // from native is present & from wrapper is present on to list, add wrapped to to list if it's not already there

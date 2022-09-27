@@ -4,6 +4,7 @@ export enum SupportedChains {
   MAINNET = 1,
   RINKEBY = 4,
   OPTIMISM_MAINNET = 10,
+  BSC_MAINNET = 56,
   GNOSIS = 100,
   POLYGON = 137,
   ARBITRUM = 42161,
@@ -28,7 +29,8 @@ export const PRODUCTION_CHAINS = [
   SupportedChains.ARBITRUM,
   SupportedChains.GNOSIS,
   SupportedChains.POLYGON,
-  SupportedChains.OPTIMISM_MAINNET
+  SupportedChains.OPTIMISM_MAINNET,
+  SupportedChains.BSC_MAINNET
 ]
 
 export type Meta = {

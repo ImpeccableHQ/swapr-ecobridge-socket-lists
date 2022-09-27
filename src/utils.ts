@@ -2,10 +2,28 @@ import path from 'path'
 import { v4 as uuidv4 } from 'uuid'
 import { Folders, Token } from './types'
 import { writeFile, mkdir, rm } from 'fs/promises'
+import fetch from 'node-fetch'
+import { Response } from 'node-fetch/index'
 
 const meta = {
   id: uuidv4(),
   creationTime: new Date().toISOString()
+}
+
+function wait(delay: number) {
+  return new Promise((resolve) => setTimeout(resolve, delay))
+}
+
+export function fetchWithRetries(url: string, delay: number, tries: number, fetchOptions = {}): Promise<Response> {
+  async function onError(err: Error): Promise<Response> {
+    const triesLeft = tries - 1
+    if (!triesLeft) {
+      throw err
+    }
+    await wait(delay)
+    return await fetchWithRetries(url, delay, triesLeft, fetchOptions)
+  }
+  return fetch(url, fetchOptions).catch(onError)
 }
 
 export const parseResponse = async <RetType = any, T extends Promise<Response> = Promise<any>>(

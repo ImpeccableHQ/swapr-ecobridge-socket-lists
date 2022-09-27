@@ -1,5 +1,4 @@
-import fetch from 'node-fetch'
-import { exportToJSON } from '../../utils'
+import { exportToJSON, fetchWithRetries } from '../../utils'
 import { CrosschainMap } from '../crosschainMap'
 import { PolygonMapperResponse, PolygonToken, SupportedChains, Token } from '../../types'
 
@@ -27,7 +26,7 @@ const fetchPolygonTokens = async (debug = false) => {
   const tokens: PolygonToken[] = []
 
   while (nextPage) {
-    const response = await fetch(urlWithParams(offset))
+    const response = await fetchWithRetries(urlWithParams(offset), 100, 3)
     const responseJson: PolygonMapperResponse = await response.json()
 
     tokens.push(...responseJson.data.mapping)
