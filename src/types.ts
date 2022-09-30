@@ -62,10 +62,13 @@ export type TokenMapByChain = {
   [chain in SupportedChains]: TokenMap
 }
 
-export type CrosschainToken = CommonTokenProps & {
+export type CrosschainToken = {
+  name: string
+  symbol: string
   id: string
   logoURI?: string
   addresses: { [chain in SupportedChains]?: string }
+  decimals: { [chain in SupportedChains]?: number }
 }
 
 export type CrosschainMapContainer = {

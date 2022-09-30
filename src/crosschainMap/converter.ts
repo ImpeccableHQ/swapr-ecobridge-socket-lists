@@ -6,7 +6,7 @@ export const crosschainTokenListToTokenList = (
   crosschainTokenList: CrosschainToken[]
 ) => {
   const tokenList = crosschainTokenList.reduce<Token[]>((total, crosschainToken) => {
-    const { addresses, id, ...commonProps } = crosschainToken
+    const { addresses, decimals, id, ...commonProps } = crosschainToken
 
     const addressA = addresses[chainA]
     const addressB = addresses[chainB]
@@ -18,13 +18,15 @@ export const crosschainTokenListToTokenList = (
     const tokenA: Token = {
       ...commonProps,
       chainId: chainA,
-      address: addressA
+      address: addressA,
+      decimals: decimals[chainA] as number
     }
 
     const tokenB: Token = {
       ...commonProps,
       chainId: chainB,
-      address: addressB
+      address: addressB,
+      decimals: decimals[chainB] as number
     }
 
     total.push(tokenA, tokenB)

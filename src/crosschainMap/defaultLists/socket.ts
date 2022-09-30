@@ -23,16 +23,7 @@ export const getSocketTokens = async (crosschainMap: CrosschainMap) => {
   console.log('SOCKET_TOKENS: Get Tokens')
   const L1L2Pairs: TokenPair[] = await getTokenPair()
   console.log('SOCKET_TOKENS: Adding Tokens')
-
-  console.log(
-    L1L2Pairs.find(
-      (pair) => pair['tokenA'].address === WETH_MAINNET_ADDRESS || pair['tokenB'].address === WETH_MAINNET_ADDRESS
-    )
-  )
-  L1L2Pairs.forEach(({ tokenA, tokenB }) => {
-    // console.log({ tokenA, tokenB })
-    crosschainMap.addPair(tokenA, tokenB)
-  })
+  L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
 }
 
 async function getTokenPair(): Promise<TokenPair[]> {
@@ -40,7 +31,6 @@ async function getTokenPair(): Promise<TokenPair[]> {
     return !isNaN(Number(item))
   }) as SupportedChains[]
   const chainComb = combinationOfTwo(chains, chains).filter((pair) => pair[0] !== pair[1])
-  console.log(chainComb)
 
   const socketPairs = (
     await Promise.all(

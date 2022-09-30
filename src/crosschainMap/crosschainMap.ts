@@ -32,7 +32,7 @@ export class CrosschainMap {
 
   public populateWith = async (lists: CrosschainMappingList[], debug = false) => {
     if (lists.length === 0) {
-      console.log('No lists to load')
+      console.warn('No lists to load')
       return
     }
 
@@ -43,7 +43,7 @@ export class CrosschainMap {
 
   private addLog = (error: LogEntry) => {
     if (error.type === 'error') {
-      console.log(error)
+      console.error(error)
     }
     this.log.push(error)
   }
@@ -105,6 +105,7 @@ export class CrosschainMap {
     }
 
     crosschainToken.addresses[chainId] = tokenToAdd.address.toLowerCase()
+    crosschainToken.decimals[chainId] = tokenToAdd.decimals
   }
 
   private updateTokenMap = (id: string, token: Token) => {
@@ -141,12 +142,12 @@ export class CrosschainMap {
 
     const crosschainToken: CrosschainToken = {
       id,
-      decimals,
       name,
       symbol,
       addresses: {
         [chainId]: address.toLowerCase()
-      }
+      },
+      decimals: { [chainId]: decimals }
     }
 
     this.crosschainMap[id] = crosschainToken
