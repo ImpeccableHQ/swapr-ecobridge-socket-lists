@@ -1,13 +1,6 @@
 import { CrosschainMap } from '..'
-import { SocketToken, SupportedChains, Token } from '../../types'
+import { SocketToken, SupportedChains, Token, TokenPair } from '../../types'
 import { fetchSocketTokenLists } from '../../socket'
-
-const WETH_MAINNET_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
-
-type TokenPair = {
-  tokenA: Token
-  tokenB: Token
-}
 
 function combinationOfTwo(arr1: any[], arr2: any[]) {
   const pairs = []

@@ -54,6 +54,11 @@ export type MappedToken = Token & {
   id: string
 }
 
+export type TokenPair = {
+  tokenA: Token
+  tokenB: Token
+}
+
 export type TokenMap = {
   [address: string]: MappedToken
 }
