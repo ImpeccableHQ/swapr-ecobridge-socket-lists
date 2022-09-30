@@ -4,10 +4,10 @@ import fetch from 'node-fetch'
 
 async function getTokens() {
   const URL =
-    'https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/optimism.tokenlist.json'
+    'https://raw.githubusercontent.com/sushiswap/list/master/lists/token-lists/default-token-list/tokens/bsc.json'
   const data = await fetch(URL)
   const jsonData = await data.json()
-  return jsonData.tokens as MappedToken[]
+  return jsonData as MappedToken[]
 }
 
 const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
@@ -20,11 +20,10 @@ const groupBy = (array: any[], key: string): { [key: string]: Token[] } => {
   }, {}) // empty object is the initial value for result object
 }
 
-export const getOptimismTokens = async (crosschainMap: CrosschainMap) => {
-  console.log('OPTIMISM: Get Optimism Tokens')
+export const getSushiswapTokens = async (crosschainMap: CrosschainMap) => {
+  console.log('SUSHISWAP: Get Tokens')
   const L1L2Pairs = await getTokenPair(crosschainMap)
-  console.log(L1L2Pairs.slice(0, 4))
-  console.log('OPTIMISM: Adding Tokens')
+  console.log('SUSHISWAP: Adding Tokens')
   L1L2Pairs.forEach(({ tokenA, tokenB }) => crosschainMap.addPair(tokenA, tokenB))
 }
 
@@ -37,10 +36,10 @@ async function getTokenPair(crosschainMap: CrosschainMap): Promise<
   const optimismLists = await getTokens().then((tokens) => groupBy(tokens, 'symbol'))
   const listPairs = (Object.values(SupportedChains) as SupportedChains[])
     .map((chain) => {
-      if (chain === SupportedChains.OPTIMISM_MAINNET) return []
+      if (chain === SupportedChains.BSC_MAINNET) return []
       for (const tokenKey in optimismLists) {
         optimismLists[tokenKey] = optimismLists[tokenKey]
-          .filter((token) => [chain, SupportedChains.OPTIMISM_MAINNET].includes(token.chainId))
+          .filter((token) => [chain, SupportedChains.BSC_MAINNET].includes(token.chainId))
           .sort((tokenA, tokenB) => tokenA.chainId - tokenB.chainId)
       }
 
@@ -87,7 +86,7 @@ function getFromPairedTokens(
       const tokenA = l1Tokens[index]
       const tokenB: Token = {
         ...tokenA,
-        chainId: SupportedChains.OPTIMISM_MAINNET,
+        chainId: SupportedChains.BSC_MAINNET,
         address: l2Address
       }
       total.push({ tokenA, tokenB })

@@ -37,6 +37,7 @@ export const getUnidirectionalNativeWrappers = ({
     chainId: SupportedChains.MAINNET
   })
 
+  console.log({ WETH, MATIC, DAI, BNB })
   if (!WETH || !MATIC || !DAI || !BNB) {
     throw new Error('Native Wrappers not found!')
   }

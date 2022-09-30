@@ -14,15 +14,16 @@ import {
 } from '../types'
 
 const SOCKET_BASE_URL = 'https://backend.movr.network/v2/'
-const SOCKET_PUBLIC_API_KEY = '645b2c8c-5825-4930-baf3-d9b997fcd88c'
 
-const SOCKET_ENDPOINTS = {
+export const SOCKET_PUBLIC_API_KEY = '645b2c8c-5825-4930-baf3-d9b997fcd88c'
+
+export const SOCKET_ENDPOINTS = {
   FETCH_FROM_TOKENS: `${SOCKET_BASE_URL}token-lists/from-token-list`,
   FETCH_TO_TOKENS: `${SOCKET_BASE_URL}token-lists/to-token-list`
 }
 const headers: HeadersInit = { 'API-KEY': SOCKET_PUBLIC_API_KEY }
 
-const fetchSocketTokenLists = async ({
+export const fetchSocketTokenLists = async ({
   fromChainId,
   toChainId,
   debug = false,
@@ -37,7 +38,7 @@ const fetchSocketTokenLists = async ({
     `${url}?${new URLSearchParams({
       fromChainId,
       toChainId,
-      singleTxOnly: 'true',
+      // singleTxOnly: 'true',
       ...(shortList && { isShortList: 'true' })
     })}`
 
@@ -101,7 +102,7 @@ const getBidirectionalList = (listA: CrosschainToken[], listB: CrosschainToken[]
   return bidirectionalList
 }
 
-const createSocketList = async ({
+export const createSocketList = async ({
   chainA,
   chainB,
   crosschainMap,

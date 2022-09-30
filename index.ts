@@ -9,13 +9,12 @@ const init = async () => {
 
   const crosschainMap = new CrosschainMap()
   await crosschainMap.populateWith(defaultLists, debug)
+  crosschainMap.toJSON(debug)
 
   createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: false, shortList: true })
   createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: false, shortList: false })
   createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: true, shortList: true })
   createEcoBridgeCompliantSocketList(crosschainMap, { debug, bidirectional: true, shortList: false })
-
-  crosschainMap.toJSON(debug)
 }
 
 init()
