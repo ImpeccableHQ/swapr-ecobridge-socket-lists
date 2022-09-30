@@ -14,14 +14,14 @@ function wait(delay: number) {
   return new Promise((resolve) => setTimeout(resolve, delay))
 }
 
-export function fetchWithRetries(url: string, delay: number, tries: number, fetchOptions = {}): Promise<Response> {
+export function fetchWithRetries(delay: number, tries: number, url: string, fetchOptions = {}): Promise<Response> {
   async function onError(err: Error): Promise<Response> {
     const triesLeft = tries - 1
     if (!triesLeft) {
       throw err
     }
     await wait(delay)
-    return await fetchWithRetries(url, delay, triesLeft, fetchOptions)
+    return await fetchWithRetries(delay, triesLeft, url, fetchOptions)
   }
   return fetch(url, fetchOptions).catch(onError)
 }

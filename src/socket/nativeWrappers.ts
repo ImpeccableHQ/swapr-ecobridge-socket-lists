@@ -83,9 +83,9 @@ export const getUnidirectionalNativeWrappers = ({
       name: fromWrappedCurrency.name,
       symbol: fromWrappedCurrency.symbol,
       chainId: toChainId,
-      decimals: fromWrappedCurrency.decimals,
+      decimals: fromWrappedCurrency.decimals[toChainId] as number,
       logoURI: fromWrappedSupportedOnTo.icon,
-      address: fromWrappedCurrency.addresses[toChainId]!
+      address: fromWrappedCurrency.addresses[toChainId] as string
     }
     nativeWrappers.push(token)
   }
@@ -101,9 +101,9 @@ export const getUnidirectionalNativeWrappers = ({
       name: toWrappedCurrency.name,
       symbol: toWrappedCurrency.symbol,
       chainId: fromChainId,
-      decimals: toWrappedCurrency.decimals,
+      decimals: toWrappedCurrency.decimals[fromChainId] as number,
       logoURI: toWrappedSupportedOnFrom.icon,
-      address: toWrappedCurrency.addresses[fromChainId]!
+      address: toWrappedCurrency.addresses[fromChainId] as string
     }
     nativeWrappers.push(token)
   }

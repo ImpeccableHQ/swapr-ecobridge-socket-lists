@@ -38,18 +38,17 @@ export const fetchSocketTokenLists = async ({
     `${url}?${new URLSearchParams({
       fromChainId,
       toChainId,
-      // singleTxOnly: 'true',
       ...(shortList && { isShortList: 'true' })
     })}`
 
   const fromTokenListPromise = parseResponse<SocketBaseResponse<SocketToken[]>>(
-    fetchWithRetries(urlWithParams(SOCKET_ENDPOINTS.FETCH_FROM_TOKENS), 100, 3, {
+    fetchWithRetries(100, 10, urlWithParams(SOCKET_ENDPOINTS.FETCH_FROM_TOKENS), {
       headers
     })
   )
 
   const toTokenListPromise = parseResponse<SocketBaseResponse<SocketToken[]>>(
-    fetchWithRetries(urlWithParams(SOCKET_ENDPOINTS.FETCH_TO_TOKENS), 100, 3, {
+    fetchWithRetries(100, 10, urlWithParams(SOCKET_ENDPOINTS.FETCH_TO_TOKENS), {
       headers
     })
   )

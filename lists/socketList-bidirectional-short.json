@@ -1,6 +1,6 @@
 {
-  "id": "7989c6d3-5e73-4b09-b175-b5908d2b0224",
-  "creationTime": "2022-09-30T17:18:37.306Z",
+  "id": "05b688ef-4a5d-4481-be76-71f9e9710897",
+  "creationTime": "2022-09-30T18:26:53.783Z",
   "data": {
     "1-42161": [
       {
@@ -377,14 +377,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 1,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
       },
@@ -392,14 +385,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 1,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
       }
@@ -1439,14 +1425,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 42161,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       },
@@ -1454,14 +1433,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 42161,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       }
@@ -2117,14 +2089,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 137,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       },
@@ -2132,14 +2097,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 137,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       }
@@ -2245,14 +2203,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 10,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       },
@@ -2260,14 +2211,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 10,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
       }
@@ -2341,14 +2285,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 56,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
       },
@@ -2356,14 +2293,7 @@
         "name": "Dai stable coin",
         "symbol": "DAI",
         "chainId": 56,
-        "decimals": {
-          "1": 18,
-          "10": 18,
-          "56": 18,
-          "100": 18,
-          "137": 18,
-          "42161": 18
-        },
+        "decimals": 18,
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
         "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
       }
