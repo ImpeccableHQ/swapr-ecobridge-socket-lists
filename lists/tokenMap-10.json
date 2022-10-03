@@ -1,9 +1,9 @@
 {
-  "id": "05b688ef-4a5d-4481-be76-71f9e9710897",
-  "creationTime": "2022-09-30T18:26:53.783Z",
+  "id": "d9263e77-dff2-4e1d-8881-a15847da9b53",
+  "creationTime": "2022-10-03T17:58:57.730Z",
   "data": {
     "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
-      "id": "03eb9232-f7c4-4e52-8e1d-906b82df2606",
+      "id": "0c27978f-2de2-4e49-913a-3ad22da1748d",
       "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "chainId": 10,
       "decimals": 18,
@@ -11,7 +11,7 @@
       "symbol": "ETH"
     },
     "0x4200000000000000000000000000000000000006": {
-      "id": "0b6d7676-9c88-4f7f-a483-a2e954a3b5f9",
+      "id": "b3092784-ca6a-4f05-83ef-1f8c925d974d",
       "address": "0x4200000000000000000000000000000000000006",
       "chainId": 10,
       "decimals": 18,
@@ -19,7 +19,7 @@
       "symbol": "WETH"
     },
     "0x8700daec35af8ff88c16bdf0418774cb3d7599b4": {
-      "id": "afb470b1-13d3-4c8c-b946-f768f638f5fd",
+      "id": "f5e2a6d3-affd-4f02-87b4-f0d97f8b99d9",
       "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
       "chainId": 10,
       "decimals": 18,
@@ -27,7 +27,7 @@
       "symbol": "SNX"
     },
     "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": {
-      "id": "a78b9d7b-6e2a-4774-8280-d5ca87ae4501",
+      "id": "5baf3969-ee00-4f92-a086-e389911a261c",
       "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
       "chainId": 10,
       "decimals": 18,
@@ -35,7 +35,7 @@
       "symbol": "DAI"
     },
     "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58": {
-      "id": "bc54520a-8f6b-4dff-b7a0-c24eec0e9463",
+      "id": "9118e877-c810-4a55-a15e-2f21336ff8b6",
       "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
       "chainId": 10,
       "decimals": 6,
@@ -43,7 +43,7 @@
       "symbol": "USDT"
     },
     "0x68f180fcce6836688e9084f035309e29bf0a2095": {
-      "id": "d2873838-cdb7-470b-b779-e8cc02762d78",
+      "id": "75e2c182-b874-4d14-97c4-ef985c9edaba",
       "address": "0x68f180fcce6836688e9084f035309e29bf0a2095",
       "chainId": 10,
       "decimals": 8,
@@ -51,7 +51,7 @@
       "symbol": "WBTC"
     },
     "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6": {
-      "id": "093afeb1-65a3-4de2-b1ad-6d3be1297de8",
+      "id": "5ba4529e-864b-4946-b05e-9fa9552ea80e",
       "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
       "chainId": 10,
       "decimals": 18,
@@ -59,7 +59,7 @@
       "symbol": "LINK"
     },
     "0x7f5c764cbc14f9669b88837ca1490cca17c31607": {
-      "id": "6957ce0b-d0ff-42b4-bb66-45accbf4374b",
+      "id": "30e53eed-02fc-432f-be9f-ed349bf38ffe",
       "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
       "chainId": 10,
       "decimals": 6,
@@ -67,7 +67,7 @@
       "symbol": "USDC"
     },
     "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9": {
-      "id": "956e94f5-afaf-48e3-ab6d-3ae8f27b1042",
+      "id": "e57c984b-c143-45ac-b334-41b580cdc89b",
       "address": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
       "chainId": 10,
       "decimals": 18,
@@ -75,7 +75,7 @@
       "symbol": "SUSD"
     },
     "0x217d47011b23bb961eb6d93ca9945b7501a5bb11": {
-      "id": "6458b8a8-6162-4f1b-982f-8e76ba3ddc41",
+      "id": "8d145876-9eda-422b-a95f-8926eb8ae6a2",
       "address": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
       "chainId": 10,
       "decimals": 18,
@@ -83,7 +83,7 @@
       "symbol": "THALES"
     },
     "0x7fb688ccf682d58f86d7e38e03f9d22e7705448b": {
-      "id": "5297ad3f-79af-4ba7-ad13-186c5e815f10",
+      "id": "ac0c8155-da07-4f12-9330-b6da92d13a5a",
       "address": "0x7fb688ccf682d58f86d7e38e03f9d22e7705448b",
       "chainId": 10,
       "decimals": 18,
@@ -91,7 +91,7 @@
       "symbol": "RAI"
     },
     "0x50c5725949a6f0c72e6c4a641f24049a917db0cb": {
-      "id": "ad91b4ce-d510-4432-bc39-9f537f5bc9da",
+      "id": "0680c6b9-2467-4fb3-945a-09d0fe96e32e",
       "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
       "chainId": 10,
       "decimals": 18,
@@ -99,7 +99,7 @@
       "symbol": "LYRA"
     },
     "0x9e1028f5f1d5ede59748ffcee5532509976840e0": {
-      "id": "1adfa47b-abbe-42e9-a40d-8939dd34ae24",
+      "id": "c330e5ee-3026-4e6b-89d7-137a7f1db45f",
       "address": "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
       "chainId": 10,
       "decimals": 18,
@@ -107,7 +107,7 @@
       "symbol": "PERP"
     },
     "0xf98dcd95217e15e05d8638da4c91125e59590b07": {
-      "id": "ff2fd0cf-e2f3-4cbd-99fa-a94c91413849",
+      "id": "0cd67dbc-e504-4d54-b057-ccf3e35345b9",
       "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07",
       "chainId": 10,
       "decimals": 18,
@@ -115,7 +115,7 @@
       "symbol": "KROM"
     },
     "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee": {
-      "id": "7d57fa0c-80c7-4c91-a613-f271130cbc98",
+      "id": "8699537f-7fc8-4786-b749-19d5d8b7178d",
       "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
       "chainId": 10,
       "decimals": 18,
@@ -123,7 +123,7 @@
       "symbol": "ELK"
     },
     "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49": {
-      "id": "0f57aa8b-bc64-4f35-9d84-bbfbfcdbd2df",
+      "id": "0a878162-af39-4042-95f1-f0665f112e41",
       "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49",
       "chainId": 10,
       "decimals": 18,
@@ -131,15 +131,23 @@
       "symbol": "SETH"
     },
     "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642": {
-      "id": "85483f2a-5335-4601-8313-ad7ca9e5647a",
+      "id": "077d76fd-9e18-4e23-bdef-269eec0a4eb7",
       "address": "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642",
       "chainId": 10,
       "decimals": 18,
       "name": "beefy.finance",
       "symbol": "BIFI"
     },
+    "0xae31207ac34423c41576ff59bfb4e036150f9cf7": {
+      "id": "4a0f77db-eb76-4f73-9a43-b7f78b16af05",
+      "address": "0xae31207ac34423c41576ff59bfb4e036150f9cf7",
+      "chainId": 10,
+      "decimals": 18,
+      "name": "Saddle DAO",
+      "symbol": "SDL"
+    },
     "0x374ad0f47f4ca39c78e5cc54f1c9e426ff8f231a": {
-      "id": "5acc673b-45a9-4396-b02c-31d9805049f9",
+      "id": "f0963fdb-30ed-499d-82cf-edcb576cba45",
       "address": "0x374ad0f47f4ca39c78e5cc54f1c9e426ff8f231a",
       "chainId": 10,
       "decimals": 18,
@@ -147,7 +155,7 @@
       "symbol": "PREMIA"
     },
     "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be": {
-      "id": "1e4acb80-7349-4cce-8c8a-9561dee2d0fa",
+      "id": "c919bfbb-0b67-4561-940e-6c4c32cbb2b5",
       "address": "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be",
       "chainId": 10,
       "decimals": 18,
@@ -155,7 +163,7 @@
       "symbol": "FXS"
     },
     "0x2e3d870790dc77a83dd1d18184acc7439a53f475": {
-      "id": "a874a281-7bd3-449f-853c-4ec57403763d",
+      "id": "f3a5134b-2267-47c3-a36d-2b285dd7870e",
       "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
       "chainId": 10,
       "decimals": 18,
@@ -163,23 +171,23 @@
       "symbol": "FRAX"
     },
     "0x298b9b95708152ff6968aafd889c6586e9169f1d": {
-      "id": "ed6ef36e-1e23-49be-95c2-27aa26475418",
+      "id": "8f333a1b-7d8b-4c03-966d-acc37c044d53",
       "address": "0x298b9b95708152ff6968aafd889c6586e9169f1d",
       "chainId": 10,
       "decimals": 18,
       "name": "Synth BTC(sBTC)",
       "symbol": "SBTC"
     },
-    "0xae31207ac34423c41576ff59bfb4e036150f9cf7": {
-      "id": "ef090f31-03a3-42e3-80af-fee095d4f65f",
-      "address": "0xae31207ac34423c41576ff59bfb4e036150f9cf7",
+    "0xe7798f023fc62146e8aa1b36da45fb70855a77ea": {
+      "id": "3bc80e0f-b2bc-40f4-8015-1a5ec95098b5",
+      "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
       "chainId": 10,
       "decimals": 18,
-      "name": "Saddle DAO",
-      "symbol": "SDL"
+      "name": "UMA Voting Token v1",
+      "symbol": "UMA"
     },
     "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3": {
-      "id": "acf4cf3a-e445-4ab5-9f91-6a10ea2168a9",
+      "id": "875ce6a8-4f8f-4b09-839e-a735ee93862c",
       "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
       "chainId": 10,
       "decimals": 18,
@@ -187,7 +195,7 @@
       "symbol": "DF"
     },
     "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000": {
-      "id": "03eb9232-f7c4-4e52-8e1d-906b82df2606",
+      "id": "0c27978f-2de2-4e49-913a-3ad22da1748d",
       "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
       "chainId": 10,
       "decimals": 18,
@@ -195,23 +203,15 @@
       "symbol": "ETH"
     },
     "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819": {
-      "id": "66424d44-d9c6-4626-81df-9136fae3f398",
+      "id": "3768c0e7-914a-4f16-8687-e7f46edefa46",
       "address": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
       "chainId": 10,
       "decimals": 18,
       "name": "LUSD Stablecoin",
       "symbol": "LUSD"
     },
-    "0xe7798f023fc62146e8aa1b36da45fb70855a77ea": {
-      "id": "f9bbd540-3f6b-42e1-b1da-3cd80b458d71",
-      "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
-      "chainId": 10,
-      "decimals": 18,
-      "name": "UMA Voting Token v1",
-      "symbol": "UMA"
-    },
     "0xd6909e9e702024eb93312b989ee46794c0fb1c9d": {
-      "id": "efc6ef50-b2ef-4705-9b96-3b68cb535317",
+      "id": "c787e937-4e50-4ba4-ad5c-59e28186b50f",
       "address": "0xd6909e9e702024eb93312b989ee46794c0fb1c9d",
       "chainId": 10,
       "decimals": 18,
@@ -219,7 +219,7 @@
       "symbol": "BICO"
     },
     "0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9": {
-      "id": "6ad2584d-ef71-41a6-8511-0e567ad4988e",
+      "id": "429db205-0a1a-4040-a859-098a2a251f77",
       "address": "0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9",
       "chainId": 10,
       "decimals": 18,
@@ -227,7 +227,7 @@
       "symbol": "USX"
     },
     "0x73cb180bf0521828d8849bc8cf2b920918e23032": {
-      "id": "d68ac2d2-21d6-476a-bdf7-2fb5de6cd40a",
+      "id": "bcb14285-d4f6-4f3d-8400-9539115ddbb8",
       "address": "0x73cb180bf0521828d8849bc8cf2b920918e23032",
       "chainId": 10,
       "decimals": 6,
@@ -235,7 +235,7 @@
       "symbol": "USD+"
     },
     "0xdfa46478f9e5ea86d57387849598dbfb2e964b02": {
-      "id": "4772b9c0-f348-41d8-aff4-77191d34037c",
+      "id": "8cf2b60e-5937-4a8d-8a2f-1c1d55b904cd",
       "address": "0xdfa46478f9e5ea86d57387849598dbfb2e964b02",
       "chainId": 10,
       "decimals": 18,
@@ -243,7 +243,7 @@
       "symbol": "MIMATIC"
     },
     "0xd52f94df742a6f4b4c8b033369fe13a41782bf44": {
-      "id": "df38223f-e274-422f-a17b-311db5bb5cd2",
+      "id": "7e6c9256-e687-4fcd-a90f-b3fd95800728",
       "address": "0xd52f94df742a6f4b4c8b033369fe13a41782bf44",
       "chainId": 10,
       "decimals": 18,

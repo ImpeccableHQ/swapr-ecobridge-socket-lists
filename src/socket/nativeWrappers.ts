@@ -79,13 +79,20 @@ export const getUnidirectionalNativeWrappers = ({
     fromWrappedSupportedOnTo &&
     !tokenList.find((token) => token.address === fromWrappedSupportedOnTo.address.toLowerCase())
   ) {
+    const fromWrappedDecimals = fromWrappedCurrency.decimals[toChainId]
+    const fromWrappedAddress = fromWrappedCurrency.addresses[toChainId]
+
+    if (fromWrappedDecimals === undefined || fromWrappedAddress === undefined) {
+      throw new Error('Addresses not found, this shouldnt happen')
+    }
+
     const token: Token = {
       name: fromWrappedCurrency.name,
       symbol: fromWrappedCurrency.symbol,
       chainId: toChainId,
-      decimals: fromWrappedCurrency.decimals[toChainId] as number,
+      decimals: fromWrappedDecimals,
       logoURI: fromWrappedSupportedOnTo.icon,
-      address: fromWrappedCurrency.addresses[toChainId] as string
+      address: fromWrappedAddress
     }
     nativeWrappers.push(token)
   }
@@ -97,13 +104,19 @@ export const getUnidirectionalNativeWrappers = ({
     toWrappedSupportedOnFrom &&
     !tokenList.find((token) => token.address === toWrappedSupportedOnFrom.address.toLowerCase())
   ) {
+    const toWrappedDecimals = toWrappedCurrency.decimals[fromChainId]
+    const toWrappedAddress = toWrappedCurrency.addresses[fromChainId]
+
+    if (toWrappedDecimals === undefined || toWrappedAddress === undefined) {
+      throw new Error('Addresses not found, this shouldnt happen')
+    }
     const token: Token = {
       name: toWrappedCurrency.name,
       symbol: toWrappedCurrency.symbol,
       chainId: fromChainId,
-      decimals: toWrappedCurrency.decimals[fromChainId] as number,
+      decimals: toWrappedDecimals,
       logoURI: toWrappedSupportedOnFrom.icon,
-      address: toWrappedCurrency.addresses[fromChainId] as string
+      address: toWrappedAddress
     }
     nativeWrappers.push(token)
   }

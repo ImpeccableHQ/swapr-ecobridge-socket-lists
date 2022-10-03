@@ -1,6 +1,6 @@
 {
-  "id": "05b688ef-4a5d-4481-be76-71f9e9710897",
-  "creationTime": "2022-09-30T18:26:53.783Z",
+  "id": "d9263e77-dff2-4e1d-8881-a15847da9b53",
+  "creationTime": "2022-10-03T17:58:57.730Z",
   "data": {
     "1-42161": [
       {
@@ -244,22 +244,6 @@
         "decimals": 18
       },
       {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 1,
-        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
-        "decimals": 18
-      },
-      {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 42161,
-        "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-        "decimals": 18
-      },
-      {
         "name": "Premia",
         "symbol": "PREMIA",
         "logoURI": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png?1623679482",
@@ -273,6 +257,22 @@
         "logoURI": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png?1623679482",
         "chainId": 42161,
         "address": "0x51fc0f6660482ea73330e414efd7808811a57fa2",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 1,
+        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 42161,
+        "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
         "decimals": 18
       }
     ],
@@ -824,22 +824,6 @@
         "decimals": 18
       },
       {
-        "name": "Amp",
-        "symbol": "AMP",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/amp.svg",
-        "chainId": 1,
-        "address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
-        "decimals": 18
-      },
-      {
-        "name": "Amp",
-        "symbol": "AMP",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/amp.svg",
-        "chainId": 137,
-        "address": "0x0621d647cecbfb64b79e44302c1933cb4f27054d",
-        "decimals": 18
-      },
-      {
         "name": "The Graph",
         "symbol": "GRT",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/grt.svg",
@@ -872,22 +856,6 @@
         "decimals": 18
       },
       {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 1,
-        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
-        "decimals": 18
-      },
-      {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 137,
-        "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
-        "decimals": 18
-      },
-      {
         "name": "Ethereum name Service",
         "symbol": "ENS",
         "logoURI": "https://assets.coingecko.com/coins/images/19785/small/acatxTm8_400x400.jpg?1635850140",
@@ -901,6 +869,38 @@
         "logoURI": "https://assets.coingecko.com/coins/images/19785/small/acatxTm8_400x400.jpg?1635850140",
         "chainId": 137,
         "address": "0xbd7a5cf51d22930b8b3df6d834f9bcef90ee7c4f",
+        "decimals": 18
+      },
+      {
+        "name": "Amp",
+        "symbol": "AMP",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/amp.svg",
+        "chainId": 1,
+        "address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+        "decimals": 18
+      },
+      {
+        "name": "Amp",
+        "symbol": "AMP",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/amp.svg",
+        "chainId": 137,
+        "address": "0x0621d647cecbfb64b79e44302c1933cb4f27054d",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 1,
+        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 137,
+        "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
         "decimals": 18
       },
       {
@@ -1098,22 +1098,6 @@
         "decimals": 18
       },
       {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 1,
-        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
-        "decimals": 18
-      },
-      {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 10,
-        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
-        "decimals": 18
-      },
-      {
         "name": "Premia",
         "symbol": "PREMIA",
         "logoURI": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png?1623679482",
@@ -1127,6 +1111,22 @@
         "logoURI": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png?1623679482",
         "chainId": 10,
         "address": "0x374ad0f47f4ca39c78e5cc54f1c9e426ff8f231a",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 1,
+        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 10,
+        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
         "decimals": 18
       }
     ],
@@ -1276,22 +1276,6 @@
         "decimals": 18
       },
       {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 1,
-        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
-        "decimals": 18
-      },
-      {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 56,
-        "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
-        "decimals": 18
-      },
-      {
         "name": "Premia",
         "symbol": "PREMIA",
         "logoURI": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png?1623679482",
@@ -1306,9 +1290,41 @@
         "chainId": 56,
         "address": "0xc417b45e6090bd4201d9400b48f84c9f34f4d0a5",
         "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 1,
+        "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 56,
+        "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+        "decimals": 18
       }
     ],
     "100-42161": [
+      {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
+        "chainId": 42161,
+        "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "decimals": 18
+      },
+      {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
+        "chainId": 100,
+        "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+        "decimals": 18
+      },
       {
         "name": "Gnosis Token",
         "symbol": "GNO",
@@ -1390,22 +1406,6 @@
         "decimals": 8
       },
       {
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
-        "chainId": 42161,
-        "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-        "decimals": 18
-      },
-      {
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
-        "chainId": 100,
-        "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
-        "decimals": 18
-      },
-      {
         "name": "miMATIC",
         "symbol": "MIMATIC",
         "logoURI": "https://assets.coingecko.com/coins/images/15264/small/mimatic-red.png?1620281018",
@@ -1439,6 +1439,54 @@
       }
     ],
     "137-42161": [
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
+        "chainId": 42161,
+        "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+        "decimals": 18
+      },
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
+        "chainId": 137,
+        "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "decimals": 18
+      },
+      {
+        "name": "Dai stable coin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 42161,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "decimals": 18
+      },
+      {
+        "name": "Dai stable coin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 137,
+        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 42161,
+        "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+        "decimals": 18
+      },
+      {
+        "name": "Frax",
+        "symbol": "FRAX",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
+        "chainId": 137,
+        "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+        "decimals": 18
+      },
       {
         "name": "Compound Coin",
         "symbol": "COMP",
@@ -1504,22 +1552,6 @@
         "decimals": 18
       },
       {
-        "name": "Uniswap",
-        "symbol": "UNI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
-        "chainId": 42161,
-        "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
-        "decimals": 18
-      },
-      {
-        "name": "Uniswap",
-        "symbol": "UNI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
-        "chainId": 137,
-        "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
-        "decimals": 18
-      },
-      {
         "name": "Tether USD",
         "symbol": "USDT",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
@@ -1568,22 +1600,6 @@
         "decimals": 8
       },
       {
-        "name": "Dai stable coin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 42161,
-        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
-        "decimals": 18
-      },
-      {
-        "name": "Dai stable coin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 137,
-        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
-        "decimals": 18
-      },
-      {
         "name": "miMATIC",
         "symbol": "MIMATIC",
         "logoURI": "https://assets.coingecko.com/coins/images/15264/small/mimatic-red.png?1620281018",
@@ -1614,6 +1630,40 @@
         "chainId": 137,
         "address": "0x1a3acf6d19267e2d3e7f898f42803e90c9219062",
         "decimals": 18
+      }
+    ],
+    "10-42161": [
+      {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
+        "chainId": 42161,
+        "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "decimals": 18
+      },
+      {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
+        "chainId": 10,
+        "address": "0x4200000000000000000000000000000000000006",
+        "decimals": 18
+      },
+      {
+        "name": "Dai stable coin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 42161,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "decimals": 18
+      },
+      {
+        "name": "Dai stable coin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 10,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "decimals": 18
       },
       {
         "name": "Frax",
@@ -1627,12 +1677,10 @@
         "name": "Frax",
         "symbol": "FRAX",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 137,
-        "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+        "chainId": 10,
+        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
         "decimals": 18
-      }
-    ],
-    "10-42161": [
+      },
       {
         "name": "Chainlink",
         "symbol": "LINK",
@@ -1714,38 +1762,6 @@
         "decimals": 8
       },
       {
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
-        "chainId": 42161,
-        "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-        "decimals": 18
-      },
-      {
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/weth.svg",
-        "chainId": 10,
-        "address": "0x4200000000000000000000000000000000000006",
-        "decimals": 18
-      },
-      {
-        "name": "Dai stable coin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 42161,
-        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
-        "decimals": 18
-      },
-      {
-        "name": "Dai stable coin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 10,
-        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
-        "decimals": 18
-      },
-      {
         "name": "L2DAO Token",
         "symbol": "L2DAO",
         "logoURI": "https://arbiscan.io/token/images/layer2dao_32.png",
@@ -1792,6 +1808,40 @@
         "chainId": 10,
         "address": "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be",
         "decimals": 18
+      }
+    ],
+    "56-42161": [
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
+        "chainId": 42161,
+        "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+        "decimals": 18
+      },
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
+        "chainId": 56,
+        "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+        "decimals": 18
+      },
+      {
+        "name": "Dai stable coin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 42161,
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "decimals": 18
+      },
+      {
+        "name": "Dai stable coin",
+        "symbol": "DAI",
+        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
+        "chainId": 56,
+        "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+        "decimals": 18
       },
       {
         "name": "Frax",
@@ -1805,12 +1855,10 @@
         "name": "Frax",
         "symbol": "FRAX",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 10,
-        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+        "chainId": 56,
+        "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
         "decimals": 18
-      }
-    ],
-    "56-42161": [
+      },
       {
         "name": "Ethereum Token",
         "symbol": "ETH",
@@ -1876,22 +1924,6 @@
         "decimals": 18
       },
       {
-        "name": "Uniswap",
-        "symbol": "UNI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
-        "chainId": 42161,
-        "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
-        "decimals": 18
-      },
-      {
-        "name": "Uniswap",
-        "symbol": "UNI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/uni.svg",
-        "chainId": 56,
-        "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
-        "decimals": 18
-      },
-      {
         "name": "Tether USD",
         "symbol": "USDT",
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdt.svg",
@@ -1921,22 +1953,6 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/usdc.svg",
         "chainId": 56,
         "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "decimals": 18
-      },
-      {
-        "name": "Dai stable coin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 42161,
-        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
-        "decimals": 18
-      },
-      {
-        "name": "Dai stable coin",
-        "symbol": "DAI",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/dai.svg",
-        "chainId": 56,
-        "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
         "decimals": 18
       },
       {
@@ -1985,22 +2001,6 @@
         "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/fxs.svg",
         "chainId": 56,
         "address": "0xe48a3d7d0bc88d552f730b62c006bc925eadb9ee",
-        "decimals": 18
-      },
-      {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 42161,
-        "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-        "decimals": 18
-      },
-      {
-        "name": "Frax",
-        "symbol": "FRAX",
-        "logoURI": "https://maticnetwork.github.io/polygon-token-assets/assets/frax.svg",
-        "chainId": 56,
-        "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
         "decimals": 18
       }
     ],

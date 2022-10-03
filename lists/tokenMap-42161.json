@@ -1,161 +1,17 @@
 {
-  "id": "05b688ef-4a5d-4481-be76-71f9e9710897",
-  "creationTime": "2022-09-30T18:26:53.783Z",
+  "id": "d9263e77-dff2-4e1d-8881-a15847da9b53",
+  "creationTime": "2022-10-03T17:58:57.730Z",
   "data": {
-    "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e": {
-      "id": "5edfe615-50d2-408e-b104-0a6689cd58ee",
-      "address": "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Badger",
-      "symbol": "BADGER"
-    },
-    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
-      "id": "c16c40b9-4f3c-4fae-bf5c-b1042bdd1579",
-      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Ethereum",
-      "symbol": "ETH"
-    },
-    "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8": {
-      "id": "1042ca52-fc79-4656-aaf0-67385dbcf4f4",
-      "address": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Balancer",
-      "symbol": "BAL"
-    },
-    "0x354a6da3fcde098f8389cad84b0182725c6c91de": {
-      "id": "cad3af1b-fbe2-4cc9-8cc9-bf56cad2be31",
-      "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Compound",
-      "symbol": "COMP"
-    },
-    "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978": {
-      "id": "0f8a0acb-9846-4aad-aa1b-72aced6d4fd8",
-      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Curve DAO Token",
-      "symbol": "CRV"
-    },
-    "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65": {
-      "id": "f5940d95-65e2-4720-9981-dc8b1f13b3b2",
-      "address": "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "dHedge DAO Token",
-      "symbol": "DHT"
-    },
-    "0xc3ae0333f0f34aa734d5493276223d95b8f9cb37": {
-      "id": "2491e2d9-0ea2-4f7d-b8d0-a62cefc56e04",
-      "address": "0xc3ae0333f0f34aa734d5493276223d95b8f9cb37",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "DXdao",
-      "symbol": "DXD"
-    },
-    "0xa0b862f60edef4452f25b4160f177db44deb6cf1": {
-      "id": "31b01a98-97f5-4983-86e3-7924a7cd0221",
-      "address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Gnosis Token",
-      "symbol": "GNO"
-    },
-    "0x23a941036ae778ac51ab04cea08ed6e2fe103614": {
-      "id": "38a1e982-384f-41b0-a165-828e81ce6021",
-      "address": "0x23a941036ae778ac51ab04cea08ed6e2fe103614",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Graph Token",
-      "symbol": "GRT"
-    },
-    "0xf97f4df75117a78c1a5a0dbb814af92458539fb4": {
-      "id": "093afeb1-65a3-4de2-b1ad-6d3be1297de8",
-      "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "ChainLink Token",
-      "symbol": "LINK"
-    },
-    "0x99f40b01ba9c469193b360f72740e416b17ac332": {
-      "id": "3ff42afe-5a20-4416-bd8b-271474956d46",
-      "address": "0x99f40b01ba9c469193b360f72740e416b17ac332",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "MATH Token",
-      "symbol": "MATH"
-    },
-    "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42": {
-      "id": "7b94ebee-8583-4b9c-95df-9ea5da8dca3b",
-      "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "MCDEX Token",
-      "symbol": "MCB"
-    },
-    "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879": {
-      "id": "a2c4b15c-876c-4b5d-a3bc-a2ef814a57c8",
-      "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Maker",
-      "symbol": "MKR"
-    },
-    "0x51fc0f6660482ea73330e414efd7808811a57fa2": {
-      "id": "5acc673b-45a9-4396-b02c-31d9805049f9",
-      "address": "0x51fc0f6660482ea73330e414efd7808811a57fa2",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Premia",
-      "symbol": "PREMIA"
-    },
-    "0xd4d42f0b6def4ce0383636770ef773390d85c61a": {
-      "id": "dba50ff0-9482-4467-80b1-db7b96b3dabc",
-      "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "SushiToken",
-      "symbol": "SUSHI"
-    },
     "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0": {
-      "id": "02d4b4ef-65ee-4e61-a643-9e82a89ee4ab",
+      "id": "31fa3fd4-05f6-4583-a44e-ff4825b37f20",
       "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
       "chainId": 42161,
       "decimals": 18,
       "name": "Uniswap",
       "symbol": "UNI"
     },
-    "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9": {
-      "id": "bc54520a-8f6b-4dff-b7a0-c24eec0e9463",
-      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
-      "chainId": 42161,
-      "decimals": 6,
-      "name": "Tether USD",
-      "symbol": "USDT"
-    },
-    "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": {
-      "id": "6957ce0b-d0ff-42b4-bb66-45accbf4374b",
-      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
-      "chainId": 42161,
-      "decimals": 6,
-      "name": "USD Coin",
-      "symbol": "USDC"
-    },
-    "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
-      "id": "d2873838-cdb7-470b-b779-e8cc02762d78",
-      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
-      "chainId": 42161,
-      "decimals": 8,
-      "name": "Wrapped BTC",
-      "symbol": "WBTC"
-    },
     "0x82af49447d8a07e3bd95bd0d56f35241523fbab1": {
-      "id": "0b6d7676-9c88-4f7f-a483-a2e954a3b5f9",
+      "id": "b3092784-ca6a-4f05-83ef-1f8c925d974d",
       "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
       "chainId": 42161,
       "decimals": 18,
@@ -163,15 +19,167 @@
       "symbol": "WETH"
     },
     "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": {
-      "id": "a78b9d7b-6e2a-4774-8280-d5ca87ae4501",
+      "id": "5baf3969-ee00-4f92-a086-e389911a261c",
       "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
       "chainId": 42161,
       "decimals": 18,
       "name": "DAI Stablecoin",
       "symbol": "DAI"
     },
+    "0x17fc002b466eec40dae837fc4be5c67993ddbd6f": {
+      "id": "f3a5134b-2267-47c3-a36d-2b285dd7870e",
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Frax",
+      "symbol": "FRAX"
+    },
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "id": "b5c4baca-4e7e-4d94-8dcf-dadb0ef2c511",
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Ethereum",
+      "symbol": "ETH"
+    },
+    "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e": {
+      "id": "b3e13d66-bde9-47a2-a842-bea465184b8d",
+      "address": "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Badger",
+      "symbol": "BADGER"
+    },
+    "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8": {
+      "id": "fe166ddc-da31-4c8d-9856-d92084747a0e",
+      "address": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Balancer",
+      "symbol": "BAL"
+    },
+    "0x354a6da3fcde098f8389cad84b0182725c6c91de": {
+      "id": "6422d52b-3f86-40ef-850c-79e31d200a9b",
+      "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Compound",
+      "symbol": "COMP"
+    },
+    "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978": {
+      "id": "1426847c-c7ff-4166-99bb-fa61aafc09a8",
+      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Curve DAO Token",
+      "symbol": "CRV"
+    },
+    "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65": {
+      "id": "80847ffd-7db2-4722-9d78-842cf3716da3",
+      "address": "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "dHedge DAO Token",
+      "symbol": "DHT"
+    },
+    "0xc3ae0333f0f34aa734d5493276223d95b8f9cb37": {
+      "id": "1029f557-a72f-4ac0-9008-d61492d93eb0",
+      "address": "0xc3ae0333f0f34aa734d5493276223d95b8f9cb37",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "DXdao",
+      "symbol": "DXD"
+    },
+    "0xa0b862f60edef4452f25b4160f177db44deb6cf1": {
+      "id": "b07c280a-f223-4bed-9862-fb93ee00e928",
+      "address": "0xa0b862f60edef4452f25b4160f177db44deb6cf1",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Gnosis Token",
+      "symbol": "GNO"
+    },
+    "0x23a941036ae778ac51ab04cea08ed6e2fe103614": {
+      "id": "00c1642d-9386-4e8e-be45-fece8c9ba7a4",
+      "address": "0x23a941036ae778ac51ab04cea08ed6e2fe103614",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Graph Token",
+      "symbol": "GRT"
+    },
+    "0xf97f4df75117a78c1a5a0dbb814af92458539fb4": {
+      "id": "5ba4529e-864b-4946-b05e-9fa9552ea80e",
+      "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "ChainLink Token",
+      "symbol": "LINK"
+    },
+    "0x99f40b01ba9c469193b360f72740e416b17ac332": {
+      "id": "4167f1db-c4ca-4fad-906f-f0deaf9fee6c",
+      "address": "0x99f40b01ba9c469193b360f72740e416b17ac332",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "MATH Token",
+      "symbol": "MATH"
+    },
+    "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42": {
+      "id": "c5809730-cf13-46fb-8967-bd48afeccd09",
+      "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "MCDEX Token",
+      "symbol": "MCB"
+    },
+    "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879": {
+      "id": "39eaedea-4a72-4e74-8d3f-61dfc2120448",
+      "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Maker",
+      "symbol": "MKR"
+    },
+    "0x51fc0f6660482ea73330e414efd7808811a57fa2": {
+      "id": "f0963fdb-30ed-499d-82cf-edcb576cba45",
+      "address": "0x51fc0f6660482ea73330e414efd7808811a57fa2",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Premia",
+      "symbol": "PREMIA"
+    },
+    "0xd4d42f0b6def4ce0383636770ef773390d85c61a": {
+      "id": "b882fbc7-64a0-4a3b-8089-8ea381dddfef",
+      "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "SushiToken",
+      "symbol": "SUSHI"
+    },
+    "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9": {
+      "id": "9118e877-c810-4a55-a15e-2f21336ff8b6",
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "chainId": 42161,
+      "decimals": 6,
+      "name": "Tether USD",
+      "symbol": "USDT"
+    },
+    "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": {
+      "id": "30e53eed-02fc-432f-be9f-ed349bf38ffe",
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "chainId": 42161,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
+      "id": "75e2c182-b874-4d14-97c4-ef985c9edaba",
+      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "chainId": 42161,
+      "decimals": 8,
+      "name": "Wrapped BTC",
+      "symbol": "WBTC"
+    },
     "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a": {
-      "id": "b6fea7a2-3f34-42a9-b6ec-424fcba1353e",
+      "id": "6a5cc9e5-6166-4f10-8f84-47155b48a24e",
       "address": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
       "chainId": 42161,
       "decimals": 18,
@@ -179,7 +187,7 @@
       "symbol": "MIM"
     },
     "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af": {
-      "id": "d0e2a734-4c6d-40d5-a0dd-4a6f22e23041",
+      "id": "37c5650e-0ec5-4d5a-aa55-4760910c81d0",
       "address": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
       "chainId": 42161,
       "decimals": 18,
@@ -187,7 +195,7 @@
       "symbol": "SPELL"
     },
     "0xcfe3fbc98d80f7eca0bc76cd1f406a19dd425896": {
-      "id": "3965d981-cfca-4ab7-b6c0-1bb898eba8b6",
+      "id": "5a27ebef-619e-47ce-8dde-954ff9e7daf6",
       "address": "0xcfe3fbc98d80f7eca0bc76cd1f406a19dd425896",
       "chainId": 42161,
       "decimals": 18,
@@ -195,7 +203,7 @@
       "symbol": "NFTI"
     },
     "0x123389c2f0e9194d9ba98c21e63c375b67614108": {
-      "id": "74c37af7-3b76-4099-bb05-fd179894ad45",
+      "id": "f1d7b54b-0597-444d-9163-c01b13d9d47c",
       "address": "0x123389c2f0e9194d9ba98c21e63c375b67614108",
       "chainId": 42161,
       "decimals": 18,
@@ -203,7 +211,7 @@
       "symbol": "EMAX"
     },
     "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee": {
-      "id": "7d57fa0c-80c7-4c91-a613-f271130cbc98",
+      "id": "8699537f-7fc8-4786-b749-19d5d8b7178d",
       "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
       "chainId": 42161,
       "decimals": 18,
@@ -211,7 +219,7 @@
       "symbol": "ELK"
     },
     "0x75c9bc761d88f70156daf83aa010e84680baf131": {
-      "id": "ef090f31-03a3-42e3-80af-fee095d4f65f",
+      "id": "4a0f77db-eb76-4f73-9a43-b7f78b16af05",
       "address": "0x75c9bc761d88f70156daf83aa010e84680baf131",
       "chainId": 42161,
       "decimals": 18,
@@ -219,31 +227,23 @@
       "symbol": "SDL"
     },
     "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7": {
-      "id": "1e4acb80-7349-4cce-8c8a-9561dee2d0fa",
+      "id": "c919bfbb-0b67-4561-940e-6c4c32cbb2b5",
       "address": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
       "chainId": 42161,
       "decimals": 18,
       "name": "Frax Shares",
       "symbol": "FXS"
     },
-    "0x17fc002b466eec40dae837fc4be5c67993ddbd6f": {
-      "id": "a874a281-7bd3-449f-853c-4ec57403763d",
-      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+    "0x9c67ee39e3c4954396b9142010653f17257dd39c": {
+      "id": "d0b958ea-dd0a-4cb8-b8c1-367b8859c6c0",
+      "address": "0x9c67ee39e3c4954396b9142010653f17257dd39c",
       "chainId": 42161,
       "decimals": 18,
-      "name": "Frax",
-      "symbol": "FRAX"
-    },
-    "0xd693ec944a85eeca4247ec1c3b130dca9b0c3b22": {
-      "id": "f9bbd540-3f6b-42e1-b1da-3cd80b458d71",
-      "address": "0xd693ec944a85eeca4247ec1c3b130dca9b0c3b22",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "UMA Token",
-      "symbol": "UMA"
+      "name": "Impermax",
+      "symbol": "IMX"
     },
     "0xae6aab43c4f3e0cea4ab83752c278f8debaba689": {
-      "id": "acf4cf3a-e445-4ab5-9f91-6a10ea2168a9",
+      "id": "875ce6a8-4f8f-4b09-839e-a735ee93862c",
       "address": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
       "chainId": 42161,
       "decimals": 18,
@@ -251,7 +251,7 @@
       "symbol": "DF"
     },
     "0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581": {
-      "id": "264daa5e-637f-4d72-95ac-688615393b64",
+      "id": "7d961057-726c-440c-90e9-735cae12a45c",
       "address": "0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581",
       "chainId": 42161,
       "decimals": 18,
@@ -259,23 +259,15 @@
       "symbol": "DODO"
     },
     "0x753d224bcf9aafacd81558c32341416df61d3dac": {
-      "id": "1adfa47b-abbe-42e9-a40d-8939dd34ae24",
+      "id": "c330e5ee-3026-4e6b-89d7-137a7f1db45f",
       "address": "0x753d224bcf9aafacd81558c32341416df61d3dac",
       "chainId": 42161,
       "decimals": 18,
       "name": "Perpetual",
       "symbol": "PERP"
     },
-    "0x4d15a3a2286d883af0aa1b3f21367843fac63e07": {
-      "id": "f3316776-2237-44fd-ab0d-79edf0dc6335",
-      "address": "0x4d15a3a2286d883af0aa1b3f21367843fac63e07",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "TrueUSD",
-      "symbol": "TUSD"
-    },
     "0xcd14c3a2ba27819b352aae73414a26e2b366dc50": {
-      "id": "6ad2584d-ef71-41a6-8511-0e567ad4988e",
+      "id": "429db205-0a1a-4040-a859-098a2a251f77",
       "address": "0xcd14c3a2ba27819b352aae73414a26e2b366dc50",
       "chainId": 42161,
       "decimals": 18,
@@ -283,7 +275,7 @@
       "symbol": "USX"
     },
     "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b": {
-      "id": "ef1f6c26-679e-4182-92f7-3921be9b042b",
+      "id": "d0f4a8fd-9099-4eee-868f-b8ea26adadd8",
       "address": "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b",
       "chainId": 42161,
       "decimals": 18,
@@ -291,95 +283,63 @@
       "symbol": "WOO"
     },
     "0xf0a5717ec0883ee56438932b0fe4a20822735fba": {
-      "id": "53c6a73f-1536-41f5-9af8-131afbaeb81b",
+      "id": "23a379e3-f265-4d2c-a71b-d3355c78263d",
       "address": "0xf0a5717ec0883ee56438932b0fe4a20822735fba",
       "chainId": 42161,
       "decimals": 18,
       "name": "xToken",
       "symbol": "XTK"
     },
-    "0x9c67ee39e3c4954396b9142010653f17257dd39c": {
-      "id": "6b05769f-6da9-4881-b396-9e50727d8121",
-      "address": "0x9c67ee39e3c4954396b9142010653f17257dd39c",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Impermax",
-      "symbol": "IMX"
-    },
-    "0x969131d8ddc06c2be11a13e6e7facf22cf57d95e": {
-      "id": "17bccef3-f546-4398-8fe0-aa63dfc1655e",
-      "address": "0x969131d8ddc06c2be11a13e6e7facf22cf57d95e",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "dForce EUR",
-      "symbol": "EUX"
-    },
-    "0x07e49d5de43dda6162fa28d24d5935c151875283": {
-      "id": "3d95228f-3b00-4a92-9554-3ef9f9d0e1ee",
-      "address": "0x07e49d5de43dda6162fa28d24d5935c151875283",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "GOVI",
-      "symbol": "GOVI"
-    },
-    "0xc2125882318d04d266720b598d620f28222f3abd": {
-      "id": "17bccef3-f546-4398-8fe0-aa63dfc1655e",
-      "address": "0xc2125882318d04d266720b598d620f28222f3abd",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "dForce EUR",
-      "symbol": "EUX"
-    },
-    "0x400f3ff129bc9c9d239a567eaf5158f1850c65a4": {
-      "id": "3b800276-5e0f-46ca-98ce-42dbddf7bca7",
-      "address": "0x400f3ff129bc9c9d239a567eaf5158f1850c65a4",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Ooki",
-      "symbol": "OOKI"
-    },
-    "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb": {
-      "id": "6ad2584d-ef71-41a6-8511-0e567ad4988e",
-      "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "dForce USD",
-      "symbol": "USX"
-    },
-    "0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d": {
-      "id": "efc6ef50-b2ef-4705-9b96-3b68cb535317",
-      "address": "0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d",
-      "chainId": 42161,
-      "decimals": 18,
-      "name": "Biconomy Token",
-      "symbol": "BICO"
-    },
-    "0xd22a58f79e9481d1a88e00c343885a588b34b68b": {
-      "id": "18db968f-3c8b-47a2-a083-f7a5beacf8af",
-      "address": "0xd22a58f79e9481d1a88e00c343885a588b34b68b",
-      "chainId": 42161,
-      "decimals": 2,
-      "name": "STASISEURSToken",
-      "symbol": "EURS"
-    },
     "0x1d7ca62f6af49ec66f6680b8606e634e55ef22c1": {
-      "id": "f3316776-2237-44fd-ab0d-79edf0dc6335",
+      "id": "b63d2d95-a15d-4ba3-8ea9-1aa25b607ebd",
       "address": "0x1d7ca62f6af49ec66f6680b8606e634e55ef22c1",
       "chainId": 42161,
       "decimals": 18,
       "name": "TrueUSD",
       "symbol": "TUSD"
     },
+    "0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d": {
+      "id": "c787e937-4e50-4ba4-ad5c-59e28186b50f",
+      "address": "0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Biconomy Token",
+      "symbol": "BICO"
+    },
+    "0xc2125882318d04d266720b598d620f28222f3abd": {
+      "id": "b2fdf582-6766-44a8-8dc6-cd0d62b69079",
+      "address": "0xc2125882318d04d266720b598d620f28222f3abd",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "dForce EUR",
+      "symbol": "EUX"
+    },
+    "0x07e49d5de43dda6162fa28d24d5935c151875283": {
+      "id": "95d67f33-066a-4d56-ad1b-8de8f1ec51d2",
+      "address": "0x07e49d5de43dda6162fa28d24d5935c151875283",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "GOVI",
+      "symbol": "GOVI"
+    },
     "0x55ff62567f09906a85183b866df84bf599a4bf70": {
-      "id": "ff2fd0cf-e2f3-4cbd-99fa-a94c91413849",
+      "id": "0cd67dbc-e504-4d54-b057-ccf3e35345b9",
       "address": "0x55ff62567f09906a85183b866df84bf599a4bf70",
       "chainId": 42161,
       "decimals": 18,
       "name": "Kromatika",
       "symbol": "KROM"
     },
+    "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb": {
+      "id": "429db205-0a1a-4040-a859-098a2a251f77",
+      "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "dForce USD",
+      "symbol": "USX"
+    },
     "0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d": {
-      "id": "21d17ae4-949a-4996-a13f-244c2dddbf5c",
+      "id": "41c43250-8f77-4aa3-959c-caedf9a59a05",
       "address": "0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d",
       "chainId": 42161,
       "decimals": 18,
@@ -387,15 +347,55 @@
       "symbol": "IUSD"
     },
     "0x60d01ec2d5e98ac51c8b4cf84dfcce98d527c747": {
-      "id": "28c3f932-4fc1-499a-87cf-3de03ead026f",
+      "id": "21433c81-bd3d-45cf-a024-bbd4358a08b5",
       "address": "0x60d01ec2d5e98ac51c8b4cf84dfcce98d527c747",
       "chainId": 42161,
       "decimals": 18,
       "name": "Izumi Finance",
       "symbol": "IZI"
     },
+    "0xd22a58f79e9481d1a88e00c343885a588b34b68b": {
+      "id": "212412b0-8f39-4072-bf85-f97b77b14047",
+      "address": "0xd22a58f79e9481d1a88e00c343885a588b34b68b",
+      "chainId": 42161,
+      "decimals": 2,
+      "name": "STASISEURSToken",
+      "symbol": "EURS"
+    },
+    "0x400f3ff129bc9c9d239a567eaf5158f1850c65a4": {
+      "id": "4a8e1849-2fdf-4de8-a6c8-78ab21381b3c",
+      "address": "0x400f3ff129bc9c9d239a567eaf5158f1850c65a4",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Ooki",
+      "symbol": "OOKI"
+    },
+    "0xd693ec944a85eeca4247ec1c3b130dca9b0c3b22": {
+      "id": "3bc80e0f-b2bc-40f4-8015-1a5ec95098b5",
+      "address": "0xd693ec944a85eeca4247ec1c3b130dca9b0c3b22",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "UMA Token",
+      "symbol": "UMA"
+    },
+    "0x969131d8ddc06c2be11a13e6e7facf22cf57d95e": {
+      "id": "b2fdf582-6766-44a8-8dc6-cd0d62b69079",
+      "address": "0x969131d8ddc06c2be11a13e6e7facf22cf57d95e",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "dForce EUR",
+      "symbol": "EUX"
+    },
+    "0x4d15a3a2286d883af0aa1b3f21367843fac63e07": {
+      "id": "b63d2d95-a15d-4ba3-8ea9-1aa25b607ebd",
+      "address": "0x4d15a3a2286d883af0aa1b3f21367843fac63e07",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "TrueUSD",
+      "symbol": "TUSD"
+    },
     "0x2cab3abfc1670d1a452df502e216a66883cdf079": {
-      "id": "df38223f-e274-422f-a17b-311db5bb5cd2",
+      "id": "7e6c9256-e687-4fcd-a90f-b3fd95800728",
       "address": "0x2cab3abfc1670d1a452df502e216a66883cdf079",
       "chainId": 42161,
       "decimals": 18,
@@ -403,7 +403,7 @@
       "symbol": "L2DAO"
     },
     "0x3f56e0c36d275367b8c502090edf38289b3dea0d": {
-      "id": "4772b9c0-f348-41d8-aff4-77191d34037c",
+      "id": "8cf2b60e-5937-4a8d-8a2f-1c1d55b904cd",
       "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
       "chainId": 42161,
       "decimals": 18,
@@ -411,7 +411,7 @@
       "symbol": "MIMATIC"
     },
     "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba": {
-      "id": "405f116a-ac9e-48fa-8b39-f5438f5374e1",
+      "id": "72abdd85-153e-43d5-b5e2-d804afa818ec",
       "address": "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba",
       "chainId": 42161,
       "decimals": 18,
@@ -419,7 +419,7 @@
       "symbol": "LAND"
     },
     "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa": {
-      "id": "c29e820b-915a-4e8a-99f1-ae9276554a97",
+      "id": "7be770ac-1a7a-4660-9120-2c44f8b69c4e",
       "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
       "chainId": 42161,
       "decimals": 6,

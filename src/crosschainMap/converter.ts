@@ -10,23 +10,29 @@ export const crosschainTokenListToTokenList = (
 
     const addressA = addresses[chainA]
     const addressB = addresses[chainB]
+    const decimalsA = decimals[chainA]
+    const decimalsB = decimals[chainB]
 
     if (!addressA || !addressB) {
       throw new Error('Addresses not found, this shouldnt happen')
+    }
+
+    if (decimalsA === undefined || decimalsB === undefined) {
+      throw new Error('Decimals not found, this shouldnt happen')
     }
 
     const tokenA: Token = {
       ...commonProps,
       chainId: chainA,
       address: addressA,
-      decimals: decimals[chainA] as number
+      decimals: decimalsA
     }
 
     const tokenB: Token = {
       ...commonProps,
       chainId: chainB,
       address: addressB,
-      decimals: decimals[chainB] as number
+      decimals: decimalsB
     }
 
     total.push(tokenA, tokenB)
