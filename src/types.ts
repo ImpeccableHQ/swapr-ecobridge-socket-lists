@@ -4,6 +4,7 @@ export enum SupportedChains {
   MAINNET = 1,
   RINKEBY = 4,
   OPTIMISM_MAINNET = 10,
+  BSC_MAINNET = 56,
   GNOSIS = 100,
   POLYGON = 137,
   ARBITRUM = 42161,
@@ -28,7 +29,8 @@ export const PRODUCTION_CHAINS = [
   SupportedChains.ARBITRUM,
   SupportedChains.GNOSIS,
   SupportedChains.POLYGON,
-  SupportedChains.OPTIMISM_MAINNET
+  SupportedChains.OPTIMISM_MAINNET,
+  SupportedChains.BSC_MAINNET
 ]
 
 export type Meta = {
@@ -52,6 +54,11 @@ export type MappedToken = Token & {
   id: string
 }
 
+export type TokenPair = {
+  tokenA: Token
+  tokenB: Token
+}
+
 export type TokenMap = {
   [address: string]: MappedToken
 }
@@ -60,10 +67,13 @@ export type TokenMapByChain = {
   [chain in SupportedChains]: TokenMap
 }
 
-export type CrosschainToken = CommonTokenProps & {
+export type CrosschainToken = {
+  name: string
+  symbol: string
   id: string
   logoURI?: string
   addresses: { [chain in SupportedChains]?: string }
+  decimals: { [chain in SupportedChains]?: number }
 }
 
 export type CrosschainMapContainer = {

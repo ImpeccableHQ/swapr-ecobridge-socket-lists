@@ -1,5 +1,4 @@
-import fetch from 'node-fetch'
-import { exportToJSON, parseResponse, uniqueTokens } from '../utils'
+import { exportToJSON, fetchWithRetries, parseResponse, uniqueTokens } from '../utils'
 import { CrosschainMap } from '../crosschainMap'
 import { crosschainTokenListToTokenList } from '../crosschainMap/converter'
 import { getUnidirectionalNativeWrappers } from './nativeWrappers'
@@ -15,15 +14,16 @@ import {
 } from '../types'
 
 const SOCKET_BASE_URL = 'https://backend.movr.network/v2/'
-const SOCKET_PUBLIC_API_KEY = '645b2c8c-5825-4930-baf3-d9b997fcd88c'
 
-const SOCKET_ENDPOINTS = {
+export const SOCKET_PUBLIC_API_KEY = '645b2c8c-5825-4930-baf3-d9b997fcd88c'
+
+export const SOCKET_ENDPOINTS = {
   FETCH_FROM_TOKENS: `${SOCKET_BASE_URL}token-lists/from-token-list`,
   FETCH_TO_TOKENS: `${SOCKET_BASE_URL}token-lists/to-token-list`
 }
 const headers: HeadersInit = { 'API-KEY': SOCKET_PUBLIC_API_KEY }
 
-const fetchSocketTokenLists = async ({
+export const fetchSocketTokenLists = async ({
   fromChainId,
   toChainId,
   debug = false,
@@ -38,24 +38,22 @@ const fetchSocketTokenLists = async ({
     `${url}?${new URLSearchParams({
       fromChainId,
       toChainId,
-      singleTxOnly: 'true',
       ...(shortList && { isShortList: 'true' })
     })}`
 
   const fromTokenListPromise = parseResponse<SocketBaseResponse<SocketToken[]>>(
-    fetch(urlWithParams(SOCKET_ENDPOINTS.FETCH_FROM_TOKENS), {
+    fetchWithRetries(100, 10, urlWithParams(SOCKET_ENDPOINTS.FETCH_FROM_TOKENS), {
       headers
     })
   )
 
   const toTokenListPromise = parseResponse<SocketBaseResponse<SocketToken[]>>(
-    fetch(urlWithParams(SOCKET_ENDPOINTS.FETCH_TO_TOKENS), {
+    fetchWithRetries(100, 10, urlWithParams(SOCKET_ENDPOINTS.FETCH_TO_TOKENS), {
       headers
     })
   )
 
   const [fromTokenList, toTokenList] = await Promise.all([fromTokenListPromise, toTokenListPromise])
-
   if (debug) {
     const shortSuffix = shortList ? '-short' : ''
     exportToJSON(`${fromChainId}-${toChainId}-from${shortSuffix}`, fromTokenList)
@@ -75,20 +73,15 @@ const getListsIntersection = (fromList: SocketToken[], toList: SocketToken[], cr
 
   return toList.reduce<CrosschainToken[]>((total, token) => {
     const crosschainToken = crosschainMap.getCrosschainTokenByAddress(token)
-
     const fromTokenAddress = crosschainToken?.addresses[fromChainId]
-
     if (!fromTokenAddress) return total // no pair has been mapped
 
     const fromToken = fromList.find((fromToken) => fromToken.address.toLowerCase() === fromTokenAddress.toLowerCase())
-
     if (!fromToken) return total // we got the address of pair token but it's not present on toList so it can't be bridged 1:1
 
     // add icon and return crosschainToken for further mappigns
     const pairedToken: CrosschainToken = { ...crosschainToken, logoURI: token.icon }
-
     total.push(pairedToken)
-
     return total
   }, [])
 }
@@ -108,7 +101,7 @@ const getBidirectionalList = (listA: CrosschainToken[], listB: CrosschainToken[]
   return bidirectionalList
 }
 
-const createSocketList = async ({
+export const createSocketList = async ({
   chainA,
   chainB,
   crosschainMap,
@@ -177,7 +170,6 @@ export const createEcoBridgeCompliantSocketList = async (
   console.log('SOCKET: Creating Socket lists')
 
   const chainPairs = createPairs(PRODUCTION_CHAINS)
-
   const listToExport: { [k: string]: Token[] } = {}
 
   for (const pair of chainPairs) {
