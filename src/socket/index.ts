@@ -13,7 +13,11 @@ import {
   PRODUCTION_CHAINS
 } from '../types'
 
-const SOCKET_BASE_URL = 'https://backend.movr.network/v2/'
+/**
+ * To check if the API URL is correct,
+ * @see https://docs.socket.tech/socket-api/versioning
+ */
+const SOCKET_BASE_URL = 'https://api.socket.tech/v2/'
 
 export const SOCKET_PUBLIC_API_KEY = '645b2c8c-5825-4930-baf3-d9b997fcd88c'
 
