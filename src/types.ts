@@ -8,7 +8,8 @@ export enum SupportedChains {
   GNOSIS = 100,
   POLYGON = 137,
   ARBITRUM = 42161,
-  ARBITRUM_RINKEBY = 421611
+  ARBITRUM_RINKEBY = 421611,
+  ZK_SYNC_ERA_MAINNET = 324
 }
 
 export enum Folders {
@@ -30,7 +31,8 @@ export const PRODUCTION_CHAINS = [
   SupportedChains.GNOSIS,
   SupportedChains.POLYGON,
   SupportedChains.OPTIMISM_MAINNET,
-  SupportedChains.BSC_MAINNET
+  SupportedChains.BSC_MAINNET,
+  SupportedChains.ZK_SYNC_ERA_MAINNET
 ]
 
 export type Meta = {
