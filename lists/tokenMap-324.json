@@ -1,0 +1,118 @@
+{
+  "id": "ddaf1911-db59-48b0-a286-8550ce01d073",
+  "creationTime": "2023-06-08T16:12:21.632Z",
+  "data": {
+    "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91": {
+      "id": "8f6d62c2-d646-43f0-9b52-166d8b54a062",
+      "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "WETH",
+      "symbol": "WETH"
+    },
+    "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4": {
+      "id": "d673c2f6-e7e0-4381-8634-53e0753d3f77",
+      "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+      "chainId": 324,
+      "decimals": 6,
+      "name": "USDC Coin",
+      "symbol": "USDC"
+    },
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "id": "40d19d2c-6430-403b-a512-7896e3e4743e",
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Ethereum",
+      "symbol": "ETH"
+    },
+    "0xc2b13bb90e33f1e191b8aa8f44ce11534d5698e3": {
+      "id": "3c8455bf-ded8-4b36-9dad-3d505b6200dc",
+      "address": "0xc2b13bb90e33f1e191b8aa8f44ce11534d5698e3",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Furucombo",
+      "symbol": "COMBO"
+    },
+    "0x42c1c56be243c250ab24d2ecdcc77f9ccaa59601": {
+      "id": "8c72ef7e-dcc3-4e99-a7cb-98266a86bdc1",
+      "address": "0x42c1c56be243c250ab24d2ecdcc77f9ccaa59601",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Perpetual",
+      "symbol": "PERP"
+    },
+    "0x503234f203fc7eb888eec8513210612a43cf6115": {
+      "id": "89979c15-37fe-44bf-8dbe-a58f278420db",
+      "address": "0x503234f203fc7eb888eec8513210612a43cf6115",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "LUSD Stablecoin",
+      "symbol": "LUSD"
+    },
+    "0xdd9f72afed3631a6c85b5369d84875e6c42f1827": {
+      "id": "61e29496-033f-44c8-9403-a774a7491c6d",
+      "address": "0xdd9f72afed3631a6c85b5369d84875e6c42f1827",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Symbiosis",
+      "symbol": "SIS"
+    },
+    "0xbe9f8c0d6f0fd7e46cdacca340747ea2f247991d": {
+      "id": "6200b003-4783-4a70-a9dc-7b39fa658a4c",
+      "address": "0xbe9f8c0d6f0fd7e46cdacca340747ea2f247991d",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Impermax",
+      "symbol": "IBEX"
+    },
+    "0x1382628e018010035999a1ff330447a0751aa84f": {
+      "id": "7446ddbf-40fb-4cff-a03f-02f5696a066a",
+      "address": "0x1382628e018010035999a1ff330447a0751aa84f",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "iZUMi Bond USD",
+      "symbol": "IUSD"
+    },
+    "0x16a9494e257703797d747540f01683952547ee5b": {
+      "id": "93c236c9-a106-4545-b424-8b7db1ae1d81",
+      "address": "0x16a9494e257703797d747540f01683952547ee5b",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "izumi Token",
+      "symbol": "IZI"
+    },
+    "0x91f1325eda383780def3ed71bdcae047a820e75a": {
+      "id": "97071cc0-be22-46d7-bba5-9c8985832a80",
+      "address": "0x91f1325eda383780def3ed71bdcae047a820e75a",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Bolide",
+      "symbol": "BLID"
+    },
+    "0xd63ef5e9c628c8a0e8984cdfb7444aee44b09044": {
+      "id": "a4ecd563-64e7-4fcb-9d9b-4d35c5e4f282",
+      "address": "0xd63ef5e9c628c8a0e8984cdfb7444aee44b09044",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "CVI Finance",
+      "symbol": "GOVI"
+    },
+    "0x8e86e46278518efc1c5ced245cba2c7e3ef11557": {
+      "id": "5a91a1a1-39f3-47a1-b678-86187d3eb2aa",
+      "address": "0x8e86e46278518efc1c5ced245cba2c7e3ef11557",
+      "chainId": 324,
+      "decimals": 6,
+      "name": "USD+",
+      "symbol": "USD+"
+    },
+    "0xc8ac6191cdc9c7bf846ad6b52aaaa7a0757ee305": {
+      "id": "8903ca78-8078-47e5-9cbb-db41e172ecfe",
+      "address": "0xc8ac6191cdc9c7bf846ad6b52aaaa7a0757ee305",
+      "chainId": 324,
+      "decimals": 18,
+      "name": "Metavault Trade",
+      "symbol": "MVX"
+    }
+  }
+}

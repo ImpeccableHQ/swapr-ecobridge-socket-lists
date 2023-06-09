@@ -47,7 +47,8 @@ export const getUnidirectionalNativeWrappers = ({
     [SupportedChains.OPTIMISM_MAINNET]: WETH,
     [SupportedChains.GNOSIS]: DAI,
     [SupportedChains.POLYGON]: MATIC,
-    [SupportedChains.BSC_MAINNET]: BNB
+    [SupportedChains.BSC_MAINNET]: BNB,
+    [SupportedChains.ZK_SYNC_ERA_MAINNET]: WETH
   }
 
   const fromChainId: keyof typeof wrappedCurrencyMapping = fromTokenList[0].chainId
